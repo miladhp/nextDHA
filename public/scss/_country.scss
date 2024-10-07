@@ -1,0 +1,267 @@
+/*** 
+
+====================================================================
+    Country Section
+====================================================================
+
+***/
+
+.country-section {
+  position: relative;
+  padding: 120px 0 90px;
+  z-index: 3;
+  @include media-breakpoint-down(xxl){
+    margin-top: -1px;
+  }
+  .icon-dots-5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+.country-block {
+  margin-bottom: 30px;
+  .inner-box {
+    position: relative;
+    padding: 20px 30px;
+    background-color: var(--theme-color-white);
+    box-shadow: 0 10px 60px rgba(0,0,0,.1);
+    @include transition(all 300ms ease);
+    @include media-breakpoint-down(xl){
+      padding: 20px 15px;
+      padding-right: 8px;
+    }
+    &:hover {
+      background-color: var(--theme-color-dark);
+      .image-box {
+        img {
+          transform: rotate(360deg);
+        }
+      }
+      .title {
+        color: var(--theme-color-white);
+        a:hover{
+          color: var(--theme-color1);
+        }
+      }
+      .text {
+        color: #9898a0;
+      }
+    }
+    .image-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+      img {
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        margin-right: 20px;
+        max-width: 50px;
+        outline: 3px solid var(--theme-color-white) !important;
+        @include transition(all 300ms ease);
+      } 
+      .title {
+        position: relative;
+        margin-bottom: 0;
+        a:hover{
+          color: var(--theme-color1);
+        }
+      }
+    }
+    .text {
+      position: relative;
+      padding-top: 18px;
+      margin-top: 22px;
+      border-top: 1px dashed rgba(191,188,188,.4901960784);
+      margin-bottom: 0;
+      @include transition(all 300ms ease);
+    }
+    .read-more {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      @include flex-center;
+      font-size: 14px;
+      color: var(--theme-color-light);
+      background-color: var(--theme-color1);
+      @include transition(all 300ms ease);
+      &:hover{
+        background-color: var(--theme-color-light);
+        color: var(--theme-color1);
+      }
+    }
+  }
+}
+
+/*** 
+
+====================================================================
+    Country Section Two
+====================================================================
+
+***/
+
+.country-section-two {
+  position: relative;
+  padding: 0 0 120px;
+  z-index: 3;
+
+  .outer-box {
+    max-width: 1513px;
+    position: relative;
+    padding: 0 141px 0;
+    border-top: 5px solid var(--theme-color1);
+    background-color: #f3f4f7;
+    margin: -120px auto 0;
+    @include media-breakpoint-down(xl){
+      padding: 0;
+    }
+    @include media-breakpoint-down(lg){
+      text-align: center;
+    }
+    &::before {
+      position: absolute;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      content: "";
+      background-image: url("../images/icons/company.png");
+      background-position: center bottom;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .content-column {
+    .inner-column {
+      position: relative;
+      padding: 100px 21px 100px 0;
+      margin-left: -14px;
+      @include media-breakpoint-down(lg){
+        text-align: center;
+        padding: 100px 15px 0;
+        margin-left: 0;
+      }
+      .sec-title {
+        margin-bottom: 35px;
+      }
+      .country-block {
+        margin-bottom: 20px;
+      }
+      .default-dots {
+        .owl-dots {
+          position: absolute;
+          top: 45px;
+          right: -380px;
+          flex-direction: column;
+          @include media-breakpoint-down(xxl){
+            right: -330px;
+          }
+          @include media-breakpoint-down(xl){
+            right: -290px;
+          }
+          @include media-breakpoint-down(lg){
+            position: relative;
+            right: 0;
+            top: 0;
+            flex-direction: row;
+          }
+          .owl-dot {
+            margin: 5px 0;
+            @include media-breakpoint-down(lg){
+              margin: 0 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .image-column {
+    .inner-column {
+      position: relative;
+      padding-top: 80px;
+      @include media-breakpoint-down(lg){
+        text-align: center;
+        padding-top: 50px;
+      }
+      .image {
+        position: relative;
+        display: block;
+        margin-bottom: 0;
+        @include media-breakpoint-down(lg){
+          display: inline-block;
+          text-align: center;
+        }
+      }
+      .bg-overlay {
+        position: absolute;
+        bottom: 39px;
+        left: -41px;
+        @include media-breakpoint-down(xl){
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.country-block-two {
+  margin-bottom: 30px;
+  .inner-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    box-shadow: 0px 10px 60px rgba(171, 171, 171, 0.25);
+    background-color: var(--theme-color-light);
+    &:hover {
+      img {
+        transform: rotate(360deg);
+      }
+    }
+    img {
+      position: relative;
+      display: block;
+      border-radius: 50%;
+      margin-right: 20px;
+      width: 60px;
+      height: 60px;
+      @include transition(all 300ms ease);
+    } 
+    .title {
+      position: relative;
+      color: var(--theme-color-dark);
+      font-weight: 600;
+      letter-spacing: -0.36px;
+      margin-bottom: 0;
+      a:hover{
+        color: var(--theme-color1);
+      }
+    }
+    .text {
+      position: relative;
+      color: var(--theme-color-light);
+      margin-bottom: 0;
+    }
+    .read-more {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      @include flex-center;
+      font-size: 14px;
+      color: var(--theme-color-light);
+      background-color: var(--theme-color1);
+      @include transition(all 300ms ease);
+      &:hover{
+        background-color: var(--theme-color2);
+      }
+    }
+  }
+}

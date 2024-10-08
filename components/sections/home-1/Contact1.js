@@ -47,7 +47,7 @@ const ContactSection = () => {
                   <div
                     className="bg bg-image"
                     style={{
-                      backgroundImage: "url(./images/background/bg2.jpg)",
+                      backgroundImage: "url(./images/people/people-5.jpg)",
                     }}
                   ></div>
                   <div className="content-box">
@@ -77,10 +77,10 @@ const ContactSection = () => {
         </div>
       </section>
       <ModalVideo
-        channel="youtube"
+        channel="custom"
         autoplay
         isOpen={isOpen}
-        videoId="Fvae8nxzVz4"
+        url="/video/video-1.mov"
         onClose={() => setOpen(false)}
       />
     </>

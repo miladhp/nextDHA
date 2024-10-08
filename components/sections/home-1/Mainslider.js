@@ -22,7 +22,7 @@ const Banner = () => {
                 Professional Solutions for Visa & Immigrations
               </h1>
               <div className="btn-box wow fadeInUp" data-wow-delay="500ms">
-                <Link href="page-about" className="theme-btn btn-style-one">
+                <Link href="about" className="theme-btn btn-style-one">
                   <span className="btn-title">More Info</span>
                 </Link>
               </div>
@@ -31,7 +31,7 @@ const Banner = () => {
           <div className="image-column col-xl-5">
             <div className="image-box wow fadeInRight" data-wow-delay="600ms">
               <figure className="image position-relative mb-0">
-                <img src="images/main-slider/family1.png" alt="" />
+                <img src="images/people/people-3.png" alt="" />
               </figure>
             </div>
           </div>

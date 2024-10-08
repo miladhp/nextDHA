@@ -10,7 +10,7 @@
   background-color: var(--theme-color-dark);
 }
 .dark-layout .preloader:after {
-  background-image: url(../images/logo.svg);
+  background-image: url(../images/logo-white.svg);
 }
 .dark-layout .sticky-header {
   background-color: var(--theme-color-dark);

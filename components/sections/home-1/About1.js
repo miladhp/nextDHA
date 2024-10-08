@@ -74,10 +74,7 @@ const AboutSection = () => {
               <div className="inner-column">
                 <div className="image-box">
                   <figure className="image overlay-anim">
-                    <img src="images/resource/about1-1.jpg" alt="Image" />
-                  </figure>
-                  <figure className="image-2 overlay-anim bounce-y">
-                    <img src="images/resource/about1-2.png" alt="Image" />
+                    <img src="images/people/people-4.jpg" alt="Image" />
                   </figure>
                 </div>
               </div>

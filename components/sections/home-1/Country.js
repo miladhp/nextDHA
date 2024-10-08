@@ -25,7 +25,12 @@ const Country = () => {
                       <div className="image-box">
                         <img src={country.flag} alt={country.name} />
                         <h4 className="title">
-                          <Link href="page-country-details">
+                          <Link
+                            href={{
+                              pathname: "/country/[id]",
+                              query: { id: country.id },
+                            }}
+                          >
                             {country.name}{" "}
                           </Link>
                         </h4>
@@ -33,7 +38,13 @@ const Country = () => {
                       <div className="text">
                         We denou righteous indigna beguiled demoralized
                       </div>
-                      <Link href="page-country-details" className="read-more">
+                      <Link
+                        href={{
+                          pathname: "/country/[id]",
+                          query: { id: country.id },
+                        }}
+                        className="read-more"
+                      >
                         <i className="fa fa-arrow-right"></i>
                       </Link>
                     </div>

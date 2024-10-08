@@ -41,7 +41,11 @@ export default function Header1({
                 <Link href="/">
                   <img
                     className="w-100"
-                    src="images/logo.svg"
+                    src={
+                      scroll && isClient
+                        ? "/images/logo-black.svg"
+                        : "/images/logo-white.svg"
+                    }
                     alt="Logo"
                     title="DHANANI"
                   />
@@ -78,13 +82,13 @@ export default function Header1({
                   </form>
                 </div> */}
 
-                <div className="btn-box">
+                {/* <div className="btn-box">
                   <Link href="tel:+92(8800)9806" className="info-btn-two">
                     <i className="icon fa fa-phone"></i>
                     <small>Make A Call:</small>
                     <strong>+36 55 540 069</strong>
                   </Link>
-                </div>
+                </div> */}
 
                 <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
                   <span className="icon lnr-icon-bars"></span>
@@ -101,7 +105,15 @@ export default function Header1({
             <div className="upper-box">
               <div className="nav-logo">
                 <Link href="/">
-                  <img className="w-100" src="/images/logo.svg" alt="Logo" />
+                  <img
+                    className="w-100"
+                    src={
+                      scroll && isClient
+                        ? "/images/logo-black.svg"
+                        : "/images/logo-white.svg"
+                    }
+                    alt="Logo"
+                  />
                 </Link>
               </div>
               <div className="close-btn" onClick={handleMobileMenu}>
@@ -190,7 +202,15 @@ export default function Header1({
             <div className="inner-container">
               <div className="logo">
                 <Link href="/">
-                  <img className="w-100" src="/images/logo.svg" alt="Logo" />
+                  <img
+                    className="w-100"
+                    src={
+                      scroll && isClient
+                        ? "/images/logo-black.svg"
+                        : "/images/logo-white.svg"
+                    }
+                    alt="DHANANI"
+                  />
                 </Link>
               </div>
               <div className="nav-outer">

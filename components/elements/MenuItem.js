@@ -3,7 +3,7 @@ import Link from "next/link";
 export const MenuItem = (item) => {
   const pathname = usePathname();
   const isSameOrChildOf = (parentRoute) => {
-    return pathname === parentRoute || pathname.startsWith(parentRoute + "/");
+    return pathname === parentRoute || pathname?.startsWith(parentRoute + "/");
   };
   return (
     <li

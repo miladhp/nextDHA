@@ -15,7 +15,7 @@ export default function MobileMenu({ handleMobileMenu }) {
   const [activeIds, setActiveIds] = useState([]);
 
   const handleToggle = (key) => {
-     if (activeIds.includes(key)) {
+    if (activeIds.includes(key)) {
       setActiveIds((oldArr) => oldArr.filter((k) => k !== key));
     } else {
       setActiveIds((oldArr) => [...oldArr, key]);
@@ -75,7 +75,7 @@ export default function MobileMenu({ handleMobileMenu }) {
           <Link href="#">Pages</Link>
           <ul style={{ display: `${isActive.key === 2 ? "block" : "none"}` }}>
             <li>
-              <Link href="/page-about" onClick={handleMobileMenu}>
+              <Link href="/about" onClick={handleMobileMenu}>
                 About
               </Link>
             </li>

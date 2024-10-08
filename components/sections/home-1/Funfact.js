@@ -1,8 +1,65 @@
-'use client';
+"use client";
 import Link from "next/link";
 import CounterUp from "@/components/elements/CounterUp";
-import React from 'react';
+import React from "react";
+import CounterBox from "@/components/elements/CounterBox";
 
+const facts = [
+  {
+    id: 1,
+    title: "Years of experience",
+    before: "",
+    after: "+",
+    icon: "flaticon-cooperation",
+    start: "0",
+    target: "14",
+  },
+  {
+    id: 2,
+    title: "Successful projects",
+    before: "",
+    after: "+",
+    icon: "flaticon-accomodation",
+    start: "0",
+    target: "250",
+  },
+  {
+    id: 3,
+    title: "Satisfied investors",
+    before: "",
+    after: "+",
+    icon: "flaticon-increase",
+    start: "0",
+    target: "2000",
+  },
+  {
+    id: 4,
+    title: "Zero Losses",
+    before: "",
+    after: "",
+    icon: "flaticon-low-cost",
+    start: "0",
+    target: "0",
+  },
+  {
+    id: 5,
+    title: "Lifetime transactions",
+    before: "$",
+    after: "B+",
+    icon: "flaticon-currency-1",
+    start: "0",
+    target: "1.76",
+  },
+  {
+    id: 6,
+    title: "Repaid Profit",
+    before: "$",
+    after: "M+",
+    icon: "flaticon-escalator-1",
+    start: "0",
+    target: "500",
+  },
+];
 const FunFact = () => {
   return (
     <section className="fun-fact-section pt-0 pb-0">
@@ -10,82 +67,49 @@ const FunFact = () => {
         <div className="fact-counter">
           <div
             className="bg bg-image"
-            style={{ backgroundImage: 'url(/images/icons/icon-city.png)' }}
+            style={{ backgroundImage: "url(/images/icons/icon-city.png)" }}
           ></div>
           <div className="outer-box row">
-            {/* Content Column */}
-            <div className="content-column col-xl-4 col-lg-4 col-md-12 col-sm-12 wow fadeInLeft">
-              <div className="inner-column">
-                <h3 className="title">Ready to fly with us your dream country</h3>
-                <Link href="/page-services" className="read-more">
-                  Our services <i className="fa fa-circle-right"></i>
-                </Link>
-              </div>
+            <div className="funfact-column col-xl-3 col-lg-4 col-md-12 col-sm-12">
+              {facts.slice(0, 3).map((fact) => {
+                return (
+                  <div key={fact.id} className="inner-column p-0">
+                    <CounterBox
+                      title={fact.title}
+                      target={fact.target}
+                      before={fact.before}
+                      after={fact.after}
+                      start={fact.start}
+                      icon={fact.icon}
+                      direction="row"
+                    />
+                  </div>
+                );
+              })}
             </div>
-
-            {/* Image Column */}
-            <div className="image-column col-xl-3 col-lg-4 col-md-12 col-sm-12">
-              <div className="inner-column">
+            <div className="image-column col-xl-6 col-lg-4 col-md-12 col-sm-12">
+              <div className="inner-column text-center">
                 <figure className="image wow zoomIn">
-                  <img src="/images/resource/funfact1-1.png" alt="Fun Fact Image" />
+                  <img src="/images/people/people-7.png" alt="Fun Fact Image" />
                 </figure>
               </div>
             </div>
-
-            {/* Fun Fact Columns */}
-            <div className="funfact-column col-xl-5 col-lg-4 col-md-12 col-sm-12">
-              <div className="inner-column">
-                {/* Counter block 1 */}
-                <div className="counter-block wow fadeInUp">
-                  <div className="inner-box">
-                    <div className="icon-box">
-                      <i className="icon flaticon-take-off"></i>
-                    </div>
-                    <div className="content-box">
-                      <div className="count-box">
-                        <span className="count-text">
-                          <CounterUp end={30} />+
-                        </span>
-                      </div>
-                      <div className="counter-title">Visa Categories</div>
-                    </div>
+            <div className="funfact-column col-xl-3 col-lg-4 col-md-12 col-sm-12">
+              {facts.slice(3, 6).map((fact) => {
+                return (
+                  <div key={fact.id} className="inner-column p-0">
+                    <CounterBox
+                      title={fact.title}
+                      target={fact.target}
+                      before={fact.before}
+                      after={fact.after}
+                      start={fact.start}
+                      icon={fact.icon}
+                      direction="row-reverse"
+                    />
                   </div>
-                </div>
-
-                {/* Counter block 2 */}
-                <div className="counter-block wow fadeInUp">
-                  <div className="inner-box">
-                    <div className="icon-box">
-                      <i className="icon flaticon-family"></i>
-                    </div>
-                    <div className="content-box">
-                      <div className="count-box">
-                        <span className="count-text">
-                          <CounterUp end={68} />k
-                        </span>
-                      </div>
-                      <div className="counter-title">Visa Process</div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Counter block 3 */}
-                <div className="counter-block wow fadeInUp">
-                  <div className="inner-box">
-                    <div className="icon-box">
-                      <i className="icon flaticon-flight-1"></i>
-                    </div>
-                    <div className="content-box">
-                      <div className="count-box">
-                        <span className="count-text">
-                          <CounterUp end={99} />+
-                        </span>
-                      </div>
-                      <div className="counter-title">Success Rate</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                );
+              })}
             </div>
           </div>
         </div>

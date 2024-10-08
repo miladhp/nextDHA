@@ -17,7 +17,7 @@ const Featue = () => {
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <Link href="page-about">Immigration & Visa Process</Link>
+                    <Link href="about">Immigration & Visa Process</Link>
                   </h4>
                   <div className="text">
                     We strongly support best practice sharing across
@@ -35,7 +35,7 @@ const Featue = () => {
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <Link href="page-about">Quick & Easy Visa Application</Link>
+                    <Link href="about">Quick & Easy Visa Application</Link>
                   </h4>
                   <div className="text">
                     We strongly support best practice sharing across
@@ -53,9 +53,7 @@ const Featue = () => {
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <Link href="page-about">
-                      Expert & Experince Consultants
-                    </Link>
+                    <Link href="about">Expert & Experince Consultants</Link>
                   </h4>
                   <div className="text">
                     We strongly support best practice sharing across

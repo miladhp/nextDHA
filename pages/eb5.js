@@ -450,7 +450,7 @@ export default function EB5() {
             return (
               <div
                 key={section.id}
-                className={`container d-flex justify-content-between gap-5 py-md-5 my-5 flex-column ${
+                className={`container d-flex justify-content-between gap-5 py-5 my-md-5 flex-column ${
                   section.id % 2 === 0 ? "flex-md-row" : "flex-md-row-reverse"
                 }`}
               >

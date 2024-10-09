@@ -107,11 +107,7 @@ export default function Header1({
                 <Link href="/">
                   <img
                     className="w-100"
-                    src={
-                      scroll && isClient
-                        ? "/images/logo-black.svg"
-                        : "/images/logo-white.svg"
-                    }
+                    src={"/images/logo-white.svg"}
                     alt="Logo"
                   />
                 </Link>
@@ -126,20 +122,25 @@ export default function Header1({
                 <i className="icon lnr-icon-phone-handset"></i>
                 <span className="title">Call Now</span>
                 <div className="text">
-                  <Link href="tel:+92880098670">+92 (8800) - 98670</Link>
+                  <a href="tel:+18663426264">+1-866-DHANANI (342.6264)</a>
                 </div>
               </li>
               <li>
                 <i className="icon lnr-icon-envelope1"></i>
                 <span className="title">Send Email</span>
                 <div className="text">
-                  <Link href="mailto:help@company.com">help@company.com</Link>
+                  <a href="mailto:invest@dhananipeg.com">
+                    <span>invest@dhananipeg.com</span>
+                  </a>
                 </div>
               </li>
               <li>
                 <i className="icon lnr-icon-map-marker"></i>
                 <span className="title">Address</span>
-                <div className="text">66 Broklyant, New York India 3269</div>
+                <div className="text">
+                  11333 Fountain Lake, <br />
+                  Dr Stafford, TX 77477
+                </div>
               </li>
             </ul>
             <ul className="social-links">

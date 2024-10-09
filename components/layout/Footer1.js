@@ -49,7 +49,7 @@ export default function Footer1() {
               <div className="footer-column col-xl-4 col-sm-6">
                 <div className="footer-widget about-widget">
                   <div className="logo">
-                    <a href="#">
+                    <a href="/">
                       <img src="images/Second-Hor-logo.svg" alt="Logo" />
                     </a>
                   </div>
@@ -58,7 +58,7 @@ export default function Footer1() {
                     investment at a time
                   </div>
                   <a
-                    href="about.html"
+                    href="/about"
                     className="theme-btn btn-style-one hover-light"
                   >
                     <span className="btn-title">Read More</span>
@@ -73,19 +73,19 @@ export default function Footer1() {
                     <ul className="user-links">
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="#">Projecs</a>
+                        <a href="/projects">Projecs</a>
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="#">Investor Information</a>
+                        <a href="/eb5">Investor Information</a>
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="#">Benefits</a>
+                        <a href="/eb5#benefits">Benefits</a>
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="#">Comparison</a>
+                        <a href="/eb5#comparison">Comparison</a>
                       </li>
                     </ul>
                   </div>
@@ -99,19 +99,19 @@ export default function Footer1() {
                     <ul className="user-links">
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="#">About Us</a>
+                        <a href="/about">About Us</a>
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="#">EB-5 Program</a>
+                        <a href="/eb5">EB-5 Program</a>
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="#">Contact Us</a>
+                        <a href="/contact">Contact Us</a>
                       </li>
                     </ul>
                   </div>

@@ -6,7 +6,12 @@ const Banner = () => {
     <section className="main-slider">
       <div
         className="bg bg-image"
-        style={{ backgroundImage: "url(/images/background/bg.jpeg)" }}
+        style={{
+          backgroundImage: "url(/images/background/family.jpg)",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
       ></div>
       <div className="auto-container">
         <div className="row align-items-center">
@@ -28,13 +33,13 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="image-column col-xl-5">
+          {/* <div className="image-column col-xl-5">
             <div className="image-box wow fadeInRight" data-wow-delay="600ms">
               <figure className="image position-relative mb-0">
                 <img src="images/people/people-3.png" alt="" />
               </figure>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

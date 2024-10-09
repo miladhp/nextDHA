@@ -46,7 +46,7 @@ export const PARTNERS = [
     link: "/partnership/1",
     description:
       "Founded by DPEG Advisory Board Member Whitney Mercilus, the WithMerci Foundation provides advocate services and support to families of children with disabilities and special needs.",
-    img: "/images/partners/1.jfif",
+    img: "/images/partners/1.jpeg",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ export const PARTNERS = [
     link: "/partnership/2",
     description:
       "The Sugar Land Police and Fire Departments provide quality law enforcement, crime prevention, community policing and life-saving assistance making the city a safe place to live, work and play",
-    img: "/images/partners/2.jfif",
+    img: "/images/partners/2.jpeg",
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ export const PARTNERS = [
     link: "/partnership/3",
     description:
       "Offering a variety of family-friendly activities and events in indoor and outdoor facilities throughout the city,Missouri City Parks and Recreation provides healthy, safe alternatives for recreation for all ages",
-    img: "/images/partners/3.jfif",
+    img: "/images/partners/3.jpeg",
   },
   {
     id: 4,
@@ -70,7 +70,7 @@ export const PARTNERS = [
     link: "/partnership/4",
     description:
       "A world class Liberal Arts University where 85% of the students receive financial support.",
-    img: "/images/partners/4.jfif",
+    img: "/images/partners/4.jpeg",
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ export const PARTNERS = [
     link: "/partnership/5",
     description:
       "The Ibn Sina Foundation operates six beautiful community clinics throughout Greater Houston and Port Arthur areas, focused on providing low-cost preventative and primary medical, dental, diagnostic, specialty and children’s health services to indigent communities.",
-    img: "/images/partners/5.jfif",
+    img: "/images/partners/5.jpeg",
   },
   {
     id: 6,
@@ -86,7 +86,7 @@ export const PARTNERS = [
     link: "/partnership/6",
     description:
       "A private, not-for-profit international development agency, which was founded in 1967 by Shah Karim Al Hussaini, Aga Khan IV, the 49th Hereditary Imam of the Shia Ismaili Muslims.",
-    img: "/images/partners/6.jfif",
+    img: "/images/partners/6.jpeg",
   },
   {
     id: 7,
@@ -94,7 +94,7 @@ export const PARTNERS = [
     link: "/partnership/7",
     description:
       "The Leukemia & Lymphoma Society (LLS) is the world's largest voluntary (nonprofit) health organization dedicated to funding blood cancer research and providing education and patient services",
-    img: "/images/partners/7.jfif",
+    img: "/images/partners/7.jpeg",
   },
   {
     id: 8,
@@ -102,7 +102,7 @@ export const PARTNERS = [
     link: "/partnership/8",
     description:
       " Pioneer Community Center is a private institution that provides facilities for sports activities and events for the Ismaili Community only.",
-    img: "/images/partners/8.jfif",
+    img: "/images/partners/8.jpeg",
   },
   {
     id: 9,
@@ -110,14 +110,14 @@ export const PARTNERS = [
     link: "/partnership/9",
     description:
       " Rotary International President-elect Jennifer Jones wants members to imagine the possibilities in the change they can make to transform the world.",
-    img: "/images/partners/9.jfif",
+    img: "/images/partners/9.jpeg",
   },
   {
     id: 10,
     title: "Save A Future",
     link: "/partnership/10",
     description: " Be a Hero, Help, Heal, Care",
-    img: "/images/partners/10.jfif",
+    img: "/images/partners/10.jpeg",
   },
   {
     id: 11,
@@ -125,7 +125,7 @@ export const PARTNERS = [
     link: "/partnership/11",
     description:
       " The CTE High School will be a state-of-the-art educational training facility. Students will be able to continue their education and training at a two- or four-year college after high school. The facility will emulate the business/industry and the college environments. Students will use business- and industry-standard technology, software, hardware and equipment.",
-    img: "/images/partners/11.jfif",
+    img: "/images/partners/11.jpeg",
   },
   {
     id: 12,
@@ -133,7 +133,7 @@ export const PARTNERS = [
     link: "/partnership/12",
     description:
       " Sukoon Foundation is a succor-based, humanity-driven relief foundation established in Houston, Texas, aiming to humanize the underprivileged experience. We aim to bring equality and demolish the divide between the grace and those less fortunate; by targeting one societal issue at a time.",
-    img: "/images/partners/12.jfif",
+    img: "/images/partners/12.jpeg",
   },
 ];
 
@@ -200,7 +200,7 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    img: "/images/projects/territory-at-greenhouse.jfif",
+    img: "/images/projects/second-holzwarth-pic.jpeg",
     title: "Territory at Greenhouse",
     description:
       "Location: 2500 Greenhouse Rd, Houston, TX Units: 288 Class A Units Status: Developed and Sold Return",
@@ -208,7 +208,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    img: "/images/projects/territory-at-greenhouse.jfif",
+    img: "/images/projects/second-holzwarth-pic.jpeg",
     title: "Territory at Williams Way",
     description:
       "Location: Williams Way & US-59, Richmond, TX Units: 294 Class A Units Status: Under Construction",
@@ -216,7 +216,7 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    img: "/images/projects/territory-at-greenhouse.jfif",
+    img: "/images/projects/second-holzwarth-pic.jpeg",
     title: "Territory at Falvel",
     description:
       "Location: FM 2920 & Falvel Rd, Spring, TX Units: 276 Class A Units Status: Under Construction",
@@ -224,7 +224,7 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    img: "/images/projects/territory-at-greenhouse.jfif",
+    img: "/images/projects/second-holzwarth-pic.jpeg",
     title: "Territory at Telfair (Senior Living Condos)",
     description:
       "Location: State Highway 6 & ALT 90, Sugar Land, TX Units: 160 Condos for Sale Status: Development",
@@ -240,7 +240,7 @@ export const PROJECTS = [
   },
   {
     id: 8,
-    img: "/images/projects/territory-at-greenhouse.jfif",
+    img: "/images/projects/second-holzwarth-pic.jpeg",
     title: "Territory at Anserra",
     description:
       "Territory at Anserra Location: Katy, TX Units: 318 Class A Units Status: Under Construction",

@@ -85,7 +85,7 @@ const About = () => {
               <div className="inner-column">
                 <div className="image-box">
                   <figure className="image">
-                    <img src="images/posters/Nick.jpg" alt="" />
+                    <img src="images/team/Nick-Dhanani-2.png" alt="" />
                   </figure>
                 </div>
               </div>

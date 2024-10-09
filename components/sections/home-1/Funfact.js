@@ -90,7 +90,10 @@ const FunFact = () => {
             <div className="image-column col-xl-6 col-lg-4 col-md-12 col-sm-12">
               <div className="inner-column text-center">
                 <figure className="image wow zoomIn">
-                  <img src="/images/people/people-7.png" alt="Fun Fact Image" />
+                  <img
+                    src="/images/people/people-20.png"
+                    alt="Fun Fact Image"
+                  />
                 </figure>
               </div>
             </div>

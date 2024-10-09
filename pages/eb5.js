@@ -123,7 +123,7 @@ const sections = [
   {
     id: 2,
     title: "2. Flexible Residence and Travel",
-    img: "/images/people/people-14.jpg",
+    img: "/images/people/people-18.jpg",
     advantages: [],
     description:
       "  Live anywhere in the U.S. Leave and enter the U.S. anytime. No visa required.",

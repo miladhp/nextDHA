@@ -4,7 +4,12 @@ const PageTitle = (props) => {
   return (
     <section
       className="page-title"
-      style={{ backgroundImage: "url(images/background/about-banner.jpg)" }}
+      style={{
+        backgroundImage: "url(images/background/liberty.png)",
+        backgroundSize: "cover",
+        backgroundPosition: "top left",
+        backgroundAttachment: "fixed",
+      }}
     >
       <div className="auto-container">
         <div className="title-outer">

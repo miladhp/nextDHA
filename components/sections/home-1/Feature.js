@@ -13,14 +13,14 @@ const Featue = () => {
             <div className="feature-block col-xl-4 col-md-6 wow fadeInUp">
               <div className="inner-box">
                 <div className="icon-box">
-                  <i className="icon flaticon-insurance"></i>
+                  <i className="icon flaticon-approved-1"></i>
                 </div>
                 <div className="content">
-                  <h4 className="title">
-                    <Link href="about">Immigration & Visa Process</Link>
-                  </h4>
+                  <h4 className="title text-nowrap">OUR TRACK RECORD</h4>
                   <div className="text">
-                    We strongly support best practice sharing across
+                    Our history is built on successful EB-5 investments, with a
+                    focus on delivering strong financial results and successful
+                    immigration outcomes for our investors.
                   </div>
                 </div>
               </div>
@@ -31,14 +31,13 @@ const Featue = () => {
             >
               <div className="inner-box">
                 <div className="icon-box">
-                  <i className="icon flaticon-visa"></i>
+                  <i className="icon flaticon-cooperation"></i>
                 </div>
                 <div className="content">
-                  <h4 className="title">
-                    <Link href="about">Quick & Easy Visa Application</Link>
-                  </h4>
+                  <h4 className="title">OUR TRANSPARENCY</h4>
                   <div className="text">
-                    We strongly support best practice sharing across
+                    We maintain open, honest communication throughout every
+                    stage of the investment process, ensuring clarity and trust.
                   </div>
                 </div>
               </div>
@@ -49,14 +48,14 @@ const Featue = () => {
             >
               <div className="inner-box">
                 <div className="icon-box">
-                  <i className="icon flaticon-visa-4"></i>
+                  <i className="icon flaticon-shield"></i>
                 </div>
                 <div className="content">
-                  <h4 className="title">
-                    <Link href="about">Expert & Experince Consultants</Link>
-                  </h4>
+                  <h4 className="title">OUR EQUITY AND DEBT</h4>
                   <div className="text">
-                    We strongly support best practice sharing across
+                    Structured to minimize risk, our equity and debt strategies
+                    aim to maximize investor returns while ensuring project
+                    viability.
                   </div>
                 </div>
               </div>
@@ -69,7 +68,7 @@ const Featue = () => {
           <div className="inner-box">
             <p className="text">
               Want more information? Reach out to us today
-              <Link href="page-contact">Request A Meeting</Link>
+              <Link href="/contact">Request A Meeting</Link>
             </p>
             <div className="btn-box">
               <i className="icon fa fa-phone"></i>

@@ -4,31 +4,33 @@ import Image from "next/image";
 
 const PartnerBox = ({ data }) => {
   return (
-    <div className="service-block-two">
-      <div className="inner-box bg-transparent">
-        <div className="content-box bg-transparent">
-          <div className="inner text-center">
+    <div className="service-block-two w-100">
+      <div className="inner-box bg-transparent w-100">
+        <div className="content-box bg-transparent w-100">
+          <div className="inner text-center w-100">
             <Image
               src={data.img}
-              width={100}
-              height={100}
+              width={960}
+              height={960}
               alt={data.title}
-              style={{ minHeight: "100px" }}
-              className="object-cover p-2 w-auto"
+              className="object-fit-cover w-auto p-2"
+              style={{ height: "80px", transform: "scale(2)" }}
             />
-            <h4 className="title">
-              <Link href="page-service-details">{data.title}</Link>
+            <h4 className="title w-full" style={{ minHeight: "60px" }}>
+              {data.title}
             </h4>
-            <div className="text">{data.description.substring(0, 150)}</div>
+            <div className="text mb-0 pb-0" style={{ minHeight: "100px" }}>
+              {data.description.substring(0, 150)}
+            </div>
           </div>
-          <Link
+          {/* <Link
             href="page-service-details"
             className="theme-btn btn-style-one dark-bg"
           >
             <span className="btn-title">
               Learn more <i className="fa fa-arrow-right"></i>
             </span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

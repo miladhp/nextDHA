@@ -5,64 +5,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from "next/image";
+import { PROJECTS } from "@/constants/global";
+import ProjectBox from "@/components/elements/ProjectBox";
 
-const projects = [
-  {
-    img: "/images/projects/audubon-residential-bldg-renderings.jpeg",
-    title: "Territory at Audubon",
-    description: "Project Address: 16000 Audubon Trace, Magnolia, TX 77354",
-    link: "page-project-details.html",
-  },
-  {
-    img: "/images/projects/second-holzwarth-pic.jpeg",
-    title: "Territory at Spring",
-    description:
-      "Location: Spring, TX Units: 318 Class A Units Status: Planning",
-    link: "page-project-details.html",
-  },
-  {
-    img: "/images/projects/territory-at-greenhouse.jfif",
-    title: "Territory at Greenhouse",
-    description:
-      "Location: 2500 Greenhouse Rd, Houston, TX Units: 288 Class A Units Status: Developed and Sold Return",
-    link: "page-project-details.html",
-  },
-  {
-    img: "/images/projects/territory-at-greenhouse.jfif",
-    title: "Territory at Williams Way",
-    description:
-      "Location: Williams Way & US-59, Richmond, TX Units: 294 Class A Units Status: Under Construction",
-    link: "page-project-details.html",
-  },
-  {
-    img: "/images/projects/territory-at-greenhouse.jfif",
-    title: "Territory at Falvel",
-    description:
-      "Location: FM 2920 & Falvel Rd, Spring, TX Units: 276 Class A Units Status: Under Construction",
-    link: "page-project-details.html",
-  },
-  {
-    img: "/images/projects/territory-at-greenhouse.jfif",
-    title: "Territory at Telfair (Senior Living Condos)",
-    description:
-      "Location: State Highway 6 & ALT 90, Sugar Land, TX Units: 160 Condos for Sale Status: Development",
-    link: "page-project-details.html",
-  },
-  {
-    img: "/images/projects/Territory-at-missory",
-    title: "Territory at Missouri City",
-    description:
-      "Location: State Highway 6 & Vicksburg Blvd, Missouri City, TX Units: 282 Class A Units Status: Development",
-    link: "page-project-details.html",
-  },
-  {
-    img: "/images/projects/territory-at-greenhouse.jfif",
-    title: "Territory at Anserra",
-    description:
-      "Territory at Anserra Location: Katy, TX Units: 318 Class A Units Status: Under Construction",
-    link: "page-project-details.html",
-  },
-];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
   slidesPerView: 4,
@@ -103,34 +48,10 @@ const Project = () => {
       </div>
       <div className="carousel-outer">
         <Swiper {...swiperOptions} className="projects-carousel-two">
-          {projects.map((project) => {
+          {PROJECTS.map((project) => {
             return (
-              <SwiperSlide className="project-block">
-                <div className="inner-box">
-                  <div className="image-box">
-                    <figure className="image">
-                      <Link href="/page-project-details">
-                        <Image
-                          src={project.img}
-                          alt={project.title}
-                          width={480}
-                          height={240}
-                        />
-                      </Link>
-                    </figure>
-                  </div>
-                  <div className="content-box">
-                    <Link
-                      href="/page-project-details"
-                      className="theme-btn read-more"
-                    >
-                      <i className="far fa-arrow-up"></i>
-                    </Link>
-                    <h4 className="title">{project.title}</h4>
-                    <span className="cat">{project.description}</span>
-                  </div>
-                  <div className="overlay-1"></div>
-                </div>
+              <SwiperSlide key={project.id}>
+                <ProjectBox project={project} />
               </SwiperSlide>
             );
           })}

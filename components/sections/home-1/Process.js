@@ -3,21 +3,21 @@ import React, { useState, useEffect } from "react";
 const Process = () => {
   const steps = [
     {
-      icon: "flaticon-documents",
+      icon: "flaticon-protect",
       step: "",
       title: "Your Investment. Our Responsibility",
       text: "We believe that our success is directly tied to yours. That’s why we personally oversee each project to guarantee not only compliance with EB-5 requirements but also to maximize the potential returns on your investment. Our integrated approach allows us to control every detail, ensuring that every project meets our high standards of excellence and profitability.",
       delay: "", // No delay for the first step
     },
     {
-      icon: "flaticon-licensing",
+      icon: "flaticon-accomodation",
       step: "",
       title: "Leading Innovation in Real Estate Investment",
       text: "With over 14 years of dedicated experience, we have crafted a robust platform in the realm of real estate that sets us apart. Our carefully developed ecosystem not only enhances our ability to manage projects with precision but also maximizes profitability and enriches the investment experience for our partners.",
       delay: "300ms",
     },
     {
-      icon: "flaticon-visa",
+      icon: "flaticon-group",
       step: "",
       title: "Our Commitment to Excellence",
       text: "At Dhanani Private Equity Group, our expertise spans developing, managing, and investing in premier properties. Our comprehensive approach ensures that we are well-equipped to handle the complexities of the real estate market, driving success for our projects and delivering exceptional value to our investors. Join us as we continue to redefine the landscape of real estate investments, creating lasting impacts and lucrative opportunities for our global community of investors.",

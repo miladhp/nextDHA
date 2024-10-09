@@ -19,7 +19,7 @@ const Banner = () => {
                 One investment at a time
               </span>
               <h1 className="title wow fadeInUp" data-wow-delay="300ms">
-                Professional Solutions for Visa & Immigrations
+                DHANANI EB-5 International Program
               </h1>
               <div className="btn-box wow fadeInUp" data-wow-delay="500ms">
                 <Link href="about" className="theme-btn btn-style-one">

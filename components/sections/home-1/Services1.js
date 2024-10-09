@@ -13,12 +13,13 @@ export default function TestimonialSection() {
         ></div>
         <div className="auto-container">
           <div className="sec-title light text-center">
-            <span className="sub-title">Service We Provide</span>
-            <h2 className="scrub-each-word text-split">
-              Outstanding Immigration
-              <br />
-              Visa Services
-            </h2>
+            <span className="sub-title">communities</span>
+            <h2 className="scrub-each-word text-split">Our Partnerships</h2>
+            <p className="text-white mt-3">
+              The DPEG Foundation proudly partners with brilliant organizations
+              that push forward good causes to make a positive impact in our
+              communities.
+            </p>
           </div>
           <div className="carousel-outer">
             <Swiper

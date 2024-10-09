@@ -167,7 +167,7 @@ const About = () => {
                     {/* Image 1 */}
                     <figure className="image overlay-anim reveal visible">
                       <Image
-                        src="/images/resource/why-choose2-1.jpg"
+                        src="/images/people/people-9.jpg"
                         alt="Why Choose Us"
                         width={500}
                         height={300}
@@ -176,9 +176,9 @@ const About = () => {
                     {/* Image 2 */}
                     <figure className="image-2 overlay-anim reveal visible">
                       <Image
-                        src="/images/resource/why-choose2-2.jpg"
+                        src="/images/people/people-8.jpg"
                         alt="Why Choose Us"
-                        width={500}
+                        width={300}
                         height={300}
                       />
                     </figure>

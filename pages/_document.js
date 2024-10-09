@@ -1,6 +1,5 @@
-
 // pages/_document.js
-import { Html, Head, Main, NextScript } from 'next/document';
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
@@ -11,11 +10,10 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Outfit:wght@100..900&display=swap"
         />
       </Head>
-      <body> 
+      <body>
         <Main />
         <NextScript />
       </body>
     </Html>
   );
 }
-

@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import TeamSlider from "@/components/elements/TeamSlider";

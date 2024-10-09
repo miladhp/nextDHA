@@ -8,7 +8,7 @@ export const MenuTree = [
     id: 2,
     label: "EB-5 Program",
     submenu: [
-      { id: 21, label: "Our Success Story", link: "/eb5" },
+      { id: 21, label: "Our Story & Success", link: "/eb5#story" },
       { id: 24, label: "EB-5 Benefits", link: "/eb5#benefits" },
       { id: 23, label: "EB-5 Process & Timeline", link: "/eb5#process" },
       { id: 25, label: "EB-5 Comparison", link: "/eb5#comparison" },

@@ -3,6 +3,64 @@ import Link from "next/link";
 import Image from "next/image";
 import Layout from "@/components/layout/Layout";
 import PageTitle from "@/components/sections/PageTitle";
+import CounterUp from "@/components/elements/CounterUp";
+
+const facts = [
+  {
+    id: 1,
+    title: "Years of experience",
+    before: "",
+    after: "+",
+    icon: "flaticon-cooperation",
+    start: "0",
+    target: "14",
+  },
+  {
+    id: 2,
+    title: "Successful projects",
+    before: "",
+    after: "+",
+    icon: "flaticon-accomodation",
+    start: "0",
+    target: "250",
+  },
+  {
+    id: 3,
+    title: "Satisfied investors",
+    before: "",
+    after: "+",
+    icon: "flaticon-increase",
+    start: "0",
+    target: "2000",
+  },
+  {
+    id: 4,
+    title: "Zero Losses",
+    before: "",
+    after: "",
+    icon: "flaticon-low-cost",
+    start: "0",
+    target: "0",
+  },
+  {
+    id: 5,
+    title: "Lifetime transactions",
+    before: "$",
+    after: "B+",
+    icon: "flaticon-currency-1",
+    start: "0",
+    target: "1.76",
+  },
+  {
+    id: 6,
+    title: "Repaid Profit",
+    before: "$",
+    after: "M+",
+    icon: "flaticon-escalator-1",
+    start: "0",
+    target: "500",
+  },
+];
 
 const visaKeys = {
   length: "Length",
@@ -307,6 +365,86 @@ export default function EB5() {
           </div>
         </section>
 
+        <section className="offer-section" id="story">
+          <div
+            class="bg bg-image"
+            style={{ backgroundImage: "url('/images/icons/gallery-1.jpg')" }}
+          ></div>
+          <div className="auto-container">
+            <div className="row">
+              <div className="content-column col-lg-6 col-md-12">
+                <div className="inner-column">
+                  <div className="sec-title light">
+                    <span className="sub-title">
+                      Real Estate Development and Investment
+                    </span>
+                    <h2>Our Story AND Success</h2>
+                    <div className="text">
+                      DHANANI EB-5 International is a Texas-based Regional
+                      Center with over 14 years of profitable and zero losses
+                      experience in real estate developing and investing. We are
+                      registered in Texas, Tennessee, Georgia, Arkansas, and
+                      Florida. Join us as we continue to create a foundation and
+                      future for our global investors.
+                    </div>
+                  </div>
+
+                  <ul className="list-style-two ">
+                    <li className="d-flex flex-column text-start justify-content-start">
+                      <h3 className="text-light">Mission Statement</h3>
+                      <p className="text-white">
+                        At DHANANI EB-5 International, we empower global
+                        investors to secure US Permanent Residency through
+                        carefully curated, strategic, and profitable EB-5
+                        projects. We are committed to building a secure and
+                        prosperous future for our partners - one investment at a
+                        time.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                <div className="inner-column">
+                  <div className="image-box">
+                    <figure className="image">
+                      <img src="images/projects/building.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="auto-container mt-80">
+            <div className="fact-counter">
+              <div className="row">
+                {facts.map((fact) => {
+                  return (
+                    <div
+                      key={fact.id}
+                      className="counter-block-two col-lg-4 col-sm-6 wow fadeInUp"
+                    >
+                      <div className="inner-box bg-white">
+                        <div className="content-box">
+                          <i className={`icon ${fact.icon}`}> </i>
+
+                          <div className="count-box">
+                            <span className="count-text d-flex justify-content-center">
+                              <span>{fact.before}</span>
+                              <CounterUp end={fact.target} />
+                              <span>{fact.after}</span>
+                            </span>
+                          </div>
+                          <div className="counter-title">{fact.title}</div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="py-4" id="benefits">
           {sections.map((section) => {
             return (

@@ -18,13 +18,20 @@ const Banner = () => {
           <div className="content-columnn col-xl-7">
             <div className="content-box">
               <div className="icon-plane-1"></div>
-              <span className="sub-title wow fadeInUp" data-wow-delay="200ms">
-                Solidifying your foundation , Securing your future.
-                <br />
-                One investment at a time
+              <span
+                className="sub-title text h2 wow fadeInUp"
+                data-wow-delay="200ms"
+              >
+                <em>
+                  Solidifying your foundation , Securing your future.
+                  <br />
+                  One investment at a time
+                </em>
               </span>
               <h1 className="title wow fadeInUp" data-wow-delay="300ms">
-                DHANANI EB-5 International Program
+                DHANANI <br />
+                EB-5 International <br />
+                Regional Center
               </h1>
               <div className="btn-box wow fadeInUp" data-wow-delay="500ms">
                 <Link href="about" className="theme-btn btn-style-one">

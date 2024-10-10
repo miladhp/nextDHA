@@ -34,13 +34,14 @@ const Process = () => {
   }, []);
 
   return (
-    <section className="process-section">
-      <div className="auto-container">
+    <section className="process-section pt-5 pb-0">
+      <div className="container py-0">
         <div className="sec-title text-center">
           <span className="sub-title">Our Approach</span>
           <h2 className="scrub-each-word text-split">
-            DHANANI Group
-            <br /> Morals
+            DHANANI <br />
+            EB-5 International Regional Center <br />
+            Principals
           </h2>
         </div>
 
@@ -50,13 +51,13 @@ const Process = () => {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className={`process-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp`}
+                className={`process-block not-after col-lg-4 col-md-6 col-sm-12 wow fadeInUp`}
                 // Apply the animation delay only on the client after hydration
                 style={clientRendered ? { animationDelay: step.delay } : {}}
               >
-                <div className="inner-box">
+                <div className="inner-box mx-0">
                   <i className={`icon ${step.icon}`}></i>
-                  <div className="content">
+                  <div className="content h-75">
                     <span className="step">{step.step}</span>
                     <h5 className="title">{step.title}</h5>
                     <div className="text">{step.text}</div>

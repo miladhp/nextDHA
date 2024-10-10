@@ -6,7 +6,7 @@ const ContactSection = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <section className="contact-section">
+      <section className="contact-section mb-100">
         <div
           className="bg bg-shape"
           style={{ backgroundImage: "url(/images/icons/company.png)" }}
@@ -22,7 +22,6 @@ const ContactSection = () => {
                 <div className="inner-column">
                   <div className="bg bg-pattern-2"></div>
                   <div className="sec-title">
-                    <span className="sub-title">DHANANI EB-5</span>
                     <h2 className="scrub-each-word text-split">
                       A Hands-On Approach to EB-5 Investment
                     </h2>

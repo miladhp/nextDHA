@@ -2,8 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Link from "next/link";
-import Image from "next/image";
+import MemberCard from "./MemberCard";
 
 const TeamSlider = () => {
   const teamMembers = [
@@ -102,7 +101,7 @@ const TeamSlider = () => {
 
   return (
     <Swiper
-      spaceBetween={30}
+      spaceBetween={32}
       slidesPerView={3}
       loop={false}
       autoplay={{
@@ -116,11 +115,12 @@ const TeamSlider = () => {
         768: { slidesPerView: 2 },
         1024: { slidesPerView: 3 },
       }}
-      className="team-carousel"
+      className="team-carousel mt-3"
     >
       {teamMembers.map((member, index) => (
         <SwiperSlide key={index}>
-          <div className="team-block">
+          <MemberCard member={member} />
+          {/* <div className="team-block">
             <div className="inner-box">
               <div className="image-box">
                 <figure className="image">
@@ -153,7 +153,7 @@ const TeamSlider = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </SwiperSlide>
       ))}
     </Swiper>

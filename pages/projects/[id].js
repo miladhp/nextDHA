@@ -19,7 +19,7 @@ export default function PageTeamGrid() {
         {currentProject && (
           <>
             <PageTitle
-              bg={currentProject.img}
+              bg={currentProject.images[0]}
               pageName={currentProject?.title}
             />
 

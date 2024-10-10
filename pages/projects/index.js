@@ -1,18 +1,25 @@
 import ProjectBox from "@/components/elements/ProjectBox";
 import Layout from "@/components/layout/Layout";
 import PageTitle from "@/components/sections/PageTitle";
-import Projects from "@/components/sections/home-1/Projects";
 import { PROJECTS } from "@/constants/global";
+import FunFactAbout from "@/components/sections/home-1/FunfactAbout";
+import ProjectDetails from "@/components/sections/innerpages/ProjectDetails";
 
 export default function PageProjects() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1}>
-        <PageTitle pageName="Projects" />
+        <PageTitle bg="/images/banner/projects.jpg" pageName="Projects" />
+
+        <FunFactAbout />
+
         <section className="news-section py-20">
-          <div className="auto-container">
+          <div id="past" className="auto-container">
+            <div className="sec-title text-center">
+              <h2 className="">Our Past Projects</h2>
+            </div>
             <div className="row">
-              {PROJECTS.map((item) => {
+              {PROJECTS.filter((p) => !p.current).map((item) => {
                 return (
                   <div key={item.id} className="col-lg-4 col-md-6 col-12">
                     <ProjectBox project={item} />
@@ -21,6 +28,13 @@ export default function PageProjects() {
               })}
             </div>
           </div>
+        </section>
+
+        <section className="news-section py-0">
+          <div id="current" className="sec-title text-center">
+            <h2 className="">Our Current Project</h2>
+          </div>
+          <ProjectDetails project={PROJECTS[0]} projectId={1}></ProjectDetails>
         </section>
       </Layout>
     </>

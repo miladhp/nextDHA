@@ -14,12 +14,12 @@ const PageTitle = (props) => {
       <div className="auto-container">
         <div className="title-outer">
           <h1 className="title">{props.pageName}</h1>
-          <ul className="page-breadcrumb">
+          {/* <ul className="page-breadcrumb">
             <li>
               <Link href="/">Home</Link>
             </li>
             <li>{props.pageName}</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>

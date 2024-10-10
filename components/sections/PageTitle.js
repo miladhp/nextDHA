@@ -5,7 +5,7 @@ const PageTitle = (props) => {
     <section
       className="page-title"
       style={{
-        backgroundImage: "url(images/background/liberty.png)",
+        backgroundImage: `url(${props.bg || "images/background/liberty.png"})`,
         backgroundSize: "cover",
         backgroundPosition: "top left",
         backgroundAttachment: "fixed",

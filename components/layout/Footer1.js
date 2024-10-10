@@ -16,7 +16,7 @@ export default function Footer1() {
                 <li>
                   <i className="icon fal fa-phone"></i>
                   <div className="text">
-                    Call Us Anytime <br />
+                    Call Us <br />
                     <a href="tel:+18663426264">1-866-DHANANI (342-6264)</a>
                   </div>
                 </li>
@@ -77,7 +77,7 @@ export default function Footer1() {
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="/eb5">Investor Information</a>
+                        <a href="/eb5#process">Process & Timeline</a>
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
@@ -142,6 +142,15 @@ export default function Footer1() {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="col-12 ">
+                <a
+                  target="_blank"
+                  className="link text-success text-nowrap"
+                  href="/docs/Disclaimer.pdf"
+                >
+                  Notice and Disclaimer
+                </a>
               </div>
             </div>
           </div>

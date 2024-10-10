@@ -18,7 +18,10 @@ export default function PageTeamGrid() {
       <Layout headerStyle={1} footerStyle={1}>
         {currentProject && (
           <>
-            <PageTitle pageName={currentProject?.title} />
+            <PageTitle
+              bg={currentProject.img}
+              pageName={currentProject?.title}
+            />
 
             <ProjectDetails
               project={currentProject}

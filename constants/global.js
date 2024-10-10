@@ -185,14 +185,14 @@ export const COUNTRIES = [
 export const PROJECTS = [
   {
     id: 1,
-    img: "/images/projects/audubon-residential-bldg-renderings.jpeg",
+    img: "/images/projects/1-1.jpeg",
     title: "Territory at Audubon",
     description: "Project Address: 16000 Audubon Trace, Magnolia, TX 77354",
     link: "page-project-details.html",
   },
   {
     id: 2,
-    img: "/images/projects/second-holzwarth-pic.jpeg",
+    img: "/images/projects/2-1.jpeg",
     title: "Territory at Spring",
     description:
       "Location: Spring, TX Units: 318 Class A Units Status: Planning",
@@ -200,7 +200,7 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    img: "/images/projects/second-holzwarth-pic.jpeg",
+    img: "/images/projects/3-1.jpeg",
     title: "Territory at Greenhouse",
     description:
       "Location: 2500 Greenhouse Rd, Houston, TX Units: 288 Class A Units Status: Developed and Sold Return",
@@ -208,7 +208,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    img: "/images/projects/second-holzwarth-pic.jpeg",
+    img: "/images/projects/4-1.jpeg",
     title: "Territory at Williams Way",
     description:
       "Location: Williams Way & US-59, Richmond, TX Units: 294 Class A Units Status: Under Construction",
@@ -216,7 +216,7 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    img: "/images/projects/second-holzwarth-pic.jpeg",
+    img: "/images/projects/5-1.jpeg",
     title: "Territory at Falvel",
     description:
       "Location: FM 2920 & Falvel Rd, Spring, TX Units: 276 Class A Units Status: Under Construction",
@@ -224,7 +224,7 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    img: "/images/projects/second-holzwarth-pic.jpeg",
+    img: "/images/projects/6-1.jpeg",
     title: "Territory at Telfair (Senior Living Condos)",
     description:
       "Location: State Highway 6 & ALT 90, Sugar Land, TX Units: 160 Condos for Sale Status: Development",
@@ -232,7 +232,7 @@ export const PROJECTS = [
   },
   {
     id: 7,
-    img: "/images/projects/Territory-at-missory",
+    img: "/images/projects/7-1.jpg",
     title: "Territory at Missouri City",
     description:
       "Location: State Highway 6 & Vicksburg Blvd, Missouri City, TX Units: 282 Class A Units Status: Development",
@@ -240,7 +240,7 @@ export const PROJECTS = [
   },
   {
     id: 8,
-    img: "/images/projects/second-holzwarth-pic.jpeg",
+    img: "/images/projects/8-1.jpeg",
     title: "Territory at Anserra",
     description:
       "Territory at Anserra Location: Katy, TX Units: 318 Class A Units Status: Under Construction",

@@ -43,7 +43,7 @@ export default function TestimonialSection() {
                 PARTNERS.map((p) => {
                   return (
                     <SwiperSlide>
-                      <PartnerBox data={p} />
+                      <PartnerBox hasDescription={false} data={p} />
                     </SwiperSlide>
                   );
                 })}

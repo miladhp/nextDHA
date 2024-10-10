@@ -22,7 +22,7 @@ const ProjectBox = ({ project }) => {
             <i className="far fa-arrow-up"></i>
           </Link>
           <h4 className="title">{project.title}</h4>
-          <span className="cat">{project.description}</span>
+          <span className="cat">{project.location}</span>
         </div>
         <div className="overlay-1"></div>
       </div>

@@ -3,6 +3,13 @@ import React, { useLayoutEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Autoplay, Thumbs } from "swiper/modules";
 
+const properties = {
+  location: "Location",
+  units: "Units",
+  status: "Status",
+  return: "Return",
+  address: "Address",
+};
 const ProjectDetails = ({ project, projectId }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [activeIndex, setActiveIndex] = useState(1);
@@ -64,9 +71,20 @@ const ProjectDetails = ({ project, projectId }) => {
                 <h3 className="product-details__title">{project.title}</h3>
               </div>
               <div className="product-details__content">
-                <p className="product-details__content-text1">
-                  {project.description}
-                </p>
+                <ul className="list-unstyled mt-4">
+                  {Object.entries(properties).map(([key, val]) => {
+                    return (
+                      project[key] && (
+                        <li key={key} className="d-flex align-items-center">
+                          <span className="strong">{val}: &nbsp; </span>
+                          <strong className="text fw-bold">
+                            {project[key] || "-"}
+                          </strong>
+                        </li>
+                      )
+                    );
+                  })}
+                </ul>
               </div>
             </div>
           </div>
@@ -109,13 +127,7 @@ const ProjectDetails = ({ project, projectId }) => {
                   <div className="text">
                     <h3 className="product-description__title">Description</h3>
                     <p className="product-description__text1">
-                      Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
-                      phaedrum. There are many variations of passages of Lorem
-                      Ipsum available, but the majority have alteration in some
-                      injected or words which don't look even slightly
-                      believable. If you are going to use a passage of Lorem
-                      Ipsum, you need to be sure there isn't anything embarrang
-                      hidden in the middle of text.
+                      {project.description}
                     </p>
                     <div className="product-description__list">
                       <ul className="list-unstyled">

@@ -11,7 +11,7 @@ const AboutSection = () => {
               <div className="inner-column ps-0">
                 <div className="image-box">
                   <figure className="image overlay-anim">
-                    <img src="images/posters/HB5-cover.png" alt="Image" />
+                    <img src="images/background/family.jpg" alt="Image" />
                   </figure>
                 </div>
               </div>

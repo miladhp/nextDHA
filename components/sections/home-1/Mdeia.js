@@ -219,7 +219,7 @@ export default function InMediaSection() {
             slidesPerView={3}
             loop={true}
             autoplay={{
-              delay: 250000,
+              delay: 25000,
               disableOnInteraction: false,
             }}
             modules={[Autoplay, Pagination]}

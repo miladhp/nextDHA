@@ -1,36 +1,40 @@
-"use client"
-import { useEffect, useState, useRef } from 'react';
-import Counter from './Counter';
+"use client";
+import { useEffect, useState, useRef } from "react";
+import Counter from "./Counter";
 
-export default function CounterUp({ end }) {
-    const [inViewport, setInViewport] = useState(false);
-    const ref = useRef(null);
+export default function CounterUp({ end, round }) {
+  const [inViewport, setInViewport] = useState(false);
+  const ref = useRef(null);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    setInViewport(true);
-                    observer.unobserve(entry.target);
-                }
-            },
-            {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.5, // Adjust as needed
-            }
-        );
-
-        if (ref.current) {
-            observer.observe(ref.current);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInViewport(true);
+          observer.unobserve(entry.target);
         }
+      },
+      {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.5, // Adjust as needed
+      }
+    );
 
-        return () => {
-            if (ref.current) {
-                observer.unobserve(ref.current);
-            }
-        };
-    }, []);
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
 
-    return <span ref={ref} className="count-text">{inViewport && <Counter end={end} duration={20} />}</span>;
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
+
+  return (
+    <span ref={ref} className="count-text">
+      {inViewport && <Counter end={end} duration={20} round={round} />}
+    </span>
+  );
 }

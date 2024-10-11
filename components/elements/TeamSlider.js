@@ -28,7 +28,7 @@ const TeamSlider = () => {
     },
     {
       img: "/images/team/Ali-Wadhwani.jpg",
-      name: "Chief Financial Officer",
+      name: "Ali Wadhwani",
       designation: "Support Engineer",
       socialLinks: {
         twitter: "#",

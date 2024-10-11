@@ -21,9 +21,9 @@ export default function MattersSection() {
             <Swiper
               spaceBetween={40}
               slidesPerView={3.5}
-              loop={false}
+              loop={true}
               autoplay={{
-                delay: 250000,
+                delay: 2000,
                 disableOnInteraction: false,
               }}
               modules={[Autoplay, Pagination]}

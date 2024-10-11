@@ -37,7 +37,8 @@ export default function PerformanceSection() {
                     } " d-flex flex-column align-items-center justify-content-center text-white p-4 "`}
                   >
                     <div className="text-white display-3">
-                      {fact.before} <CounterUp end={+fact.target} />
+                      {fact.before}{" "}
+                      <CounterUp end={+fact.target} round={fact.id !== 5} />
                       {fact.after}
                     </div>
                     <h4 className="text-white light title">{fact.title}</h4>

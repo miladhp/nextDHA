@@ -48,10 +48,10 @@ const About = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <section className="offer-section">
+      <section className="offer-section py-5">
         <div className="auto-container">
           <div className="row">
-            <div className="content-column col-lg-6 col-md-12">
+            <div className="content-column col-lg-8 col-md-8 order-2 order-md-1">
               <div className="inner-column">
                 <div className="sec-title light">
                   <span className="sub-title text-gray">
@@ -81,14 +81,10 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="image-column col-lg-6 col-md-12 col-sm-12">
-              <div className="inner-column">
-                <div className="image-box">
-                  <figure className="image">
-                    <img src="images/team/Nick-Dhanani-2.png" alt="" />
-                  </figure>
-                </div>
-              </div>
+            <div className="image-column col-lg-4 col-md-4 col-sm-12 order-1 order-md-2">
+              <figure className="image">
+                <img src="images/team/Nick-Dhanani-2.png" alt="" />
+              </figure>
             </div>
           </div>
         </div>
@@ -118,35 +114,9 @@ const About = () => {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="blocks-column col-lg-7 col-sm-8">
-                      {/* Choose Block 1 */}
-                      <div className="choose-block">
-                        <div className="inner-box">
-                          <i className="icon flaticon-visa-1"></i>
-                          <div className="content">
-                            <h5 className="title">Easy Payments</h5>
-                            <div className="text">
-                              We strongly support best practice sharing across
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Choose Block 2 */}
-                      <div className="choose-block">
-                        <div className="inner-box">
-                          <i className="icon flaticon-insurance-1"></i>
-                          <div className="content">
-                            <h5 className="title">End to End Solutions</h5>
-                            <div className="text">
-                              We strongly support best practice sharing across
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                     <div className="exp-box col-lg-5 col-sm-4">
                       <div className="inner">
-                        <div className="count-box">
+                        <div className="count-box ">
                           <span className="count">
                             <CounterUp end={14} />
                           </span>

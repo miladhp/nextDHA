@@ -144,13 +144,21 @@ export default function Footer1() {
                 </div>
               </div>
               <div className="col-12 ">
-                <a
-                  target="_blank"
-                  className="link text-success text-nowrap"
-                  href="/docs/Disclaimer.pdf"
-                >
-                  Notice and Disclaimer
-                </a>
+                <small className="text-gray">
+                  The information in this website is solely educational and is
+                  not an offer for the sale of securities. Nothing in this
+                  website shall be construed as an offer for investment in
+                  Dhanani EB-5 International, LLC (the “Company”). Solicitations
+                  for investments will only be made through a Private Placement
+                  Memorandum provided to potential investors for such purpose.
+                  <Link
+                    className="text-white"
+                    target="_blank"
+                    href="/disclaimer"
+                  >
+                    Disclaimer
+                  </Link>
+                </small>
               </div>
             </div>
           </div>

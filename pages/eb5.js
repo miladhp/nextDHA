@@ -4,64 +4,7 @@ import Image from "next/image";
 import Layout from "@/components/layout/Layout";
 import PageTitle from "@/components/sections/PageTitle";
 import CounterUp from "@/components/elements/CounterUp";
-
-const facts = [
-  {
-    id: 1,
-    title: "Years of experience",
-    before: "",
-    after: "+",
-    icon: "flaticon-cooperation",
-    start: "0",
-    target: "14",
-  },
-  {
-    id: 2,
-    title: "Successful projects",
-    before: "",
-    after: "+",
-    icon: "flaticon-accomodation",
-    start: "0",
-    target: "250",
-  },
-  {
-    id: 3,
-    title: "Satisfied investors",
-    before: "",
-    after: "+",
-    icon: "flaticon-increase",
-    start: "0",
-    target: "2000",
-  },
-  {
-    id: 4,
-    title: "Zero Losses",
-    before: "",
-    after: "",
-    icon: "flaticon-low-cost",
-    start: "0",
-    target: "0",
-  },
-  {
-    id: 5,
-    title: "Lifetime transactions",
-    before: "$",
-    after: "B+",
-    icon: "flaticon-currency-1",
-    start: "0",
-    target: "1.76",
-  },
-  {
-    id: 6,
-    title: "Repaid Profit",
-    before: "$",
-    after: "M+",
-    icon: "flaticon-escalator-1",
-    start: "0",
-    target: "500",
-  },
-];
-
+import { FACTS } from "@/constants/global";
 const visaKeys = {
   length: "Length",
   investmentAmount: "Investment Amount",
@@ -314,7 +257,7 @@ export default function EB5() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1}>
-        <PageTitle pageName="EB-5 Program" />
+        <PageTitle bg={"/images/banner/4.png"} pageName="EB-5 Program" />
         <section className="about-section">
           <div className="icon-plane-2 bounce-y"></div>
           <div className="auto-container">
@@ -351,7 +294,7 @@ export default function EB5() {
                     <div className="image-box">
                       <figure className="image overlay-anim">
                         <Image
-                          src="/images/people/people-11.jpg"
+                          src="/images/background/hov3.jpg"
                           alt="Image"
                           width={992}
                           height={992}
@@ -418,7 +361,7 @@ export default function EB5() {
           <div className="auto-container mt-80">
             <div className="fact-counter">
               <div className="row">
-                {facts.map((fact) => {
+                {FACTS.map((fact) => {
                   return (
                     <div
                       key={fact.id}
@@ -431,7 +374,10 @@ export default function EB5() {
                           <div className="count-box">
                             <span className="count-text d-flex justify-content-center">
                               <span>{fact.before}</span>
-                              <CounterUp end={fact.target} />
+                              <CounterUp
+                                end={+fact.target}
+                                round={fact.id !== 5}
+                              />
                               <span>{fact.after}</span>
                             </span>
                           </div>

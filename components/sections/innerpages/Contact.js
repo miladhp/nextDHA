@@ -202,7 +202,7 @@ const Contact = () => {
                     </div>
                     <div className="text">
                       <h6>Have any question?</h6>
-                      <a href="tel:+18663426264">+1-866-DHANANI (342.6264)</a>
+                      <a href="tel:+18663426264">+1-866-DHANANI (342-6264)</a>
                     </div>
                   </li>
                   <li>

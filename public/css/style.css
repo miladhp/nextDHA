@@ -14158,13 +14158,13 @@ Page Title
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 250px;
-  padding: 125px 0;
+  min-height: 400px;
+  padding: 200px 0;
   position: relative;
 }
 @media only screen and (max-width: 768px) {
   .page-title {
-    padding: 110px 0;
+    padding: 150px 0;
   }
 }
 .page-title:before {
@@ -16896,4 +16896,8 @@ Sidebar
 
 .matter-block {
   background: rgba(var(--theme-color2-rgb), .5)
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

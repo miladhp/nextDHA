@@ -27,7 +27,7 @@ export default function TestimonialSection() {
               slidesPerView={3}
               loop={true}
               autoplay={{
-                delay: 250000,
+                delay: 2500,
                 disableOnInteraction: false,
               }}
               modules={[Autoplay, Pagination]}

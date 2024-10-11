@@ -10,6 +10,7 @@ import MarqueeSection from "@/components/sections/home-1/Marquee";
 import MattersSection from "@/components/sections/home-1/Matters";
 import InMediaSection from "@/components/sections/home-1/Mdeia";
 import News from "@/components/sections/home-1/News";
+import PartnershipsSection from "@/components/sections/home-1/Partnerships";
 import PerformanceSection from "@/components/sections/home-1/Performance";
 import Process from "@/components/sections/home-1/Process";
 import Services1 from "@/components/sections/home-1/Services1";
@@ -29,7 +30,7 @@ export default function Home() {
         <Team />
         <MattersSection />
         <MarqueeSection />
-        <Services1 />
+        <PartnershipsSection />
         {/* <WhyChooseUs1 /> */}
         {/* <Country /> */}
         {/* <FunFact /> */}

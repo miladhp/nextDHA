@@ -7,7 +7,7 @@ const Banner = () => {
       <div
         className="bg bg-image"
         style={{
-          backgroundImage: "url(/images/background/family.jpg)",
+          backgroundImage: "url(/images/posters/HB5-cover.png)",
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

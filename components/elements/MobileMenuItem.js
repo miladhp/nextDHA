@@ -1,6 +1,14 @@
 // import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { useContext } from "react";
+import { AppContext } from "@/pages/_app";
 export const MobileMenuItem = (item, isActive, handleClick) => {
+  const { setMenuIsOpen, menuIsOpen } = useContext(AppContext);
+  const closeMenu = () => {
+    console.log("menuIsOpen1", menuIsOpen);
+    setMenuIsOpen(true);
+    console.log("menuIsOpen2", menuIsOpen);
+  };
   //   const pathname = usePathname();
   //   const isSameOrChildOf = (parentRoute) => {
   //     return pathname === parentRoute || pathname.startsWith(parentRoute + "/");
@@ -8,11 +16,14 @@ export const MobileMenuItem = (item, isActive, handleClick) => {
   return (
     <li
       key={item.id}
-      onClick={() => handleClick(item.id)}
       className={`${item.submenu ? "dropdown current" : "dropdown"}`}
     >
       {item.label && (
-        <Link href={item.link || "#"} className="text-nowrap">
+        <Link
+          href={item.link || "#"}
+          onClick={() => closeMenu()}
+          className="text-nowrap"
+        >
           {item.label}
         </Link>
       )}

@@ -17,38 +17,38 @@ const Country = () => {
             {COUNTRIES.length > 0 &&
               COUNTRIES.map((country) => {
                 return (
-                  <div
-                    key={country.id}
-                    className="country-block col-lg-3 col-md-6 col-sm-6"
-                  >
-                    <div className="inner-box">
-                      <div className="image-box">
-                        <img src={country.flag} alt={country.name} />
-                        <h4 className="title">
-                          <Link
-                            href={{
-                              pathname: "/country/[id]",
-                              query: { id: country.id },
-                            }}
-                          >
-                            {country.name}{" "}
-                          </Link>
-                        </h4>
-                      </div>
-                      <div className="text">
-                        We denou righteous indigna beguiled demoralized
-                      </div>
-                      <Link
-                        href={{
-                          pathname: "/country/[id]",
-                          query: { id: country.id },
-                        }}
-                        className="read-more"
-                      >
-                        <i className="fa fa-arrow-right"></i>
-                      </Link>
+                <div
+                  key={country.id}
+                  className="country-block col-lg-3 col-md-6 col-sm-6"
+                >
+                  <div className="inner-box">
+                    <div className="image-box">
+                      <img src={country.flag} alt={country.name} />
+                      <h4 className="title">
+                        <Link
+                          href={{
+                            pathname: "/country/[id]",
+                            query: { id: country.id },
+                          }}
+                        >
+                          {country.name}{" "}
+                        </Link>
+                      </h4>
                     </div>
+                    <div className="text">
+                      We denou righteous indigna beguiled demoralized
+                    </div>
+                    <Link
+                      href={{
+                        pathname: "/country/[id]",
+                        query: { id: country.id },
+                      }}
+                      className="read-more"
+                    >
+                      <i className="fa fa-arrow-right"></i>
+                    </Link>
                   </div>
+                </div>
                 );
               })}
           </div>

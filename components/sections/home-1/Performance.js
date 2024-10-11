@@ -8,7 +8,7 @@ export default function PerformanceSection() {
         <div
           className="bg bg-image"
           style={{
-            backgroundImage: "url(/images/background/bg-12.jpeg)",
+            backgroundImage: "url(/images/background/bg-12.jpg)",
             backgroundAttachment: "fixed",
           }}
         ></div>

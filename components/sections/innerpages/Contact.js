@@ -35,7 +35,7 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-sm-6">
                     <div className="mb-3">
-                      <label for="form_firstname">Enter First Name</label>
+                      <label htmlFor="form_firstname">Enter First Name</label>
 
                       <input
                         id="form_firstname"
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div className="col-sm-6">
                     <div className="mb-3">
-                      <label for="form_lastname">Enter Last Name</label>
+                      <label htmlFor="form_lastname">Enter Last Name</label>
 
                       <input
                         id="form_lastname"
@@ -63,7 +63,7 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-sm-6">
                     <div className="mb-3">
-                      <label for="form_email">Enter Email</label>
+                      <label htmlFor="form_email">Enter Email</label>
 
                       <input
                         id="form_email"
@@ -76,7 +76,7 @@ const Contact = () => {
                   </div>
                   <div className="col-sm-6">
                     <div className="mb-3">
-                      <label for="form_phone">Enter Phone</label>
+                      <label htmlFor="form_phone">Enter Phone</label>
 
                       <input
                         id="form_phone"
@@ -91,7 +91,7 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-sm-6">
                     <div className="mb-3">
-                      <label for="form_country">
+                      <label htmlFor="form_country">
                         Enter Country of Residance
                       </label>
                       <select
@@ -112,7 +112,7 @@ const Contact = () => {
                   </div>
                   <div className="col-sm-6">
                     <div className="mb-3">
-                      <label for="form_way">Best way to contact you?</label>
+                      <label htmlFor="form_way">Best way to contact you?</label>
                       <select
                         id="form_way"
                         name="form_way"
@@ -130,7 +130,7 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-sm-6">
                     <div className="mb-3">
-                      <label for="form_income">
+                      <label htmlFor="form_income">
                         Do you have an income of greater than $200,000 per year
                         or net worth greater than $1 million (excluding your
                         primary residence)?
@@ -146,7 +146,7 @@ const Contact = () => {
                   </div>
                   <div className="col-sm-6">
                     <div className="mb-3">
-                      <label for="form_message">
+                      <label htmlFor="form_message">
                         Is there anything you'd like our team to know in order
                         to prepare before we talk?*
                       </label>

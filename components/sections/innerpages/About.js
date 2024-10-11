@@ -6,10 +6,10 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import TeamSlider from "@/components/elements/TeamSlider";
 import CounterUp from "@/components/elements/CounterUp";
 import Projects from "../home-1/Projects";
 import FunFactAbout from "../home-1/FunfactAbout";
+import Team from "../home-1/Team";
 const About = () => {
   const services = [
     {
@@ -198,17 +198,7 @@ const About = () => {
 
       <Projects />
       <FunFactAbout />
-      <section className="team-section pt-0">
-        <div className="auto-container">
-          <div className="sec-title text-center mb-0 mt-xl-30">
-            <span className="sub-title">Our Team</span>
-            <h2 className="words-slide-up text-split">
-              Experience Team Members
-            </h2>
-          </div>
-          <TeamSlider />
-        </div>
-      </section>
+      <Team />
       <ModalVideo
         channel="youtube"
         autoplay

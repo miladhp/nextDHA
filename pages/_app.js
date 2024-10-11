@@ -8,9 +8,12 @@ import "../public/css/style.css";
 import "swiper/css/free-mode";
 import "swiper/css/thumbs";
 import "swiper/css/effect-fade";
-import { useEffect, useState } from "react";
+import { useEffect, useState, createContext, useContext } from "react";
+
+export const AppContext = createContext({ menuIsOpen: false });
 
 function MyApp({ Component, pageProps }) {
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -19,7 +22,7 @@ function MyApp({ Component, pageProps }) {
     }, 0);
   }, []);
   return (
-    <>
+    <AppContext.Provider value={{ menuIsOpen, setMenuIsOpen }}>
       {!loading ? (
         <Component {...pageProps} />
       ) : (
@@ -27,7 +30,7 @@ function MyApp({ Component, pageProps }) {
           <span className="loader"></span>
         </div>
       )}
-    </>
+    </AppContext.Provider>
   );
 }
 

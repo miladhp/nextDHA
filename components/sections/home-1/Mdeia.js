@@ -240,7 +240,6 @@ export default function InMediaSection() {
                         <figure className="image">
                           <Link href={blog.link} target="_blank">
                             <Image
-                              objectFit="cover"
                               width="300"
                               height="240"
                               style={{

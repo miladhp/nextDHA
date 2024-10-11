@@ -7,6 +7,7 @@ export const MenuTree = [
   {
     id: 2,
     label: "EB-5 Program",
+    link: "/eb5",
     submenu: [
       { id: 21, label: "Our Story & Success", link: "/eb5#story" },
       { id: 24, label: "EB-5 Benefits", link: "/eb5#benefits" },
@@ -18,6 +19,7 @@ export const MenuTree = [
   {
     id: 5,
     label: "EB-5 Projects",
+    link: "/projects",
     submenu: [
       {
         id: 51,
@@ -39,6 +41,38 @@ export const MenuTree = [
   },
 ];
 
+export const MATTERS = [
+  {
+    id: 1,
+    title: "OUR EXPERIENCE",
+    description:
+      "We leverage over a decade of expertise in EB-5 projects, combining industry knowledge and a commitment to excellence, ensuring our investors benefit from well-informed and successful ventures",
+  },
+  {
+    id: 2,
+    title: "OUR TRACK RECORD",
+    description:
+      "Our history is built on successful EB-5 investments, with a focus on delivering strong financial results and successful immigration outcomes for our investors.",
+  },
+  {
+    id: 3,
+    title: "OUR PROJECTS",
+    description:
+      "Carefully selected projects prioritize investor security, job creation, and long-term growth potential across diverse sectors.",
+  },
+  {
+    id: 4,
+    title: "OUR TRANSPARENCY",
+    description:
+      "We maintain open, honest communication throughout every stage of the investment process, ensuring clarity and trust.",
+  },
+  {
+    id: 5,
+    title: "OUR EQUITY AND DEBT",
+    description:
+      "Structured to minimize risk, our equity and debt strategies aim to maximize investor returns while ensuring project viability.",
+  },
+];
 export const PARTNERS = [
   {
     id: 1,
@@ -46,7 +80,7 @@ export const PARTNERS = [
     link: "/partnership/1",
     description:
       "Founded by DPEG Advisory Board Member Whitney Mercilus, the WithMerci Foundation provides advocate services and support to families of children with disabilities and special needs.",
-    images: ["/images/partners/1.jpeg"],
+    img: "/images/partners/1.jpeg",
   },
   {
     id: 2,
@@ -54,7 +88,7 @@ export const PARTNERS = [
     link: "/partnership/2",
     description:
       "The Sugar Land Police and Fire Departments provide quality law enforcement, crime prevention, community policing and life-saving assistance making the city a safe place to live, work and play",
-    images: ["/images/partners/2.jpeg"],
+    img: "/images/partners/2.jpeg",
   },
   {
     id: 3,
@@ -62,7 +96,7 @@ export const PARTNERS = [
     link: "/partnership/3",
     description:
       "Offering a variety of family-friendly activities and events in indoor and outdoor facilities throughout the city,Missouri City Parks and Recreation provides healthy, safe alternatives for recreation for all ages",
-    images: ["/images/partners/3.jpeg"],
+    img: "/images/partners/3.jpeg",
   },
   {
     id: 4,
@@ -70,7 +104,7 @@ export const PARTNERS = [
     link: "/partnership/4",
     description:
       "A world class Liberal Arts University where 85% of the students receive financial support.",
-    images: ["/images/partners/4.jpeg"],
+    img: "/images/partners/4.jpeg",
   },
   {
     id: 5,
@@ -78,7 +112,7 @@ export const PARTNERS = [
     link: "/partnership/5",
     description:
       "The Ibn Sina Foundation operates six beautiful community clinics throughout Greater Houston and Port Arthur areas, focused on providing low-cost preventative and primary medical, dental, diagnostic, specialty and children’s health services to indigent communities.",
-    images: ["/images/partners/5.jpeg"],
+    img: "/images/partners/5.jpeg",
   },
   {
     id: 6,
@@ -86,7 +120,7 @@ export const PARTNERS = [
     link: "/partnership/6",
     description:
       "A private, not-for-profit international development agency, which was founded in 1967 by Shah Karim Al Hussaini, Aga Khan IV, the 49th Hereditary Imam of the Shia Ismaili Muslims.",
-    images: ["/images/partners/6.jpeg"],
+    img: "/images/partners/6.jpeg",
   },
   {
     id: 7,
@@ -94,7 +128,7 @@ export const PARTNERS = [
     link: "/partnership/7",
     description:
       "The Leukemia & Lymphoma Society (LLS) is the world's largest voluntary (nonprofit) health organization dedicated to funding blood cancer research and providing education and patient services",
-    images: ["/images/partners/7.jpeg"],
+    img: "/images/partners/7.jpeg",
   },
   {
     id: 8,
@@ -102,7 +136,7 @@ export const PARTNERS = [
     link: "/partnership/8",
     description:
       " Pioneer Community Center is a private institution that provides facilities for sports activities and events for the Ismaili Community only.",
-    images: ["/images/partners/8.jpeg"],
+    img: "/images/partners/8.jpeg",
   },
   {
     id: 9,
@@ -110,14 +144,14 @@ export const PARTNERS = [
     link: "/partnership/9",
     description:
       " Rotary International President-elect Jennifer Jones wants members to imagine the possibilities in the change they can make to transform the world.",
-    images: ["/images/partners/9.jpeg"],
+    img: "/images/partners/9.jpeg",
   },
   {
     id: 10,
     title: "Save A Future",
     link: "/partnership/10",
     description: " Be a Hero, Help, Heal, Care",
-    images: ["/images/partners/10.jpeg"],
+    img: "/images/partners/10.jpeg",
   },
   {
     id: 11,
@@ -125,7 +159,7 @@ export const PARTNERS = [
     link: "/partnership/11",
     description:
       " The CTE High School will be a state-of-the-art educational training facility. Students will be able to continue their education and training at a two- or four-year college after high school. The facility will emulate the business/industry and the college environments. Students will use business- and industry-standard technology, software, hardware and equipment.",
-    images: ["/images/partners/11.jpeg"],
+    img: "/images/partners/11.jpeg",
   },
   {
     id: 12,
@@ -133,7 +167,7 @@ export const PARTNERS = [
     link: "/partnership/12",
     description:
       " Sukoon Foundation is a succor-based, humanity-driven relief foundation established in Houston, Texas, aiming to humanize the underprivileged experience. We aim to bring equality and demolish the divide between the grace and those less fortunate; by targeting one societal issue at a time.",
-    images: ["/images/partners/12.jpeg"],
+    img: "/images/partners/12.jpeg",
   },
 ];
 

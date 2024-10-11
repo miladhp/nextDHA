@@ -1,31 +1,27 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-import PartnerBox from "@/components/elements/PartnerBox";
-import { PARTNERS } from "@/constants/global";
+import { MATTERS } from "@/constants/global";
+import MatterBox from "@/components/elements/MatterBox";
 
-export default function TestimonialSection() {
+export default function MattersSection() {
   return (
     <>
       <section className="services-section">
         <div
           className="bg bg-image"
-          style={{ backgroundImage: "url(/images/background/bg1.jpg)" }}
+          style={{ backgroundImage: "url(/images/banner/1.jpg)" }}
         ></div>
         <div className="auto-container">
           <div className="sec-title light text-center">
-            <span className="sub-title">communities</span>
-            <h2 className="scrub-each-word text-split">Our Partnerships</h2>
-            <p className="text-white mt-3">
-              The DPEG Foundation proudly partners with brilliant organizations
-              that push forward good causes to make a positive impact in our
-              communities.
-            </p>
+            <h2 className="scrub-each-word text-split">
+              What Matters Most To Our Investors
+            </h2>
           </div>
           <div className="carousel-outer">
             <Swiper
-              spaceBetween={30}
-              slidesPerView={3}
-              loop={true}
+              spaceBetween={40}
+              slidesPerView={3.5}
+              loop={false}
               autoplay={{
                 delay: 250000,
                 disableOnInteraction: false,
@@ -39,11 +35,15 @@ export default function TestimonialSection() {
               }}
               className="service-carousel-one owl-carousel owl-theme default-dots"
             >
-              {PARTNERS.length > 0 &&
-                PARTNERS.map((p) => {
+              {MATTERS.length > 0 &&
+                MATTERS.map((m) => {
                   return (
-                    <SwiperSlide key={p.id}>
-                      <PartnerBox hasDescription={false} data={p} />
+                    <SwiperSlide
+                      key={m.id}
+                      className="h-100 d-grid"
+                      style={{ minHeight: "270px" }}
+                    >
+                      <MatterBox matter={m} />
                     </SwiperSlide>
                   );
                 })}

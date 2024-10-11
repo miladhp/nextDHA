@@ -98,25 +98,44 @@ export default function PageProjects() {
                     <br /> 300 apartments in a maximum of two different building
                     types.
                     <br /> A mix of apartments in the ratio 54% one-bedrooms,
-                    41% two-bedrooms, and 5% three-bedrooms.<br /> An average of 953
-                    net square feet per unit. <br />Ten different unit types.<br /> A single
-                    building of 8,606 GSF housing leasing and management office
-                    space, as well as amenity space for tenants including a
-                    fitness area and lounge.<br /> Exterior amenity spaces, including
-                    a pool, entry fountain, green spaces and walking paths.<br />
+                    41% two-bedrooms, and 5% three-bedrooms.
+                    <br /> An average of 953 net square feet per unit. <br />
+                    Ten different unit types.
+                    <br /> A single building of 8,606 GSF housing leasing and
+                    management office space, as well as amenity space for
+                    tenants including a fitness area and lounge.
+                    <br /> Exterior amenity spaces, including a pool, entry
+                    fountain, green spaces and walking paths.
+                    <br />
                     Surface parking and fire lanes sufficient to meet
                     requirements of the jurisdiction having authority. A ratio
-                    of 1.5 spaces/unit is designed.<br /> Garage buildings for
-                    approximately 40 parking spaces.<br /> Service structures
-                    including bike storage, trash enclosure, maintenance and
-                    pool equipment room. »<br />
-                     Amenities Indoor:<br /> 1. Kitchen and TV
-                    Lounge <br />2. Game Room<br />3. Fitness<br />4. Business Lounge with Conference
-                    Room and outdoor work space<br />5. Coffee Bar <br />6. Package Room
-                    <br />Amenities Outdoor:<br /> 1. Two level Pool with sun ledge<br />2. Pool
-                    deck with covered trellis area and grill station<br />3. Arbor with
-                    two grill stations and seating area <br />4. Dog wash (to be added)
-                    <br />5. Bike Storage Building<br />6. EV Chargers
+                    of 1.5 spaces/unit is designed.
+                    <br /> Garage buildings for approximately 40 parking spaces.
+                    <br /> Service structures including bike storage, trash
+                    enclosure, maintenance and pool equipment room. »<br />
+                    Amenities Indoor:
+                    <br /> 1. Kitchen and TV Lounge <br />
+                    2. Game Room
+                    <br />
+                    3. Fitness
+                    <br />
+                    4. Business Lounge with Conference Room and outdoor work
+                    space
+                    <br />
+                    5. Coffee Bar <br />
+                    6. Package Room
+                    <br />
+                    Amenities Outdoor:
+                    <br /> 1. Two level Pool with sun ledge
+                    <br />
+                    2. Pool deck with covered trellis area and grill station
+                    <br />
+                    3. Arbor with two grill stations and seating area <br />
+                    4. Dog wash (to be added)
+                    <br />
+                    5. Bike Storage Building
+                    <br />
+                    6. EV Chargers
                   </p>
                 </div>
               </div>

@@ -202,7 +202,7 @@ export const PROJECTS = [
     status: "",
     location: "Magnolia, TX",
     link: "peojects/1",
-    units: "318 Class A Units",
+    units: "300 Class A Units",
     return: "",
     current: true,
   },

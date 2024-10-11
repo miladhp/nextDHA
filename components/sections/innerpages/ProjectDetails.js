@@ -10,7 +10,8 @@ const properties = {
   return: "Return",
   address: "Address",
 };
-const ProjectDetails = ({ project, projectId }) => {
+const ProjectDetails = ({ children, project, projectId }) => {
+  console.log("ssss", children);
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
@@ -106,22 +107,24 @@ const ProjectDetails = ({ project, projectId }) => {
         {/* Product Details End */}
 
         {/* Product Description Start  */}
-        <section className="product-description">
-          <div className="container pt-0 pb-90">
-            <div className="product-discription">
-              <div className="tabs-box">
-                <div className="tab-btn-box text-center">
-                  <ul className="tab-btns tab-buttons clearfix">
-                    <li
-                      className={
-                        activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"
-                      }
-                      onClick={() => handleOnClick(1)}
-                      data-tab="#tab1"
-                    >
-                      Description
-                    </li>
-                    {/* <li
+        {children}
+        {!children && (
+          <section className="product-description">
+            <div className="container pt-0 pb-90">
+              <div className="product-discription">
+                <div className="tabs-box">
+                  <div className="tab-btn-box text-center">
+                    <ul className="tab-btns tab-buttons clearfix">
+                      <li
+                        className={
+                          activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"
+                        }
+                        onClick={() => handleOnClick(1)}
+                        data-tab="#tab1"
+                      >
+                        Description
+                      </li>
+                      {/* <li
                     className={
                       activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"
                     }
@@ -130,63 +133,64 @@ const ProjectDetails = ({ project, projectId }) => {
                   >
                     Reviews
                   </li> */}
-                  </ul>
-                </div>
-                <div className="tabs-content">
-                  <div
-                    className={activeIndex === 1 ? "tab active-tab" : "tab"}
-                    id="tab1"
-                  >
-                    <div className="text">
-                      <h3 className="product-description__title">
-                        Description
-                      </h3>
-                      <p className="product-description__text1">
-                        {project.description}
-                      </p>
-                      <div className="product-description__list">
-                        <ul className="list-unstyled">
-                          <li>
-                            <p>
-                              <span className="fa fa-arrow-right"></span> Nam at
-                              elit nec neque suscipit gravida.
-                            </p>
-                          </li>
-                          <li>
-                            <p>
-                              <span className="fa fa-arrow-right"></span> Aenean
-                              egestas orci eu maximus tincidunt.
-                            </p>
-                          </li>
-                          <li>
-                            <p>
-                              <span className="fa fa-arrow-right"></span>{" "}
-                              Curabitur vel turpis id tellus cursus laoreet.
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
-                      <p className="product-description__tex2">
-                        All the Lorem Ipsum generators on the Internet tend to
-                        repeat predefined chunks as necessary, making this the
-                        first true generator on the Internet. It uses a
-                        dictionary of over 200 Latin words, combined with a
-                        handful of model sentence structures, to generate Lorem
-                        Ipsum which looks reasonable.
-                      </p>
-                    </div>
+                    </ul>
                   </div>
-                  {/* <div
+                  <div className="tabs-content">
+                    <div
+                      className={activeIndex === 1 ? "tab active-tab" : "tab"}
+                      id="tab1"
+                    >
+                      <div className="text">
+                        <h3 className="product-description__title">
+                          Description
+                        </h3>
+                        <p className="product-description__text1">
+                          {project.description}
+                        </p>
+                        <div className="product-description__list">
+                          <ul className="list-unstyled">
+                            <li>
+                              <p>
+                                <span className="fa fa-arrow-right"></span> Nam
+                                at elit nec neque suscipit gravida.
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                <span className="fa fa-arrow-right"></span>{" "}
+                                Aenean egestas orci eu maximus tincidunt.
+                              </p>
+                            </li>
+                            <li>
+                              <p>
+                                <span className="fa fa-arrow-right"></span>{" "}
+                                Curabitur vel turpis id tellus cursus laoreet.
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                        <p className="product-description__tex2">
+                          All the Lorem Ipsum generators on the Internet tend to
+                          repeat predefined chunks as necessary, making this the
+                          first true generator on the Internet. It uses a
+                          dictionary of over 200 Latin words, combined with a
+                          handful of model sentence structures, to generate
+                          Lorem Ipsum which looks reasonable.
+                        </p>
+                      </div>
+                    </div>
+                    {/* <div
                   className={activeIndex === 2 ? "tab active-tab" : "tab"}
                   id="tab2"
                 >
                 
                 </div> */}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        )}
       </>
     )
   );

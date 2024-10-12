@@ -9,11 +9,11 @@ export const MenuTree = [
     label: "About DHANANI",
     link: "/about",
     submenu: [
-      { id: 21, label: "Our Story & Success", link: "/eb5#story" },
+      { id: 21, label: "Our Story & Success", link: "/about#story" },
       { id: 24, label: "Our team", link: "/about#team" },
-      { id: 23, label: "Our Services", link: "/eb5#process" },
-      { id: 25, label: "Our Projects", link: "/projects" },
-      { id: 26, label: "Media Highlights", link: "/" },
+      { id: 23, label: "Our Services", link: "/about#services" },
+      { id: 25, label: "Our Projects", link: "/about#projects" },
+      { id: 26, label: "Media Highlights", link: "/about#media" },
     ],
   },
   {

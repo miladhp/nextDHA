@@ -10,6 +10,9 @@ import CounterUp from "@/components/elements/CounterUp";
 import Projects from "../home-1/Projects";
 import FunFactAbout from "../home-1/FunfactAbout";
 import Team from "../home-1/Team";
+import SuccessSection from "../home-1/Success";
+import ServicesSection from "./Services";
+import InMediaSection from "../home-1/Mdeia";
 const About = () => {
   const services = [
     {
@@ -166,16 +169,18 @@ const About = () => {
         </div>
       </section>
 
-      <Projects />
-      <FunFactAbout />
+      <SuccessSection />
       <Team />
-      <ModalVideo
+      <ServicesSection />
+      <Projects />
+      <InMediaSection />
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="Fvae8nxzVz4"
         onClose={() => setOpen(false)}
-      />
+      /> */}
     </>
   );
 };

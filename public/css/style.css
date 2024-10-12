@@ -38,6 +38,15 @@ License: copyright commercial
 @import url("flaticon-set-visa.css");
 @import url("tm-bs-mp.css");
 @import url("tm-utility-classes.css");
+
+@font-face{
+  font-family: "ELYSRegular";
+  src: url("../fonts/ELYSRegular.woff2")format("woff2");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+
 :root {
   --bs-success: #0f9444;
   --theme-color1: #0f9444;

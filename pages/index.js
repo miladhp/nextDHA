@@ -22,7 +22,7 @@ export default function Home() {
     <>
       <Layout headerStyle={1} footerStyle={1}>
         <Mainslider />
-        <Featue />
+        {/* <Featue /> */}
         <About1 />
         <PerformanceSection />
         <Process />
@@ -30,7 +30,7 @@ export default function Home() {
         <Team />
         <MattersSection />
         <MarqueeSection />
-      <PartnershipsSection />
+        <PartnershipsSection />
         {/* <WhyChooseUs1 /> */}
         {/* <Country /> */}
         {/* <FunFact /> */}

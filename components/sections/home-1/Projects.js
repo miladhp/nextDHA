@@ -39,7 +39,7 @@ const swiperOptions = {
 
 const Project = () => {
   return (
-    <section className="project-section pb-0">
+    <section className="project-section pb-0" id="projects">
       <div className="bg bg-shape"></div>
       <div className="auto-container">
         <div className="sec-title light text-center">

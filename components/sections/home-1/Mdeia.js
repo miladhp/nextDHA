@@ -203,7 +203,7 @@ const blogs = [
 export default function InMediaSection() {
   return (
     <>
-      <section className="services-section-two">
+      <section className="services-section-two" id="media">
         <div
           className="bg bg-image"
           style={{ backgroundImage: "url(/images/background/bg3.jpg)" }}

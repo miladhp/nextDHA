@@ -7,7 +7,7 @@ const PageTitle = (props) => {
       style={{
         backgroundImage: `url(${props.bg || "images/background/liberty.png"})`,
         backgroundSize: "cover",
-        backgroundPosition: "top left",
+        backgroundPosition: "top center",
         backgroundAttachment: "fixed",
       }}
     >

@@ -39,6 +39,7 @@ License: copyright commercial
 @import url("tm-bs-mp.css");
 @import url("tm-utility-classes.css");
 :root {
+  --bs-success: #0f9444;
   --theme-color1: #0f9444;
   --theme-color2: #013220;
   --theme-color3: #f3f4f7;
@@ -10325,32 +10326,13 @@ Section Title
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url(../images/icons/testimonial-map.png);
+  background-image: url(../images/background/bg-15.png);
   background-position: top center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .process-section .outer-box {
   position: relative;
-}
-.process-section .outer-box .icon-line {
-  width: 1417px;
-  height: 131px;
-  background-image: url(../images/icons/icon-line.png);
-  position: absolute;
-  left: 0;
-  background-size: 1160px;
-  background-repeat: no-repeat;
-  top: 27px;
-}
-@media (max-width: 1199.98px) {
-  .process-section .outer-box .icon-line {
-    top: 0;
-  }
-}
-@media (max-width: 991.98px) {
-  .process-section .outer-box .icon-line {
-    display: none;
-  }
 }
 
 .process-block {
@@ -16901,3 +16883,64 @@ Sidebar
 .cursor-pointer {
   cursor: pointer;
 }
+
+.bg-theme-color2 {
+  background-color: var(--bg-theme-color2)
+}
+
+.steps-container {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.steps * {
+  box-sizing: border-box;
+}
+.steps {
+  position: relative;
+  display: inline-block;
+  background: rgba(var(--theme-color2-rgb), 1);
+  min-height: 30px;
+}
+
+.steps:after,
+.steps:before {
+  position: absolute;
+  content: '';
+  left: 0px;
+  height: 50%;
+  width: 100%;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: none; /* thicker border as skew makes them look thin */
+  border-right: 2px solid;
+  background: rgba(var(--theme-color2-rgb), 1);
+  border-color: rgba(var(--theme-color2-rgb), 1)
+}
+
+.steps:before {
+  transform: skew(45deg);
+  top: 0px;
+  border-bottom: none;
+  transform-origin: top left;
+}
+
+.steps:after {
+  transform: skew(-45deg);
+  bottom: 0px;
+  border-top: none;
+  transform-origin: bottom left;
+}
+/* 
+.steps span{
+  display: block;
+  padding-left: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  height: 75%;
+  vertical-align: middle;
+} */

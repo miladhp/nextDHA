@@ -30,7 +30,7 @@ export default function Home() {
         <Team />
         <MattersSection />
         <MarqueeSection />
-        <PartnershipsSection />
+      <PartnershipsSection />
         {/* <WhyChooseUs1 /> */}
         {/* <Country /> */}
         {/* <FunFact /> */}

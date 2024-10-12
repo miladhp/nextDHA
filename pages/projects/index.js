@@ -9,7 +9,7 @@ export default function PageProjects() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1}>
-        <PageTitle bg="/images/banner/projects.jpg" pageName="Projects" />
+        <PageTitle bg="/images/banner/5.jpg" pageName="Projects" />
 
         <FunFactAbout />
 

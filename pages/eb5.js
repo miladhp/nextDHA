@@ -6,7 +6,6 @@ import PageTitle from "@/components/sections/PageTitle";
 import CounterUp from "@/components/elements/CounterUp";
 import { FACTS } from "@/constants/global";
 import StepCard from "@/components/elements/StepCard";
-import SuccessSection from "@/components/sections/home-1/Success";
 const visaKeys = {
   length: "Length",
   investmentAmount: "Investment Amount",
@@ -102,7 +101,7 @@ const sections = [
   {
     id: 5,
     title: "Stable Lifestyle",
-    img: "/images/background/bg-11.png",
+    img: "/images/people/people-25.webp",
     theme: "dark",
     advantages: [
       "Optional path to become a US citizen after 5 years.",
@@ -609,6 +608,24 @@ petition.</p>
   },
 ];
 
+const stagePhotos = [
+  {
+    id: 1,
+    src: "/images/services/step-1.jpg",
+    alt: "STAGE 1",
+  },
+  {
+    id: 2,
+    src: "/images/services/step-2.jpg",
+    alt: "STAGE 2",
+  },
+  {
+    id: 3,
+    src: "/images/services/step-3.jpg",
+    alt: "STAGE 3",
+  },
+];
+
 export default function EB5() {
   // State to hold client-side only styles (after component mounts)
   const [clientRendered, setClientRendered] = useState(false);
@@ -703,9 +720,13 @@ export default function EB5() {
           </div>
         </section>
 
-        <SuccessSection />
-        <section className="py-4" id="benefits">
-          <div className="container">
+        <section className="" id="benefits">
+          <div className="container text-center pt-0">
+            <div className="sec-title">
+              <h2 className="scrub-each-word text-split">
+                What Are Some Key Benefits Of Receiving An EB-5 Visa?
+              </h2>
+            </div>
             <div className="row d-flex row-cols-auto row-cols-md-2 flex-wrap">
               {sections.map((section) => {
                 return (
@@ -716,7 +737,7 @@ export default function EB5() {
                         ? " bg-light "
                         : " bg-theme-color2 text-white light "
                     } ${
-                      section.id === 5 && "w-100"
+                      section.id === 5 && "mx-auto"
                     } pt-3 px-3 text-center overflow-hidden col-12 col-md-6`}
                   >
                     <div className="mt-3 pt-3 px-md-3">
@@ -796,54 +817,68 @@ export default function EB5() {
           </div>
         </section>
 
-        {stages && stages.length > 0 && (
-          <section className="process-section pt-5 text-center">
-            <h4 className="py-4 text-white" id="process">
-              Process To Obtain A Green Card (And Citizenship) Through The EB-5
-              Program
-            </h4>
-            {stages.map((stage) => {
+        {stagePhotos && stagePhotos.length > 0 && (
+          <section className="process-section py-5 text-center " id="process">
+            <div className="sec-title  auto-container mt-5">
+              <h2 className="scrub-each-word text-white">
+                Process To Obtain A Green Card (And Citizenship) Through The
+                EB-5 Program{" "}
+              </h2>
+            </div>
+
+            {stagePhotos.map((stage) => {
               return (
-                <div key={stage.id} className="auto-container ">
+                <div key={stage.id} className="auto-container mt-5">
                   <div className="sec-title text-center text-white">
                     <span className="sub-title text-white">{`Stage ${stage.id}`}</span>
-                    <h2 className="scrub-each-word text-split text-white">
-                      {stage.title}
-                    </h2>
-                    <p className="text text-white">{stage.description}</p>
                   </div>
-
-                  <div className="outer-box">
-                    <div className="icon-line"></div>
-                    <div className="row">
-                      {stage.steps.map((step) => (
-                        <div
-                          key={step.id}
-                          className={`process-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp`}
-                          // Apply the animation delay only on the client after hydration
-                          style={
-                            clientRendered ? { animationDelay: step.delay } : {}
-                          }
-                        >
-                          <StepCard step={step}>
-                            <div
-                              class="step-card--slot"
-                              dangerouslySetInnerHTML={{ __html: step.html }}
-                            ></div>
-                          </StepCard>
-                          {/* <div className="inner-box me-4">
-                            <i className={`icon ${step.icon}`}></i>
-                            <div className="content p-3">
-                              <span className="step">{step.step}</span>
-                              <h5 className="title">{step.title}</h5>
-                              <div className="text-xs small">{step.text}</div>
-                            </div>
-                          </div> */}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                  <Image
+                    className="z-index-3 position-relative"
+                    src={stage.src}
+                    width={3300}
+                    height={2550}
+                  />
                 </div>
+                // <div key={stage.id} className="auto-container ">
+                //   <div className="sec-title text-center text-white">
+                //     <span className="sub-title text-white">{`Stage ${stage.id}`}</span>
+                //     <h2 className="scrub-each-word text-split text-white">
+                //       {stage.title}
+                //     </h2>
+                //     <p className="text text-white">{stage.description}</p>
+                //   </div>
+
+                //   <div className="outer-box">
+                //     <div className="icon-line"></div>
+                //     <div className="row">
+                //       {stage.steps.map((step) => (
+                //         <div
+                //           key={step.id}
+                //           className={`process-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp`}
+                //           // Apply the animation delay only on the client after hydration
+                //           style={
+                //             clientRendered ? { animationDelay: step.delay } : {}
+                //           }
+                //         >
+                //           <StepCard step={step}>
+                //             <div
+                //               class="step-card--slot"
+                //               dangerouslySetInnerHTML={{ __html: step.html }}
+                //             ></div>
+                //           </StepCard>
+                //           {/* <div className="inner-box me-4">
+                //             <i className={`icon ${step.icon}`}></i>
+                //             <div className="content p-3">
+                //               <span className="step">{step.step}</span>
+                //               <h5 className="title">{step.title}</h5>
+                //               <div className="text-xs small">{step.text}</div>
+                //             </div>
+                //           </div> */}
+                //         </div>
+                //       ))}
+                //     </div>
+                //   </div>
+                // </div>
               );
             })}
           </section>

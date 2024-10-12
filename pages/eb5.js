@@ -940,47 +940,49 @@ export default function EB5() {
                   How Does EB-5 Compare To Other Visa Programs?
                 </h2>
               </div>
-              <table className="table table-responsive table-striped table-bordered tbl-shopping-cart">
-                <thead>
-                  <tr>
-                    <th>diffrence </th>
-                    <th>
-                      H1B - Visa
-                      <p>
-                        a non-immigrant visa category that allows employers to
-                        temporarily hire foreign workers in specialty
-                        occupations.
-                      </p>
-                    </th>
-                    <th>
-                      EB-5 - Visa
-                      <p>
-                        program allows foreign investors and their families to
-                        apply for permanent residency in the U.S.
-                      </p>{" "}
-                    </th>
-                    <th>
-                      EB2 - Visa
-                      <p>
-                        a non-immigrant visa that allows people from certain
-                        countries to live and work in the U.S.
-                      </p>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.entries(visaKeys).map(([key, val]) => {
-                    return (
-                      <tr key={key}>
-                        <td>{val}</td>
-                        {visas.map((visa) => {
-                          return <td>{visa[key] || ""}</td>;
-                        })}
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
+              <div className="table-responsive">
+                <table className="table table-striped table-bordered tbl-shopping-cart">
+                  <thead>
+                    <tr>
+                      <th>diffrence </th>
+                      <th>
+                        H1B - Visa
+                        <p>
+                          a non-immigrant visa category that allows employers to
+                          temporarily hire foreign workers in specialty
+                          occupations.
+                        </p>
+                      </th>
+                      <th>
+                        EB-5 - Visa
+                        <p>
+                          program allows foreign investors and their families to
+                          apply for permanent residency in the U.S.
+                        </p>{" "}
+                      </th>
+                      <th>
+                        EB2 - Visa
+                        <p>
+                          a non-immigrant visa that allows people from certain
+                          countries to live and work in the U.S.
+                        </p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.entries(visaKeys).map(([key, val]) => {
+                      return (
+                        <tr key={key}>
+                          <td>{val}</td>
+                          {visas.map((visa) => {
+                            return <td>{visa[key] || ""}</td>;
+                          })}
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </section>

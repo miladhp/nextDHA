@@ -910,7 +910,7 @@ export default function EB5() {
                         >
                           <StepCard step={step}>
                             <div
-                              style={{ minHeight: "370px" }}
+                              class="step-card--slot"
                               dangerouslySetInnerHTML={{ __html: step.html }}
                             ></div>
                           </StepCard>

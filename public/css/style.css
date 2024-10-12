@@ -16964,3 +16964,10 @@ Sidebar
   height: 75%;
   vertical-align: middle;
 } */
+
+@media only screen and (min-width: 768px) {
+  .step-card--slot {
+    min-height: 370px
+  }
+}
+

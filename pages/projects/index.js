@@ -235,45 +235,40 @@ export default function PageProjects() {
                 <h3 className="featurette-heading">
                   The program is as follows:
                 </h3>
-                <p className="lead text lh-base">
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item">
-                      300 apartments in a maximum of two different building
-                      types.
-                    </li>
-                    <li className="list-group-item">
-                      A mix of apartments in the ratio 54% one-bedrooms, 41%
-                      two-bedrooms, and 5% three-bedrooms.
-                    </li>
-                    <li className="list-group-item">
-                      An average of 953 net square feet per unit.
-                    </li>
-                    <li className="list-group-item">
-                      Ten different unit types.
-                    </li>
-                    <li className="list-group-item">
-                      A single building of 8,606 GSF housing leasing and
-                      management office space, as well as amenity space for
-                      tenants including a fitness area and lounge.
-                    </li>
-                    <li className="list-group-item">
-                      Exterior amenity spaces, including a pool, entry fountain,
-                      green spaces and walking paths.
-                    </li>
-                    <li className="list-group-item">
-                      Surface parking and fire lanes sufficient to meet
-                      requirements of the jurisdiction having authority. A ratio
-                      of 1.5 spaces/unit is designed.
-                    </li>
-                    <li className="list-group-item">
-                      Garage buildings for approximately 40 parking spaces.
-                    </li>
-                    <li className="list-group-item">
-                      Service structures including bike storage, trash
-                      enclosure, maintenance and pool equipment room. »
-                    </li>
-                  </ul>
-                </p>
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item">
+                    300 apartments in a maximum of two different building types.
+                  </li>
+                  <li className="list-group-item">
+                    A mix of apartments in the ratio 54% one-bedrooms, 41%
+                    two-bedrooms, and 5% three-bedrooms.
+                  </li>
+                  <li className="list-group-item">
+                    An average of 953 net square feet per unit.
+                  </li>
+                  <li className="list-group-item">Ten different unit types.</li>
+                  <li className="list-group-item">
+                    A single building of 8,606 GSF housing leasing and
+                    management office space, as well as amenity space for
+                    tenants including a fitness area and lounge.
+                  </li>
+                  <li className="list-group-item">
+                    Exterior amenity spaces, including a pool, entry fountain,
+                    green spaces and walking paths.
+                  </li>
+                  <li className="list-group-item">
+                    Surface parking and fire lanes sufficient to meet
+                    requirements of the jurisdiction having authority. A ratio
+                    of 1.5 spaces/unit is designed.
+                  </li>
+                  <li className="list-group-item">
+                    Garage buildings for approximately 40 parking spaces.
+                  </li>
+                  <li className="list-group-item">
+                    Service structures including bike storage, trash enclosure,
+                    maintenance and pool equipment room. »
+                  </li>
+                </ul>
               </div>
 
               <div className="col-12 ">

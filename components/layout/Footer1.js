@@ -50,7 +50,7 @@ export default function Footer1() {
                 <div className="footer-widget about-widget">
                   <div className="logo">
                     <a href="/">
-                      <img src="images/Second-Hor-logo.svg" alt="Logo" />
+                      <img src="images/logo-white.svg" alt="Logo" />
                     </a>
                   </div>
                   <div className="text">

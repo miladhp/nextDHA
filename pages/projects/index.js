@@ -309,7 +309,7 @@ export default function PageProjects() {
         <section className="news-section py-20">
           <div id="past" className="auto-container">
             <div className="sec-title text-center">
-              <h2 className="">Our Past EB-5 Projects</h2>
+              <h2 className="">Our Past Projects</h2>
             </div>
             <div className="row">
               {PROJECTS.filter((p) => !p.current).map((item) => {

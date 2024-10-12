@@ -19,7 +19,7 @@ const SuccessSection = () => {
           <div className="content-column col-lg-6 col-md-12">
             <div className="inner-column">
               <div className="sec-title light">
-                <h2>Our Story AND Success</h2>
+                <h2>Our Story and Success</h2>
                 <div className="text">
                   DHANANI EB-5 International is a Texas-based Regional Center
                   with over 14 years of profitable and zero losses experience in

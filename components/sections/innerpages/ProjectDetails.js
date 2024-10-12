@@ -147,36 +147,6 @@ const ProjectDetails = ({ children, project, projectId }) => {
                         <p className="product-description__text1">
                           {project.description}
                         </p>
-                        <div className="product-description__list">
-                          <ul className="list-unstyled">
-                            <li>
-                              <p>
-                                <span className="fa fa-arrow-right"></span> Nam
-                                at elit nec neque suscipit gravida.
-                              </p>
-                            </li>
-                            <li>
-                              <p>
-                                <span className="fa fa-arrow-right"></span>{" "}
-                                Aenean egestas orci eu maximus tincidunt.
-                              </p>
-                            </li>
-                            <li>
-                              <p>
-                                <span className="fa fa-arrow-right"></span>{" "}
-                                Curabitur vel turpis id tellus cursus laoreet.
-                              </p>
-                            </li>
-                          </ul>
-                        </div>
-                        <p className="product-description__tex2">
-                          All the Lorem Ipsum generators on the Internet tend to
-                          repeat predefined chunks as necessary, making this the
-                          first true generator on the Internet. It uses a
-                          dictionary of over 200 Latin words, combined with a
-                          handful of model sentence structures, to generate
-                          Lorem Ipsum which looks reasonable.
-                        </p>
                       </div>
                     </div>
                     {/* <div

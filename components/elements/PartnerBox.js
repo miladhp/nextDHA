@@ -11,7 +11,8 @@ const PartnerBox = ({ data, hasDescription = true }) => {
           <div className="d-flex flex-column align-items-center inner text-center w-100 py-0 mt-2">
             <Image
               src={data.img}
-              fill
+              width={100}
+              height={100}
               alt={data.title}
               className="position-relative"
             />
@@ -19,11 +20,11 @@ const PartnerBox = ({ data, hasDescription = true }) => {
               {data.title}
             </h4>
             {hasDescription && (
-              <div className="text mb-0 pb-0" style={{ minHeight: "180px" }}>
+              <div className="text mb-0 pb-0" style={{ minHeight: "140px" }}>
                 {showAll
                   ? data.description
-                  : data.description.substring(0, 200)}
-                {data.description.length > 200 && (
+                  : data.description.substring(0, 150)}
+                {data.description.length > 150 && (
                   <strong
                     className="fw-bold ms-2 cursor-pointer"
                     onClick={() => setshowAll(!showAll)}

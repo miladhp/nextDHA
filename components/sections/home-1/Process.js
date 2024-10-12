@@ -34,7 +34,7 @@ const Process = () => {
   }, []);
 
   return (
-    <section className="process-section pt-5 pb-0">
+    <section className="principal-section pt-5 pb-0">
       <div className="container py-0">
         <div className="sec-title text-center">
           <span className="sub-title">Our Approach</span>

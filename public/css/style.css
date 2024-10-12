@@ -10316,6 +10316,26 @@ Section Title
 ====================================================================
 
 ***/
+
+.principal-section {
+  position: relative;
+  padding: 250px 0 55px;
+}
+.principal-section::before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: url(../images/icons/testimonial-map.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.principal-section .outer-box {
+  position: relative;
+}
+
+
 .process-section {
   position: relative;
   padding: 250px 0 55px;

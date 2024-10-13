@@ -8,7 +8,7 @@ const Banner = () => {
         className="bg bg-image"
         style={{
           backgroundImage: "url(/images/posters/HB5-cover.png)",
-          backgroundPosition: "top center",
+          backgroundPosition: "center 0",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPositionX: "30%",

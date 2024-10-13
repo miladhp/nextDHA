@@ -77,7 +77,7 @@ export default function Layout({
           />
         )}
 
-        <main className="main">
+        <main className="main mt-60">
           {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
           {children}
         </main>

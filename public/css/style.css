@@ -8379,11 +8379,11 @@ Section Title
   }
 }
 .contact-video-block .inner-box .content-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+position: absolute;
+bottom: 0%;
+left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
   width: 100%;
 }
 .contact-video-block .inner-box .content-box .title {
@@ -14169,8 +14169,8 @@ Page Title
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
-  padding: 200px 0;
+  min-height: 70dvh;
+  padding: 35dvh 0;
   position: relative;
 }
 @media only screen and (max-width: 768px) {

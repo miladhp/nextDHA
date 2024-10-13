@@ -49,8 +49,17 @@ const ContactSection = () => {
                       backgroundImage: "url(./images/people/people-5.jpg)",
                     }}
                   ></div>
-                  <div className="content-box">
-                    <h2 className="title">
+                  <div className="content-box mt-5 pt-5">
+                    <a
+                      onClick={() => setOpen(true)}
+                      className="play-now mt-5"
+                      data-fancybox="gallery"
+                      data-caption=""
+                    >
+                      <i className="icon fas fa-play" aria-hidden="true"></i>
+                      <span className="ripple"></span>
+                    </a>
+                    <h2 className="title mt-4">
                       {" "}
                       <span>
                         {" "}
@@ -59,15 +68,6 @@ const ContactSection = () => {
                         Your Future
                       </span>
                     </h2>
-                    <a
-                      onClick={() => setOpen(true)}
-                      className="play-now"
-                      data-fancybox="gallery"
-                      data-caption=""
-                    >
-                      <i className="icon fas fa-play" aria-hidden="true"></i>
-                      <span className="ripple"></span>
-                    </a>
                   </div>
                 </div>
               </div>

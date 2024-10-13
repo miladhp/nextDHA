@@ -9,7 +9,6 @@ export default function PartnershipsSection() {
       <section className="services-section">
         <div className="auto-container">
           <div className="sec-title text-center">
-            <span className="sub-title">communities</span>
             <h2 className="scrub-each-word text-split">Our Partnerships</h2>
             <p className="mt-3">
               The DPEG Foundation proudly partners with brilliant organizations

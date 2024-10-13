@@ -34,7 +34,7 @@ export default function Header1({
         }`}
       >
         {/* Header Lower */}
-        <div className="header-lower">
+        {/* <div className="header-lower">
           <div className="main-box">
             <div className="logo-box">
               <div className="logo">
@@ -53,13 +53,12 @@ export default function Header1({
               </div>
             </div>
 
-            {/* Nav Box */}
             <div className="nav-outer">
               <nav className="nav main-menu">
                 <Menu />
               </nav>
               <div className="outer-box">
-                {/* <button className="ui-btn cart-btn">
+                <button className="ui-btn cart-btn">
                   <i className="icon fal fa-shopping-cart"></i>
                   <span className="count">0</span>
                 </button>
@@ -80,15 +79,15 @@ export default function Header1({
                       </button>
                     </div>
                   </form>
-                </div> */}
+                </div>
 
-                {/* <div className="btn-box">
+                <div className="btn-box">
                   <Link href="tel:+92(8800)9806" className="info-btn-two">
                     <i className="icon fa fa-phone"></i>
                     <small>Make A Call:</small>
                     <strong>+36 55 540 069</strong>
                   </Link>
-                </div> */}
+                </div>
 
                 <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
                   <span className="icon lnr-icon-bars"></span>
@@ -96,7 +95,7 @@ export default function Header1({
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Mobile Menu */}
         <div className={`mobile-menu ${isMobileMenu ? "active" : ""}`}>
@@ -169,7 +168,7 @@ export default function Header1({
         </div>
 
         {/* Header Search */}
-        <div className={`search-popup ${isSearch ? "active" : ""}`}>
+        {/* <div className={`search-popup ${isSearch ? "active" : ""}`}>
           <span className="search-back-drop" onClick={handleSearch} />
           <button className="close-search" onClick={handleSearch}>
             <span className="fa fa-times"></span>
@@ -191,12 +190,14 @@ export default function Header1({
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
 
         {/* Sticky Header */}
         <div
           className={`sticky-header ${
-            scroll && isClient ? "fixed-header animated slideInDown" : ""
+            scroll && isClient
+              ? "fixed-header animated slideInDown"
+              : "fixed-header animated slideInDown"
           }`}
         >
           <div className="auto-container">
@@ -208,7 +209,7 @@ export default function Header1({
                     src={
                       scroll && isClient
                         ? "/images/logo-black.svg"
-                        : "/images/logo-white.svg"
+                        : "/images/logo-black.svg"
                     }
                     alt="DHANANI"
                   />

@@ -8,9 +8,10 @@ const Banner = () => {
         className="bg bg-image"
         style={{
           backgroundImage: "url(/images/posters/HB5-cover.png)",
-          backgroundPosition: "center",
+          backgroundPosition: "top center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          backgroundPositionX: "30%",
         }}
       ></div>
       <div className="auto-container">

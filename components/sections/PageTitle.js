@@ -8,7 +8,6 @@ const PageTitle = (props) => {
         backgroundImage: `url(${props.bg || "images/background/liberty.png"})`,
         backgroundSize: "cover",
         backgroundPosition: "top center",
-        backgroundAttachment: "fixed",
       }}
     >
       <div className="auto-container">

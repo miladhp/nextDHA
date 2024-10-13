@@ -16,13 +16,13 @@ const CounterBox = ({
           direction === "row" ? "me-auto ms-0" : "ms-auto me-0"
         }`}
       >
-        <div className="icon-box">
-          <i
-            className={`icon ${icon} ${
-              direction === "row" ? "me-3 ms-0" : "ms-3 me-0"
-            }`}
-          ></i>
-        </div>
+      <div className="icon-box">
+        <i
+          className={`icon ${icon} ${
+            direction === "row" ? "me-3 ms-0" : "ms-3 me-0"
+          }`}
+        ></i>
+      </div>
         <div
           className={`d-flex flex-column align-items-${
             direction === "row" ? "start" : "end"

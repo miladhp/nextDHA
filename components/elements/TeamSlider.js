@@ -3,102 +3,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import MemberCard from "./MemberCard";
-
+import { TEAM_MEMBERS } from "@/constants/global";
 const TeamSlider = () => {
-  const teamMembers = [
-    {
-      img: "/images/team/Nick-Dhanani.jpg",
-      name: "Nick Dhanani",
-      designation: "Principal",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    {
-      img: "/images/team/Nikhil-Dhanani.jpg",
-      name: "Nikhil Dhanani",
-      designation: "President",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    {
-      img: "/images/team/Ali-Wadhwani.jpg",
-      name: "Ali Wadhwani",
-      designation: "Support Engineer",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    {
-      img: "/images/team/Anil-Goel.jpg",
-      name: "Anil Goel",
-      designation: "Chief Strategy Officer",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    {
-      img: "/images/team/Faiz-Hirani.jpg",
-      name: "Faiz Hirani",
-      designation: "Principal, Investor Relations & Marketing",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    {
-      img: "/images/team/Lucy-Singh.jpg",
-      name: "Lucy Singh",
-      designation: "Chief Operating Officer",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    {
-      img: "/images/team/Narmeen.png",
-      name: "Narmeen Nazneen",
-      designation: "Principal, Design",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    {
-      img: "/images/team/Aaryan-Dhanan.jpg",
-      name: "Aaryan Dhanani",
-      designation: "Managing Associate",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    {
-      img: "/images/team/Junior-Dhanani.jpg",
-      name: "Junior Dhanani",
-      designation: "Managing Associate",
-      socialLinks: {
-        twitter: "#",
-        instagram: "#",
-        facebook: "#",
-      },
-    },
-    // Add more members as needed
-  ];
-
   return (
     <Swiper
       spaceBetween={32}
@@ -117,7 +23,7 @@ const TeamSlider = () => {
       }}
       className="team-carousel mt-3"
     >
-      {teamMembers.map((member, index) => (
+      {TEAM_MEMBERS.map((member, index) => (
         <SwiperSlide key={index}>
           <MemberCard member={member} />
           {/* <div className="team-block">

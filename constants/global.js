@@ -219,7 +219,6 @@ export const COUNTRIES = [
     flag: "/images/flags/germany.png",
   },
 ];
-
 export const PROJECTS = [
   {
     id: 1,
@@ -343,7 +342,6 @@ export const PROJECTS = [
     current: false,
   },
 ];
-
 export const FACTS = [
   {
     id: 1,
@@ -399,4 +397,106 @@ export const FACTS = [
     start: "0",
     target: "500",
   },
+];
+export const TEAM_MEMBERS = [
+  {
+    id: 1,
+    img: "/images/team/Nick-Dhanani.jpg",
+    name: "Nick Dhanani",
+    designation: "Principal",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  {
+    id: 2,
+    img: "/images/team/Nikhil-Dhanani.jpg",
+    name: "Nikhil Dhanani",
+    designation: "President",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  {
+    id: 3,
+    img: "/images/team/Ali-Wadhwani.jpg",
+    name: "Ali Wadhwani",
+    designation: "Support Engineer",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  {
+    id: 4,
+    img: "/images/team/Anil-Goel.jpg",
+    name: "Anil Goel",
+    designation: "Chief Strategy Officer",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  {
+    id: 5,
+    img: "/images/team/Faiz-Hirani.jpg",
+    name: "Faiz Hirani",
+    designation: "Principal, Investor Relations & Marketing",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  {
+    id: 6,
+    img: "/images/team/Lucy-Singh.jpg",
+    name: "Lucy Singh",
+    designation: "Chief Operating Officer",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  {
+    id: 7,
+    img: "/images/team/Narmeen.png",
+    name: "Narmeen Nazneen",
+    designation: "Principal, Design",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  {
+    id: 8,
+    img: "/images/team/Aaryan-Dhanan.jpg",
+    name: "Aaryan Dhanani",
+    designation: "Managing Associate",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  {
+    id: 9,
+    img: "/images/team/Junior-Dhanani.jpg",
+    name: "Junior Dhanani",
+    designation: "Managing Associate",
+    socialLinks: {
+      twitter: "#",
+      instagram: "#",
+      facebook: "#",
+    },
+  },
+  // Add more members as needed
 ];

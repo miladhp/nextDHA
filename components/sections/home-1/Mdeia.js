@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 
 const blogs = [
@@ -214,35 +212,21 @@ export default function InMediaSection() {
             <span className="sub-title">GET TO KNOW US</span>
             <h2 className="words-slide-up text-split">In The Media</h2>
           </div>
-          <Swiper
-            spaceBetween={30}
-            slidesPerView={3}
-            loop={true}
-            autoplay={{
-              delay: 25000,
-              disableOnInteraction: false,
-            }}
-            modules={[Autoplay, Pagination]}
-            pagination={{ clickable: true }}
-            breakpoints={{
-              320: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-            }}
-            className="services-carousel owl-carousel owl-theme default-dots"
-          >
+          <div className="row">
             {blogs.map((blog) => {
               return (
-                <SwiperSlide key={blog.id}>
+                <div className="col-12 col-md-6 col-lg-3" key={blog.id}>
                   <div className="service-block-two">
                     <div className="inner-box">
                       <div className="image-box">
                         <figure className="image">
                           <Link href={blog.link} target="_blank">
                             <Image
-                              width="300"
-                              height="240"
+                              width="768"
+                              height="768"
                               style={{
+                                display: "inline-block",
+                                objectFit: "contain",
                                 width: "100%",
                                 height: "240px",
                               }}
@@ -254,10 +238,10 @@ export default function InMediaSection() {
                       </div>
                       <div className="content-box">
                         <div
-                          className="inner pt-3 w-100"
-                          style={{ minHeight: "160px" }}
+                          className="inner py-2 w-100 d-block"
+                          style={{ minHeight: "150px" }}
                         >
-                          <h4 className="title">{blog.title}</h4>
+                          <h5 className="title">{blog.title}</h5>
                         </div>
                         <Link
                           target="_blank"
@@ -271,10 +255,10 @@ export default function InMediaSection() {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
+                </div>
               );
             })}
-          </Swiper>
+          </div>
         </div>
       </section>
     </>

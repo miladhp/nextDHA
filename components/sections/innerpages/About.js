@@ -1,18 +1,17 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
 import CounterUp from "@/components/elements/CounterUp";
 import Projects from "../home-1/Projects";
-import FunFactAbout from "../home-1/FunfactAbout";
-import Team from "../home-1/Team";
 import SuccessSection from "../home-1/Success";
 import ServicesSection from "./Services";
 import InMediaSection from "../home-1/Mdeia";
+import TeamGrid from "../home-1/TeamGrid";
+import AsYouSeen from "../home-1/AsYouSeen";
+import Certificates from "../home-1/Certificates";
 const About = () => {
   const services = [
     {
@@ -60,7 +59,7 @@ const About = () => {
                   <span className="sub-title text-gray">
                     Dhanani EB-5 International
                   </span>
-                  <h2 className="text-black">Nick Dhanani’s Vision</h2>
+                  <h2 className="text-black">CEO Nick Dhanani’s Vision</h2>
                   <div className="text text-gray">
                     Nick Dhanani, Founder and CEO of Dhanani Private Equity
                     Group (DPEG), always says that this company was formed
@@ -170,17 +169,12 @@ const About = () => {
       </section>
 
       <SuccessSection />
-      <Team />
+      <TeamGrid />
       <ServicesSection />
       <Projects />
+      <AsYouSeen />
       <InMediaSection />
-      {/* <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="Fvae8nxzVz4"
-        onClose={() => setOpen(false)}
-      /> */}
+      <Certificates />
     </>
   );
 };

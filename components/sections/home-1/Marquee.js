@@ -1,39 +1,29 @@
 import Image from "next/image";
 const MarqueeSection = () => {
-return (
-<div className="marquee-section">
-  <div className="marquee">
-    <div className="marquee-group">
-      <div className="text ms-2">Investment Opportunities</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Full Transparency </div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Solidifying your foundation</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Real Estate Investments</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Lucrative Opportunities</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Securing your future</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
+  return (
+    <div className="marquee-section">
+      <div className="marquee">
+        <div className="marquee-group">
+          <div className="text mx-5">
+            At DHANANI EB-5 International Regional Center we empower global
+            investors to secure US Permanent Residency through carefully
+            curated, strategic, and profitable EB-5 projects. We are committed
+            to building a secure and prosperous future for our partners - one
+            investment at a time.
+          </div>
+        </div>
+        <div className="marquee-group">
+          <div className="text mx-5">
+            At DHANANI EB-5 International Regional Center we empower global
+            investors to secure US Permanent Residency through carefully
+            curated, strategic, and profitable EB-5 projects. We are committed
+            to building a secure and prosperous future for our partners - one
+            investment at a time.
+          </div>
+        </div>
+      </div>
     </div>
-    <div aria-hidden="true" className="marquee-group">
-      <div className="text ms-2">Investment Opportunities</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Full Transparency </div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Solidifying your foundation</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Real Estate Investments</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Lucrative Opportunities</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-      <div className="text ms-2">Securing your future</div>
-      <Image src="/favicon-white.svg" width={30} height={50} />
-    </div>
-  </div>
-</div>
-);
+  );
 };
 
 export default MarqueeSection;

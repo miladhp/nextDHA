@@ -1,22 +1,13 @@
 import Layout from "@/components/layout/Layout";
 import About1 from "@/components/sections/home-1/About1";
-import Client from "@/components/sections/home-1/Clients1";
 import ContactSection from "@/components/sections/home-1/Contact1";
-import Country from "@/components/sections/home-1/Country";
-import Featue from "@/components/sections/home-1/Feature";
-import FunFact from "@/components/sections/home-1/Funfact";
 import Mainslider from "@/components/sections/home-1/Mainslider";
 import MarqueeSection from "@/components/sections/home-1/Marquee";
 import MattersSection from "@/components/sections/home-1/Matters";
-import InMediaSection from "@/components/sections/home-1/Mdeia";
-import News from "@/components/sections/home-1/News";
 import PartnershipsSection from "@/components/sections/home-1/Partnerships";
 import PerformanceSection from "@/components/sections/home-1/Performance";
 import Process from "@/components/sections/home-1/Process";
-import Services1 from "@/components/sections/home-1/Services1";
-import Team from "@/components/sections/home-1/Team";
-import Testimonial from "@/components/sections/home-1/Testimonial";
-import WhyChooseUs1 from "@/components/sections/home-1/WhyChooseUs1";
+import TeamGrid from "@/components/sections/home-1/TeamGrid";
 export default function Home() {
   return (
     <>
@@ -27,7 +18,7 @@ export default function Home() {
         <PerformanceSection />
         <Process />
         <ContactSection />
-        <Team />
+        <TeamGrid />
         <MattersSection />
         <MarqueeSection />
         <PartnershipsSection />

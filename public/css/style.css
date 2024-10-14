@@ -14169,8 +14169,8 @@ Page Title
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 70dvh;
-  padding: 35dvh 0;
+  min-height: 70vh;
+  padding: 35vh 0;
   position: relative;
 }
 @media only screen and (max-width: 768px) {

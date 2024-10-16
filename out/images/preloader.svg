@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 95.3 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="24.18 66.608 30.08 72.608 47.88 54.908 65.68 72.608 71.48 66.608 47.88 43.208 24.18 66.608" style="fill: rgb(15, 148, 68);" transform="matrix(1, 0, 0, 1, 1.7763568394002505e-15, 0)"/>
+  <polygon class="cls-1" points="47.88 19.108 12.48 54.708 18.18 60.508 47.88 31.108 77.58 60.508 83.28 54.708 47.88 19.108" style="fill: rgb(15, 148, 68);" transform="matrix(1, 0, 0, 1, 1.7763568394002505e-15, 0)"/>
+  <polygon class="cls-1" points="36.78 76.808 47.88 76.808 58.98 76.808 47.88 65.808 36.78 76.808" style="fill: rgb(15, 148, 68);" transform="matrix(1, 0, 0, 1, 1.7763568394002505e-15, 0)"/>
+</svg>

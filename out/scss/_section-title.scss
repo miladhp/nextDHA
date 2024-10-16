@@ -1,0 +1,88 @@
+/*** 
+
+====================================================================
+Section Title
+====================================================================
+
+***/
+
+.sec-title {
+    position: relative;
+    margin-bottom: 50px;
+    @include media-breakpoint-down(lg){
+        br{display: none;}
+    }
+    .sub-title {
+        position: relative;
+        display: inline-block;
+        font-size: var(--sec-title-subtitle-font-size);
+        line-height: var(--sec-title-subtitle-line-height);
+        font-weight: var(--sec-title-subtitle-font-weight);
+        font-family: var(--sec-title-subtitle-font-family);
+        color: var(--sec-title-subtitle-color);
+        border: 3px solid #eee9e3;
+        letter-spacing: 0.2em;
+        top: -5px;
+        margin-bottom: 14px;
+        margin-top: 7px;
+        padding: 2px 24px;
+        height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        &::before{
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: 50%;
+            width: 19px;
+            height: 14px;
+            background-image: url(../images/icons/subtitle-before.png);
+            transform: translateX(-50%);       
+        }
+    }
+    h1{
+        position: relative;
+        font-size: var(--h1-font-size);
+        font-weight: 900;
+        line-height: 1em;
+        margin-bottom: 0;
+        @include media-breakpoint-down(xl) {
+            font-size: 84px;
+        }
+        @include media-breakpoint-down(lg){
+            font-size: 72px;
+        }
+        @include media-breakpoint-down(md) {
+            font-size: 68px;
+        }
+        @include media-breakpoint-down(sm) {
+            font-size: 54px;
+        }
+    }
+    
+    h2 {
+        position: relative;
+        font-size: var(--sec-title-font-size);
+        color: var(--sec-title-color);
+        font-family: var(--sec-title-font-family);
+        font-weight: var(--sec-title-font-weight);
+        line-height: 1.2em;
+        margin-bottom: 0;
+        @include media-breakpoint-down(sm){
+            font-size: 36px;
+        }
+    }
+    .text {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    &.light{
+        .sub-title,
+        .text,
+        h2,
+        h1{
+            color: #fff;
+        }
+    }
+}

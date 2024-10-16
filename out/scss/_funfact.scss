@@ -1,0 +1,290 @@
+/*** 
+
+====================================================================
+    Fun Fact Section
+====================================================================
+
+***/
+
+.fun-fact-section{
+  position: relative;
+  padding: 120px 0;
+  z-index: 3;
+  overflow: hidden;
+  .fact-counter{
+    border-top: 5px solid var(--theme-color1);
+    position: relative;
+    background-color: #faf8f7;
+    padding: 14px 88px 0 70px;
+    @media (max-width: 1024.98px) {
+      margin: 0 auto;
+      text-align: center;
+      padding: 60px 88px 0 70px;
+    }
+    @include media-breakpoint-down(md){
+      padding: 80px 20px;
+    }
+    .bg-image {
+      background-size: auto;
+      background-position: bottom right;
+    }
+    .outer-box {
+      align-items: center;
+    }
+  }
+
+  .content-column {
+    position: relative;
+    @media (max-width: 1024.98px) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .inner-column {
+      position: relative;
+      @include media-breakpoint-down(lg){
+        padding-right: 0;
+        margin-bottom: 50px
+      }
+      .title {
+        position: relative;
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 21px;
+        @include media-breakpoint-down(sm){
+          font-size: 30px;
+          line-height: 1.4em;
+        }
+      }
+      .read-more {
+        position: relative;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 800;
+        &:hover {
+          color: var(--theme-color1);
+        }
+        i {
+          color: var(--theme-color1);
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+
+  .image-column {
+    position: relative;
+    @media (max-width: 1024.98px) {
+      display: none;
+    }
+    .inner-column {
+      position: relative;
+      margin-left: -40px;
+      @include media-breakpoint-down(lg){
+        margin-left: 0;
+        margin-bottom: 50px
+      }
+    }
+
+    .image{
+      position: relative;
+      margin-bottom: 0;
+      img{
+        position: relative;
+        min-width: 426px;
+        margin-right: -25px;
+      }
+    }
+  }
+
+  .funfact-column {
+    @media (max-width: 1024.98px) {
+      width: 100%;
+    }
+    .inner-column {
+      padding-left: 20px;
+      @media (max-width: 1024.98px) {
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      @include media-breakpoint-down(md){
+        display: block;
+      }
+      .counter-block {
+        display: flex;
+        justify-content: flex-end;
+        &:last-child {
+          margin-bottom: 0;
+          @media (max-width: 1024.98px) {
+            margin-bottom: 31px;
+          }
+          @include media-breakpoint-down(md){
+            margin-bottom: 0;
+          }
+        }
+        .inner-box {
+          max-width: 185px;
+          width: 100%;
+        }
+        @include media-breakpoint-down(md){
+          min-width: 50%;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.counter-block{
+  margin-bottom: 31px;
+  &:last-child {
+    .inner-box {border-bottom: none;}
+  }
+  .inner-box {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    border-bottom: 1px solid #e4e2e1;
+    @include transition(all 300ms ease);
+    @include media-breakpoint-down(xl){
+      margin-left: 0;
+    }
+    @media (max-width: 1024.98px) {
+      border: none;
+    }
+    &:hover {
+      .icon {
+        transform: scaleX(-1);
+      }
+    }
+  }
+  .content-box {
+    position: relative;
+  }
+  .icon {
+    color: var(--theme-color1);
+    position: relative;
+    display: inline-block;
+    line-height: 1em;
+    margin-right: 20px;
+    font-size: 54px;
+    @include transition(all 300ms ease);
+    @include media-breakpoint-down(sm){
+      margin-right: 5px;
+    }
+  }
+  .count-box {
+    color: var(--theme-color-dark);
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    @include title-font;
+    @include media-breakpoint-down(sm){
+      font-size: 38px;
+    }
+    .count-text {
+      font-size: 48px;
+      line-height: 50px;
+      font-weight: 700;
+      letter-spacing: .025em;
+      @include title-font;
+      @include media-breakpoint-down(sm){
+        font-size: 38px;
+      }
+    }
+  }
+  .counter-title {
+    letter-spacing: -.01em;
+    margin-bottom: 0;
+  }
+}
+
+/*** 
+
+====================================================================
+    Fun Fact Section
+====================================================================
+
+***/
+
+.fun-fact-section-two {
+  position: relative;
+  padding: 120px 0 70px;
+  .icon-plane-2 {
+    position: absolute;
+    top: 0;
+    right: 145px;
+  }
+  &.style-two {
+    .icon-dots {
+      position: absolute;
+      top: -50px;
+      left: 0;
+      @include media-breakpoint-down(xxl){
+        display: none;
+      }
+    }
+  }
+}
+
+.counter-block-two {
+  position: relative;
+  margin-bottom: 50px;
+  .inner-box {
+    position: relative;
+    border: 3px solid #e1e1e1;
+    padding: 80px 10px 40px;
+    max-width: 320px;
+    margin: 50px auto 0;
+    text-align: center;
+    @include transition(all 300ms ease);
+    @include media-breakpoint-down(xl){
+      max-width: 100%;
+    }
+    &:hover{
+      .icon {
+        background-color: var(--theme-color1);
+        transform: scaleX(-1);
+        color: var(--theme-color-light);
+      }
+    }
+  }
+  .icon {
+    background-color: var(--theme-color3);
+    box-shadow: 0 0px 43px rgba(0, 0, 0, .02);
+    color: var(--theme-color1);
+    display: inline-block;
+    font-size: 46px;
+    height: 125px;
+    left: 0;
+    line-height: 125px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -62px;
+    text-align: center;
+    width: 125px;
+    @include transition(all 300ms ease);
+  }
+  .count-box {
+    color: var(--theme-color-dark);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    position: relative;
+    .count-text {
+      color: var(--theme-color-dark);
+      font-size: 48px;
+      font-family: var(--title-font);
+      font-weight: 700;
+      line-height: 1em;
+    }
+  }
+
+  .counter-title {
+    margin-bottom: 0;
+    position: relative;
+  }
+}

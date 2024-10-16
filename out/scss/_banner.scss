@@ -1,0 +1,395 @@
+/*** 
+
+====================================================================
+    Banner Section
+====================================================================
+
+***/
+
+.banner-section {
+  position: relative;
+  padding: 170px 0 177px;
+  @include media-breakpoint-down(lg){
+    padding: 150px 0;
+    text-align: center;
+  }
+  &:before {
+    content: "";
+    background: linear-gradient(270deg, rgba(0, 22, 22, 0) 0%, rgba(9, 15, 15, 0.02) 0.5%, rgba(12, 12, 12, 0.02) 1%, rgba(12, 12, 12, 0.76) 33%, rgb(12, 12, 12) 65%, rgb(12, 12, 12) 82.5%, rgb(12, 12, 12) 100%);
+    @include overlay;
+    z-index: 1;
+    left: -375px;
+    @include media-breakpoint-down(lg){
+      background: rgba(0,0,0,.79);
+      left: 0;
+      width: 100%;
+    }
+  }
+  .bg-image {
+    background-position: top center;
+  }
+  .banner1-shape1 {
+    background-image: url(../images/banner/banner1-shape1.png);
+    position: absolute;
+    left: -55px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    max-width: 1139px;
+    max-height: 1099px;
+    opacity: 0.1;
+    z-index: 1;
+    @include media-breakpoint-down(lg){
+      display: none;
+    }
+  }
+  .banner1-shape2 {
+    background-image: url(../images/banner/banner1-shape2.png);
+    position: absolute;
+    left: 0;
+    top: -9px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    max-width: 565px;
+    max-height: 591px;
+    opacity: 0.1;
+    z-index: 1;
+    transform: rotate(1deg);
+  }
+  .inner-column {
+    position: relative;
+    z-index: 3;
+    padding: 50px 0 50px 40px;
+    margin-bottom: 60px;
+    @include media-breakpoint-down(lg){
+      padding: 0;
+      margin-bottom: 30px;
+    }
+    &:before {
+      content: '';
+      @include overlay;
+      width: 159px;
+      height: 100%;
+      border-left: 10px solid var(--theme-color1);
+      border-top: 10px solid var(--theme-color1);
+      border-bottom: 10px solid var(--theme-color1);
+      @include media-breakpoint-down(lg){
+        display: none;
+      }
+    }
+    .sub-title{
+      display: block;
+      color: var(--theme-color-light);
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 19px;
+      @include media-breakpoint-down(sm){
+        font-size: 20px;
+      }
+    }
+    .title{
+      position: relative;
+      color: var(--theme-color-light);
+      font-size: 90px;
+      line-height: 110px;
+      font-weight: 700;
+      margin-bottom: 0;
+      @include media-breakpoint-down(md){
+        font-size: 64px;
+        line-height: 1.3em;
+      }
+      @include media-breakpoint-down(sm){
+        font-size: 42px;
+      }
+    }
+  }
+  .info-btn-two {
+    position: relative;
+    z-index: 1;
+    padding-right: 55px;
+    padding-left: 80px;
+    @include media-breakpoint-down(sm){
+      padding: 20px 30px 20px;
+      align-items: center;
+    }
+    &:hover {
+      .icon {
+        transform: scaleX(-1);
+      }
+    }
+    .icon {
+      top: 5px;
+      width: 62px;
+      height: 62px;
+      line-height: 62px;
+      @include transition(all 300ms ease);
+      @include media-breakpoint-down(sm){
+        position: relative;
+        display: inline-block;
+        left: 0;
+        top: 0;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+/*** 
+
+====================================================================
+    Banner Section Two
+====================================================================
+
+***/
+
+.banner-section-two {
+  background-color: var(--theme-color-dark);
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    width: calc(50% + 84px);
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.93);
+    @include media-breakpoint-down(md){
+      width: 100%;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.83);
+    }
+  }
+  .bg-image {
+    position: absolute;
+    max-width: calc(45% + 1px);
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    @include background;
+    @include media-breakpoint-down(md){
+      max-width: none;
+    }
+    .image {
+      margin-bottom: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .image2 {
+      margin-bottom: 0;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  .bg-shape {
+    position: absolute;
+    max-width: calc(55% - 1px);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    &:before{
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      content: "";
+      background-image: url(../images/icons/pattern-3.webp);
+      background-repeat: no-repeat;
+    }
+    .image {
+      margin-bottom: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      opacity: 0.23;
+    }
+    .image2 {
+      margin-bottom: 0;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      opacity: 0.21;
+    }
+    .image3 {
+      margin-bottom: 0;
+      position: absolute;
+      left: 71px;
+      top: 292px;
+      @include media-breakpoint-down(xxl){
+        display: none;
+      }
+    }
+    .image4 {
+      margin-bottom: 0;
+      position: absolute;
+      right: 104px;
+      bottom: 120px;
+      @include media-breakpoint-down(md){
+        display: none;
+      }
+    }
+  }
+  .content-column {
+    .inner-column {
+      padding: 180px 30px 175px 0;
+      position: relative;
+      z-index: 3;
+      @include media-breakpoint-down(lg){
+        margin-bottom: 30px;
+      }
+      @include media-breakpoint-down(md){
+        padding: 150px 0;
+        text-align: center;
+      }
+      .sub-title{
+        background-color: var(--bg-theme-color1);
+        position: relative;
+        display: inline-block;
+        color: var(--theme-color-light);
+        font-size: 20px;
+        line-height: 1.9;
+        padding: 0 87px 0 20px;
+        margin-bottom: 20px;
+        @include media-breakpoint-down(md){
+          padding: 0 20px;
+        }
+      }
+      .title{
+        position: relative;
+        color: var(--theme-color-light);
+        font-size: 67px;
+        margin-bottom: 35px;
+        @include media-breakpoint-down(xl){
+          font-size: 60px;
+          line-height: 1.3;
+        }
+        @include media-breakpoint-down(lg){
+          font-size: 52px;
+          line-height: 1.3;
+        }
+        @include media-breakpoint-down(sm){
+          font-size: 38px;
+        }
+      }
+      .text {
+        color: var(--theme-color-light);
+        margin-bottom: 45px;
+        @include media-breakpoint-down(lg){
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .btn-box {
+    position: relative;
+    .theme-btn {
+      padding: 21px 47px;
+    }
+  }
+}
+
+/*** 
+
+====================================================================
+    Banner Section Three
+====================================================================
+
+***/
+
+.banner-section-three {
+  position: relative;
+  padding: 180px 0 190px;
+  @include media-breakpoint-down(lg){
+    padding: 150px 0;
+  }
+  &:before {
+    content: "";
+    background-color: rgba(0, 0, 0, .65);
+    @include overlay;
+    z-index: 1;
+  }
+  .bg-image {
+    background-position: center center;
+  }
+
+  .bg-shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    .image1 {
+      margin-bottom: 0;
+      position: absolute;
+      right: calc(50% + 594px);
+      top: 309px;
+      z-index: 1;
+    }
+    .image2 {
+      margin-bottom: 0;
+      position: absolute;
+      left: calc(50% + 497px);
+      top: 500px;
+      z-index: 1;
+    }
+    .bg-shape-curve {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      line-height: 1;
+      transform: rotate(180deg);
+      svg {
+        width: calc(170% + 1.3px);
+        height: 110px;
+        display: block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+  .inner-column {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    .title{
+      position: relative;
+      color: var(--theme-color-light);
+      font-size: 95px;
+      line-height: 1;
+      margin-bottom: 41px;
+      @include media-breakpoint-down(lg){
+        font-size: 60px;
+        line-height: 1.3em;
+        br {
+          display: none;
+        }
+      }
+      @include media-breakpoint-down(sm){
+        font-size: 42px;
+      }
+    }
+    .text {
+      color: var(--theme-color-light);
+      margin-bottom: 41px;
+    }
+    .btn-box {
+      .theme-btn {
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .7px;
+      }
+    }
+  }
+}

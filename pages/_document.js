@@ -20,10 +20,7 @@ export default function Document() {
           content="DHANANI EB-5 International is a Texas-based Regional Center with over 14 years of profitable and zero losses experience in real estate developing and investing."
         ></meta>
 
-        <meta
-          property="og:url"
-          content="https://next-dha-luwo.vercel.app/"
-        ></meta>
+        <meta property="og:url" content="https://dhananieb5.com/"></meta>
         <meta property="og:type" content="website"></meta>
         <meta
           property="og:title"
@@ -43,10 +40,7 @@ export default function Document() {
           property="twitter:domain"
           content="next-dha-luwo.vercel.app"
         ></meta>
-        <meta
-          property="twitter:url"
-          content="https://next-dha-luwo.vercel.app/"
-        ></meta>
+        <meta property="twitter:url" content="https://dhananieb5.com/"></meta>
         <meta
           name="twitter:title"
           content="DNAHANI | EB-5 International Regional Center"

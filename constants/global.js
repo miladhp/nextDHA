@@ -403,7 +403,7 @@ export const TEAM_MEMBERS = [
     id: 1,
     img: "/images/team/Nick-Dhanani.jpg",
     name: "Nick Dhanani",
-    designation: "Principal",
+    designation: "Chief Executive Officer",
     socialLinks: {
       twitter: "#",
       instagram: "#",
@@ -425,7 +425,7 @@ export const TEAM_MEMBERS = [
     id: 3,
     img: "/images/team/Ali-Wadhwani.jpg",
     name: "Ali Wadhwani",
-    designation: "Support Engineer",
+    designation: "Chief Financial Officer",
     socialLinks: {
       twitter: "#",
       instagram: "#",
@@ -491,7 +491,7 @@ export const TEAM_MEMBERS = [
     id: 9,
     img: "/images/team/Junior-Dhanani.jpg",
     name: "Junior Dhanani",
-    designation: "Managing Associate",
+    designation: "Principal, Retail Assets & Acquisitions",
     socialLinks: {
       twitter: "#",
       instagram: "#",

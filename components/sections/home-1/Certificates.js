@@ -17,7 +17,7 @@ export default function Certificates() {
         </div>
         <div className="row">
           {links.map((link) => (
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12 mb-3 d-flex align-items-center">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12 mb-3 d-flex align-items-center justify-content-center">
               <Image key={link} src={link} width={240} height={240} />
             </div>
           ))}

@@ -432,17 +432,17 @@ export const TEAM_MEMBERS = [
       facebook: "#",
     },
   },
-  {
-    id: 4,
-    img: "/images/team/Anil-Goel.jpg",
-    name: "Anil Goel",
-    designation: "Chief Strategy Officer",
-    socialLinks: {
-      twitter: "#",
-      instagram: "#",
-      facebook: "#",
-    },
-  },
+  // {
+  //   id: 4,
+  //   img: "/images/team/Anil-Goel.jpg",
+  //   name: "Anil Goel",
+  //   designation: "Chief Strategy Officer",
+  //   socialLinks: {
+  //     twitter: "#",
+  //     instagram: "#",
+  //     facebook: "#",
+  //   },
+  // },
   {
     id: 5,
     img: "/images/team/Faiz-Hirani.jpg",
@@ -465,17 +465,17 @@ export const TEAM_MEMBERS = [
       facebook: "#",
     },
   },
-  {
-    id: 7,
-    img: "/images/team/Narmeen.png",
-    name: "Narmeen Nazneen",
-    designation: "Principal, Design",
-    socialLinks: {
-      twitter: "#",
-      instagram: "#",
-      facebook: "#",
-    },
-  },
+  // {
+  //   id: 7,
+  //   img: "/images/team/Narmeen.png",
+  //   name: "Narmeen Nazneen",
+  //   designation: "Principal, Design",
+  //   socialLinks: {
+  //     twitter: "#",
+  //     instagram: "#",
+  //     facebook: "#",
+  //   },
+  // },
   {
     id: 8,
     img: "/images/team/Aaryan-Dhanan.jpg",

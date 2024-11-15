@@ -14,7 +14,7 @@ export default function Document() {
           content="width=device-width, initial-scale=1, user-scalable=no"
         ></meta>
 
-        <title>DNAHANI | EB-5 International Regional Center</title>
+        <title>DNANANI | EB-5 International Regional Center</title>
         <meta
           name="description"
           content="DHANANI EB-5 International is a Texas-based Regional Center with over 14 years of profitable and zero losses experience in real estate developing and investing."
@@ -24,7 +24,7 @@ export default function Document() {
         <meta property="og:type" content="website"></meta>
         <meta
           property="og:title"
-          content="DNAHANI | EB-5 International Regional Center"
+          content="DNANANI | EB-5 International Regional Center"
         ></meta>
         <meta
           property="og:description"
@@ -43,7 +43,7 @@ export default function Document() {
         <meta property="twitter:url" content="https://dhananieb5.com/"></meta>
         <meta
           name="twitter:title"
-          content="DNAHANI | EB-5 International Regional Center"
+          content="DNANANI | EB-5 International Regional Center"
         ></meta>
         <meta
           name="twitter:description"

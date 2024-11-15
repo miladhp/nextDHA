@@ -10,7 +10,7 @@ const PageHead = ({ headTitle }) => {
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
             <link rel="manifest" href="/site.webmanifest" />
                 <title>
-                    {headTitle ? headTitle : "DNAHANI | EB5-INTERNATIONAL"}
+                    {headTitle ? headTitle : "DHANANI | EB5-INTERNATIONAL"}
                 </title>
                
             </Head>

@@ -41,7 +41,6 @@ const Process = () => {
           <h2 className="scrub-each-word text-split">
             DHANANI <br />
             EB-5 International Regional Center <br />
-            Principals
           </h2>
         </div>
 

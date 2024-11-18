@@ -7,7 +7,7 @@ function TeamGrid() {
       <div className="auto-container">
         <div className="sec-title text-center mb-0 mt-xl-30">
           <span className="sub-title">Our Team</span>
-          <h2 className="words-slide-up text-split">Experience Team Members</h2>
+          <h2 className="words-slide-up text-split">Experienced Team Members</h2>
         </div>
         <div className="row">
           {TEAM_MEMBERS.map((member) => (

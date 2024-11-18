@@ -9,7 +9,7 @@ export default function TestimonialSection() {
     <div className="bg bg-image" style={{backgroundImage: 'url(./images/background/bg6.jpg)'}}></div>
       <div className="auto-container">
         <div className="sec-title text-center"> <span className="sub-title">Our Team</span>
-          <h2 className="words-slide-up text-split">Experience Team Members</h2>
+          <h2 className="words-slide-up text-split">Experienced Team Members</h2>
         </div>
         <Swiper
           spaceBetween={30}

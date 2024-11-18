@@ -40,7 +40,7 @@ const Features4 = () => {
                   <div className="inner-box">
                     <div className="icon-box"><i className="icon flaticon-plane"></i></div>
                     <div className="content-box">
-                      <h4 className="title">Experince Consultants</h4>
+                      <h4 className="title">Experienced Consultants</h4>
                       <div className="text">At vero eoset accusam etusto odio dignissimos ducimus qui blanditiis praesentium</div>
                     </div>
                   </div>

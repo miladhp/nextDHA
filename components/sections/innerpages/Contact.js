@@ -11,10 +11,10 @@ const Contact = () => {
                 <span className="sub-title">Feel Free To Write</span>
                 <h2>Request a Meeting</h2>
                 <p>
-                  Thank you for requesting a meeting with LCR. We advise clients
+                  Thank you for requesting a meeting with Dhanani EB-5. We advise clients
                   evaluating investments that lead to a US Green Card by
                   Investment through the EB-5 Investor Visa Program. Through our
-                  affiliates, International Investors Mortgage and LCR Wealth we
+                  affiliates, International Investors Mortgage and Dhanani EB-5 Wealth we
                   also offer US loan solutions and SEC-registered wealth
                   management. Since most of these products are securities, you
                   will need to confirm that you are an accredited investor if

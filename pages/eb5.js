@@ -122,19 +122,19 @@ const stages = [
         id: 11,
         icon: "flaticon-documents",
         step: "Step 01",
-        html: `<p class="small lh-base text-start">Qualified investors are invited to activate their complimentary <strong class="fw-bold text-success">LCR EB-5 Service Plan.</strong> In return, LCR will provide qualified investors with unlimited “one-stop-shop” concierge services on a complimentary basis, for <strong class="fw-bold text-success">up to 60 days, including:</strong><br /><br /><small>&#8226; Unlimited support on your EB-5 program and project-related questions</small><br /><br /><small>&#8226; Preliminary SOF assessment and creation of custom I-526 application plan</small><br /><br /><small>&#8226; Referrals to top immigration law firms and local banking partners (if required)</small></p>`,
+        html: `<p class="small lh-base text-start">Qualified investors are invited to activate their complimentary <strong class="fw-bold text-success">Dhanani EB-5 Service Plan.</strong> In return, Dhanani EB-5 will provide qualified investors with unlimited “one-stop-shop” concierge services on a complimentary basis, for <strong class="fw-bold text-success">up to 60 days, including:</strong><br /><br /><small>&#8226; Unlimited support on your EB-5 program and project-related questions</small><br /><br /><small>&#8226; Preliminary SOF assessment and creation of custom I-526 application plan</small><br /><br /><small>&#8226; Referrals to top immigration law firms and local banking partners (if required)</small></p>`,
         title: "EB-5 & PROJECT EVALUATION PROCESS",
-        text: "Qualified investors are invited to activate their complimentary LCR EB-5 Service Plan. In return, LCR will provide qualified investors with unlimited “one- stopshop” concierge services ona complimentary basis.",
+        text: "Qualified investors are invited to activate their complimentary Dhanani EB-5 Service Plan. In return, Dhanani EB-5 will provide qualified investors with unlimited “one- stopshop” concierge services ona complimentary basis.",
         delay: "", // No delay for the first step
       },
       {
         id: 12,
         icon: "flaticon-licensing",
         step: "Step 02",
-        html: `<p class="small lh-base text-start">LCR conducts a preliminary SOF assessment to determine an ideal SOF strategy (i.e. one where the investment capital is easiest to (i) document and (ii) liquidate into cash)<br /> The prospective investor <strong class="fw-bold text-success">must engage an experienced U.S. immigration attorney</strong> To document the lawful source of funds and prepare their I-526 petition.<br /><br /><small>&#8226; Legally Obtain Funds</small><br /><br /><small>&#8226; Consult an Immigration Attorney</small><br /><br /><small>&#8226; Document Source of Funds</small></p>`,
+        html: `<p class="small lh-base text-start">Dhanani EB-5 conducts a preliminary SOF assessment to determine an ideal SOF strategy (i.e. one where the investment capital is easiest to (i) document and (ii) liquidate into cash)<br /> The prospective investor <strong class="fw-bold text-success">must engage an experienced U.S. immigration attorney</strong> To document the lawful source of funds and prepare their I-526 petition.<br /><br /><small>&#8226; Legally Obtain Funds</small><br /><br /><small>&#8226; Consult an Immigration Attorney</small><br /><br /><small>&#8226; Document Source of Funds</small></p>`,
 
         title: "DOCUMENT LAWFUL SOURCE OF FUNDS",
-        text: "LCR conducts a preliminary SOF assessment to determine an ideal SOF strategy (i.e. one where the investment capital is easiest to (i) document and (ii) liquidate into cash. The prospective investor must engage an experienced U.S. immigration attorney to document the lawful source of funds and prepare their I-526 petition.",
+        text: "Dhanani EB-5 conducts a preliminary SOF assessment to determine an ideal SOF strategy (i.e. one where the investment capital is easiest to (i) document and (ii) liquidate into cash. The prospective investor must engage an experienced U.S. immigration attorney to document the lawful source of funds and prepare their I-526 petition.",
         delay: "300ms",
       },
       {

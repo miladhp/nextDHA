@@ -105,7 +105,7 @@ const About = () => {
 
                     <div className="text">
                       Dhanani Private Equity Group currently manages over
-                      $1,300,000,000 in assets under a portfolio consisting of
+                      $1,765,000,000 in assets under a portfolio consisting of
                       45+ convenience stores, 50+ retail centers, and over 3,000
                       units of Class A multifamily. Our database of investors
                       has organically grown to surpass 3,000 unique partners

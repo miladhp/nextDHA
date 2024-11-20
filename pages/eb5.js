@@ -391,7 +391,7 @@ If construction is expected to take more than two years, the jobs created direct
     <br />
     <p class="fw-bold">How long is the EB-5 process?</p>
     <p>The EB-5 visa process is one of the fastest and reliable ways for immigrant investors and their family to receive permanent residence status in the U.S. The EB5 process takes several years to complete.Total time required varies depending on factors such as:</p>
-    
+
     <ol class="list-group list-group-numbered">
       <li class="list-group-item">The type of project</li>
       <li class="list-group-item">USCIS process efficiency</li>
@@ -410,21 +410,21 @@ If construction is expected to take more than two years, the jobs created direct
         <ol class="list-group list-group-numbered">
           <li class="list-group-item">Changes in legislation can affect different aspects of the program.</li>
           <li class="list-group-item">Denials and Requests for Evidence:
-            <ol class="list-group list-group-numbered"> 
+            <ol class="list-group list-group-numbered">
               <li class="list-group-item">If the USCIS believes not enough evidence exists to justify approval of a petition, it may issue a request for evidence (RFE) to collect further information. There is also the chance that the USCIS may issue a Notice of Intent to Deny (NOID), which signifies that the adjudicator believes the petition should be denied but wishes to present the investor the opportunity to clear up any areas of concern. Both of these notices may delay an investor’s petition and involve additional costs to revise the petition materials, for example, to consult with counsel.</li>
               <li class="list-group-item">An investor has the option of requesting an administrative review if his or her petition is denied, but this involves a significant waiting period. Luckily, the approximate approval rates for I-526 and 1-829 petitions are 85% and 90%, respectively.</li>
             </ol>
           </li>
 
           <li class="list-group-item">Fraud
-            <ol class="list-group list-group-numbered"> 
+            <ol class="list-group list-group-numbered">
               <li class="list-group-item">a. Despite the efforts of the USCIS, the SEC, and other government agencies to enforce the legal aspects of the EB-5 program, cases like SEC v. A Chicago Convention Center, LLC, illustrate the risk of fraud when developers and other agents misrepresent elements of the program or individual projects to investors. However, such cases are relatively rare.</li>
               <li class="list-group-item">Investors applying to the EB-5 program face unique challenges and opportunities. By providing thorough application materials and exercising due diligence, as with any other investment, investors can increase the likelihood of a smooth petition process.</li>
             </ol>
           </li>
         </ol>
       </li>
-      
+
       </li>
     </ol>
 </div>`,
@@ -464,14 +464,14 @@ If construction is expected to take more than two years, the jobs created direct
     question: "What Are The Processing Procedures For The EB-5 Program?",
     answer: `<div>
     <p>A potential investor is required to file a form I-526 for Alien Entrepreneur in conjunction with the documents supporting the business in which the investment is being made, which satisfy the EB-5 Investor Visa program requirements. Upon approval of this application, the investor and immediate family (spouse and single children under 21 years of age) may apply for an Immigrant Visa at the US Consulate, or if the investor is already located in the United States, apply for adjustment of status at any regional USCIS office. The entire application process may take nine to fifteen months to be fully completed.</p>
-  
+
     <br />
     <p class="fw-bold">Is dual citizenship allowed under this program?</p>
     <p>The U.S. allows dual citizenship, but your original country of origin may not allow it.</p>
     <br />
     <p class="fw-bold">Can I apply if I am currently Out-Of-Status (i.e. you live in the United States but do not have a current visa)?</p>
     <p>Out-Of-Status nationals are no longer permitted to apply for permanent residency from within the United States.</p>
-    
+
 </div>`,
   },
 
@@ -481,7 +481,7 @@ If construction is expected to take more than two years, the jobs created direct
       "Must An Investor Have Real Estate Or Business Experience Or A Minimum Education Level To Participate?",
     answer: `<div>
     <p>There are no requirements with respects to experience or education.</p>
-  
+
     <br />
     <p class="fw-bold">Can I apply if I’m been rejected or terminated in the past by USCIS for an L-1, E-2, B, or other visa?</p>
     <p>Rejection in the past does not disqualify the applicant, unless the reasons are related to immigration fraud or other significant problems.</p>
@@ -508,19 +508,19 @@ If construction is expected to take more than two years, the jobs created direct
       <p class="fw-bold">How long does a green card last?</p>
 
       <p>By receiving your green card though an EB-5 investment, you should have a conditional green card for two years. You must apply for removal of the condition within 90 days before the two years are up. Once that is approved, you have a regular unconditional green card, which must be renewed after ten years.</p>
-    
+
 
           <br />
       <p class="fw-bold">What happens to the family’s applications for green cards if the investor dies before or after granting the green cards – provisional and final?</p>
 
       <p>The second parent may take over as the principal applicant and the application continues. However, if you wish to not proceed with the application, the second parent may refuse to step in as principal applicant, in which case the application itself will be denied by USCIS.</p>
-    
-      
+
+
           <br />
       <p class="fw-bold">After my I-526 petition approval, may members of my family have their consular interview in different countries?</p>
 
       <p>Family members may interview in different countries. The country of origin or where the family has current ties is the standard interview site. However, a student attending school in the U.S. would not have to return to the country of origin; status can be adjusted in the United States at the district office of the USCIS</p>
-    
+
 </div>`,
   },
 
@@ -529,7 +529,7 @@ If construction is expected to take more than two years, the jobs created direct
     question: "What Is The Purpose Of The Consular Application And Interview?",
     answer: `<div>
     <p>The purpose of the Consular application is to ensure that the investor and family members undergo medical, police, security and immigration history checks before the conditional permanent resident visas are issued. At the interview, the Consular Officer may address these issues and information printed on the I-526 petition, including the nature of the investment. If the investor and family are in the United States, they may apply to adjust their status at the appropriate office of the USCIS.</p>
-  
+
     <br />
     <p class="fw-bold">What are reasons the 1-829 petition may fail?</p>
     <ol class="list-group list-group-numbered">
@@ -544,19 +544,19 @@ If construction is expected to take more than two years, the jobs created direct
 
 
       <p>Once the permit green card (1-829) petition is adjudicated, investment capital may be returned.</p>
-    
+
 
           <br />
       <p class="fw-bold">What is a Reg D Investor vs. a Reg S Investor?</p>
 
       <p>Any investor who conducts the entire investment transaction (from induction to execution of documents) outside of the U.S. at the time of the application may be considered Reg S Investor. Any investor inside the U.S for any part of the transaction must be a Reg D Investor pursuant to U.S. securities laws. A Reg D investor must be an accredited investor.</p>
-    
-      
+
+
           <br />
       <p class="fw-bold">When will I be able to move to the United States?</p>
 
       <p>An EB-5 investor is eligible to enter the United States to begin a period of conditional permanent residency once their I-526E is approved, a visa becomes available (if the investor is from a country affected by visa retrogression) and they go through a consular interview process or adjustment of status if already located in the U.S. on another type of non-immigrant visa.</p>
-    
+
 </div>`,
   },
 
@@ -567,7 +567,7 @@ If construction is expected to take more than two years, the jobs created direct
     <p>The USCIS issues conditional green cards after approval of the 1526E petition. These green cards
 last for two years. Investors receive permanent green cards upon USCIS approval of the 1-829
 petition.</p>
-  
+
     <br />
     <p class="fw-bold">What are the advantages of an EB-5 visa for prospective students?</p>
     <ol class="list-group list-group-numbered">
@@ -585,24 +585,24 @@ petition.</p>
 
 
       <p>Under existing EB-5 rules, approximately 10,000 visas are allocated to the program each year. If all the 10,000 visas are used, each country is capped at a maximum of 7% of the total. As a result, countries with a large number of applicants may see a longer wait time to begin their period of conditional permanent residency. (USCIS posts quarterly updates on this topic)</p>
-    
+
 
           <br />
       <p class="fw-bold">When an unmarried child gets married, will he continue to hold the green card? Will a spouse of the child also be eligible for a green card?</p>
 
       <p>The unmarried child, if a part of the I-526 petition, will retain the green card. Souses of children (dependent applications) are not eligible to join the petition.</p>
-    
-      
+
+
           <br />
       <p class="fw-bold">After my I-526 petition approval, may members of my family have their consular interview in different countries?</p>
 
       <p>Family members may interview in different countries. The country of origin or where the family has current ties is the standard interview site. However, a student attending school in the U.S. would not have to return to the country of origin; status can be adjusted in the United States at the district office of the USCIS.</p>
-    
+
            <br />
       <p class="fw-bold">Do I have to live in the same state where I make my investment?</p>
 
       <p>No, you do not have to live in the same state as your investment. You can live anywhere in the United States.</p>
-    
+
 </div>`,
   },
 ];
@@ -610,7 +610,7 @@ petition.</p>
 const stagePhotos = [
   {
     id: 1,
-    src: "/images/services/step-1.jpg",
+    src: "/images/services/step-1.png",
     alt: "STAGE 1",
   },
   {

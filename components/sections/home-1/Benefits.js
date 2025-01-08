@@ -80,12 +80,6 @@ const benefits = [
     img: "/images/icons/fund-icon.png",
     text: "The applicant’s investment moves only through US government-approved escrow accounts",
   },
-  {
-    id: "16",
-    icon: "flaticon-approved-1",
-    img: "/images/icons/fund-icon.png",
-    text: "DHANANI EB-5 International Regional Center has many clients who have successfully completed the entire EB-5 cycle, having received their permanent green cards and full return of their invested capital.",
-  },
 ];
 function Benefits() {
   return (
@@ -128,7 +122,7 @@ function Benefits() {
           <p className="text-success mb-5">Safety of Investment</p>
           {benefits.slice(10, 14).map((ben) => {
             return (
-              <div key={ben.id} className="col-12 col-md-4 col-lg-3">
+              <div key={ben.id} className="col-12 col-md-4 col-lg-4">
                 <div className="icon-box display-2 text-success">
                   <i className={`icon ${ben.icon}`}></i>
                 </div>

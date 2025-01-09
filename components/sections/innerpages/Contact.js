@@ -206,8 +206,8 @@ const Contact = () => {
                     </div>
                     <div className="text">
                       <h6>Write email</h6>
-                      <a href="mailto:invest@dhananipeg.com">
-                        <span>invest@dhananipeg.com</span>
+                      <a href="mailto:priya@dhananipeg.com">
+                        <span>priya@dhananipeg.com</span>
                       </a>
                     </div>
                   </li>

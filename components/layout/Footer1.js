@@ -24,8 +24,8 @@ export default function Footer1() {
                   <i className="icon fal fa-envelope"></i>
                   <div className="text">
                     Send Mail <br />
-                    <a href="mailto:invest@dhananipeg.com">
-                      invest@dhananipeg.com
+                    <a href="mailto:priya@dhananipeg.com">
+                      priya@dhananipeg.com
                     </a>
                   </div>
                 </li>

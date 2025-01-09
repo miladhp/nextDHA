@@ -128,8 +128,8 @@ export default function Header1({
                 <i className="icon lnr-icon-envelope1"></i>
                 <span className="title">Send Email</span>
                 <div className="text">
-                  <a href="mailto:invest@dhananipeg.com">
-                    <span>invest@dhananipeg.com</span>
+                  <a href="mailto:priya@dhananipeg.com">
+                    <span>priya@dhananipeg.com</span>
                   </a>
                 </div>
               </li>

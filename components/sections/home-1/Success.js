@@ -15,26 +15,26 @@ const SuccessSection = () => {
         }}
       ></div>
       <div className="auto-container">
-        <div className="row">
-          <div className="content-column col-lg-6 col-md-12">
+        <div className="row justify-content-around items-center">
+          <div className="content-column col-lg-4 col-md-12">
             <div className="inner-column">
-              <div className="sec-title light">
+              {/* <div className="sec-title light">
                 <h2>Our Story and Success</h2>
                 <div className="text">
-                  DHANANI EB-5 International is a Texas-based Regional Center
-                  with over 14 years of profitable and zero losses experience in
+                  Dhanani EB-5 International is a Texas-based Regional Center
+                  with over 15 years of profitable and zero losses experience in
                   real estate developing and investing. We are registered in
                   Texas, Tennessee, Georgia, Arkansas, and Florida. Join us as
                   we continue to create a foundation and future for our global
                   investors.
                 </div>
-              </div>
+              </div> */}
 
-              <ul className="list-style-two ">
-                <li className="d-flex flex-column text-start justify-content-start">
-                  <h3 className="text-light">Mission Statement</h3>
+              <ul className="list-style-two text-start">
+                <li className="d-flex flex-column text-start justify-content-center">
+                  <h3 className="text-light text-start">Mission Statement</h3>
                   <p className="text-white">
-                    At DHANANI EB-5 International, we empower global investors
+                    At Dhanani EB-5 International, we empower global investors
                     to secure US Permanent Residency through carefully curated,
                     strategic, and profitable EB-5 projects. We are committed to
                     building a secure and prosperous future for our partners -
@@ -44,7 +44,7 @@ const SuccessSection = () => {
               </ul>
             </div>
           </div>
-          <div className="image-column col-lg-6 col-md-12 col-sm-12">
+          <div className="image-column col-lg-4 col-md-6 col-sm-12">
             <div className="inner-column">
               <div className="image-box">
                 <figure className="image">

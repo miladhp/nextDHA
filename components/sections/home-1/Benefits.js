@@ -87,7 +87,7 @@ function Benefits() {
       <div className="container text-center py-0">
         <div className="sec-title">
           <h2 className="scrub-each-word text-split">
-            What Are Some Key Benefits Of Receiving An EB-5 Visa?
+            What Are Some Key Benefits Of Obtaining An EB-5 Visa?
           </h2>
         </div>
         <div className="row">

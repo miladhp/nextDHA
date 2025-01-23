@@ -16,14 +16,14 @@ export default function Footer1() {
                 <li>
                   <i className="icon fal fa-phone"></i>
                   <div className="text">
-                    Call Us <br />
-                    <a href="tel:+18663426264">1-866-DHANANI (342-6264)</a>
+                    Phone Us <br />
+                    <a href="tel:+18663426264">1-866-Dhanani (342-6264)</a>
                   </div>
                 </li>
                 <li>
                   <i className="icon fal fa-envelope"></i>
                   <div className="text">
-                    Send Mail <br />
+                    Email Us <br />
                     <a href="mailto:priya@dhananipeg.com">
                       priya@dhananipeg.com
                     </a>
@@ -32,7 +32,7 @@ export default function Footer1() {
                 <li>
                   <i className="icon fal fa-map-marker-alt"></i>
                   <div className="text">
-                    Our Address <br />
+                    Visit Us <br />
                     <span>
                       11333 Fountain Lake, <br />
                       Dr Stafford, TX 77477
@@ -192,7 +192,7 @@ export default function Footer1() {
           <div className="auto-container">
             <div className="inner-container">
               <div className="copyright-text">
-                © Copyrights reserved by DHANANI.
+                © Copyrights reserved by Dhanani.
               </div>
               <ul className="social-icon-two">
                 <li>

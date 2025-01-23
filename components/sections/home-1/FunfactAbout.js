@@ -33,7 +33,7 @@ const facts = [
   },
   {
     id: 4,
-    title: "Projects in the past 14 years",
+    title: "Projects in the past 15 years",
     before: "",
     after: "+",
     icon: "flaticon-accomodation",

@@ -13,14 +13,14 @@ const Process = () => {
       icon: "flaticon-accomodation",
       step: "",
       title: "Leading Innovation in Real Estate Investment",
-      text: "With over 14 years of dedicated experience, we have crafted a robust platform in the realm of real estate that sets us apart. Our carefully developed ecosystem not only enhances our ability to manage projects with precision but also maximizes profitability and enriches the investment experience for our partners.",
+      text: "With over 15 years of dedicated experience, we have crafted a robust platform in the realm of real estate that sets us apart.",
       delay: "300ms",
     },
     {
       icon: "flaticon-group",
       step: "",
       title: "Our Commitment to Excellence",
-      text: "At Dhanani Private Equity Group, our expertise spans developing, managing, and investing in premier properties. Our comprehensive approach ensures that we are well-equipped to handle the complexities of the real estate market, driving success for our projects and delivering exceptional value to our investors. Join us as we continue to redefine the landscape of real estate investments, creating lasting impacts and lucrative opportunities for our global community of investors.",
+      text: "Excellence is a principle that drives every decision, every deal, and every partnership. We strongly focus on meticulous due diligence, a strategic vision, high quality partnerships, and an investor-centric approach. Real estate markets are dynamic, and so are we. We embrace innovation, adapt to market shifts, and constantly refine our strategies to ensure we stay ahead of the curve.",
       delay: "600ms",
     },
   ];
@@ -39,8 +39,8 @@ const Process = () => {
         <div className="sec-title text-center">
           <span className="sub-title">Our Approach</span>
           <h2 className="scrub-each-word text-split">
-            DHANANI <br />
-            EB-5 International Regional Center <br />
+            Dhanani EB-5 International <br />
+            Regional Center <br />
           </h2>
         </div>
 

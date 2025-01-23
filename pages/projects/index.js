@@ -10,7 +10,7 @@ export default function PageProjects() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1}>
-        <PageTitle bg="/images/banner/6.png" pageName="DHANANI Projects" />
+        <PageTitle bg="/images/banner/6.png" pageName="Dhanani Projects" />
 
         <FunFactAbout />
 
@@ -30,10 +30,9 @@ export default function PageProjects() {
                 <p className="text mt-3">
                   Territory Audubon at Magnolia is a proposed 300-unit, Class A,
                   garden apartment project to be built by Dhanani Private Equity
-                  Group. The project will create a total of 587 jobs which will
-                  consist of 233 direct jobs and 354 indirect jobs, this will
-                  far exceed the USCIS job creation requirement by nearly a
-                  factor of two.
+                  Group. The project will create a total of 587 jobs consisting
+                  of 233 direct jobs and 354 indirect jobs. This will far exceed
+                  the USCIS job creation requirement by nearly a factor of two.
                 </p>
               </div>
 
@@ -70,7 +69,7 @@ export default function PageProjects() {
                     <i className="fas fa-check-circle"></i>
                   </div>
                   <h6 className="title h5 ms-2 mb-0">
-                    Business Lounge with Conference Room and outdoor work space
+                    Business Lounge With Conference Room And Outdoor Work Space
                   </h6>
                 </div>
               </div>
@@ -233,7 +232,7 @@ export default function PageProjects() {
 
               <div className="col-12 my-5">
                 <h3 className="featurette-heading">
-                  The program is as follows:
+                  Additional Project Details:
                 </h3>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">

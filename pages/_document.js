@@ -14,21 +14,21 @@ export default function Document() {
           content="width=device-width, initial-scale=1, user-scalable=no"
         ></meta>
 
-        <title>DHANANI | EB-5 International Regional Center</title>
+        <title>Dhanani | EB-5 International Regional Center</title>
         <meta
           name="description"
-          content="DHANANI EB-5 International is a Texas-based Regional Center with over 14 years of profitable and zero losses experience in real estate developing and investing."
+          content="Dhanani EB-5 International is a Texas-based Regional Center with over 15 years of profitable and zero losses experience in real estate developing and investing."
         ></meta>
 
         <meta property="og:url" content="https://dhananieb5.com/"></meta>
         <meta property="og:type" content="website"></meta>
         <meta
           property="og:title"
-          content="DHANANI | EB-5 International Regional Center"
+          content="Dhanani | EB-5 International Regional Center"
         ></meta>
         <meta
           property="og:description"
-          content="DHANANI EB-5 International is a Texas-based Regional Center with over 14 years of profitable and zero losses experience in real estate developing and investing."
+          content="Dhanani EB-5 International is a Texas-based Regional Center with over 15 years of profitable and zero losses experience in real estate developing and investing."
         ></meta>
         <meta
           property="og:image"
@@ -43,11 +43,11 @@ export default function Document() {
         <meta property="twitter:url" content="https://dhananieb5.com/"></meta>
         <meta
           name="twitter:title"
-          content="DHANANI | EB-5 International Regional Center"
+          content="Dhanani | EB-5 International Regional Center"
         ></meta>
         <meta
           name="twitter:description"
-          content="DHANANI EB-5 International is a Texas-based Regional Center with over 14 years of profitable and zero losses experience in real estate developing and investing."
+          content="Dhanani EB-5 International is a Texas-based Regional Center with over 15 years of profitable and zero losses experience in real estate developing and investing."
         ></meta>
         <meta
           name="twitter:image"

@@ -59,32 +59,46 @@ const About = () => {
                   <span className="sub-title text-gray">
                     Dhanani EB-5 International
                   </span>
-                  <h2 className="text-black">CEO Nick Dhanani’s Vision</h2>
+                  <h2 className="text-black">
+                    Our Founder And CEO,
+                    <br /> Nick Dhanani
+                  </h2>
                   <div className="text text-gray">
-                    Nick Dhanani, Founder and CEO of Dhanani Private Equity
-                    Group (DPEG), always says that this company was formed
-                    accidentally. Nick’s story came from humble beginnings when
-                    he and his family immigrated to the United States in the
-                    early 1980s. After landing in Houston, TX, Nick started his
-                    career working the night shift as a cashier at a local gas
-                    station. Nick always had an ambitious vision and was
-                    determined to grow, so he spent his initial years
-                    aggressively saving money in order to buy his first
-                    business, which just so happened to be the c-store that he
-                    was employed at. With the proceeds from his initial business
-                    ventures, Nick began investing in prime real estate across
-                    the greater Houston area, quickly realizing how beneficial
-                    it was to own real assets instead of solely operating retail
-                    as a lessee. Coming from a close-knit family, Nick’s sister
-                    was naturally his first investor and from there, friends,
-                    family, and co-workers all joined along for the ride. The
-                    rest is history.
+                    Nick Dhanani, the Founder and CEO of DPEG, often describes
+                    the company’s creation as an accidental journey. His story
+                    is one of humble beginnings, tracing back to the early 1980s
+                    when he and his family immigrated to the United States. Upon
+                    settling in Houston, Texas, Nick began his career working
+                    the night shift as a cashier at a local gas station. Fueled
+                    by ambition and a determination to succeed, he diligently
+                    saved money and eventually purchased his first business—the
+                    very convenience store where he was employed. Using the
+                    profits from his early ventures, Nick began investing in
+                    prime real estate throughout the greater Houston area. He
+                    quickly recognized the advantages of owning real assets
+                    rather than operating retail businesses as a lessee. Over
+                    the past 15 years, DPEG has grown from a $20 million company
+                    to managing a portfolio exceeding $1.3 billion in assets.
+                    This portfolio includes over 45 convenience stores, 50
+                    retail centers, and nearly 3,000 proposed Class A
+                    multifamily units. The company’s success is driven by its
+                    adherence to three core principles, enabling it to
+                    organically build a robust database of more than 2,900
+                    unique investors across 23 U.S. states and two Canadian
+                    provinces. To date, DPEG has successfully completed over 250
+                    projects, with every endeavor yielding profitability. DPEG’s
+                    mission is clear: to transform hard-earned money into
+                    lasting wealth. As Nick often states, “Making money is the
+                    easy part; it’s a necessity for survival. The real skill
+                    lies in carefully investing that money to create something
+                    that can be enjoyed by both you and future generations. In
+                    my opinion, this is the only skill I truly possess.
                   </div>
                 </div>
               </div>
             </div>
             <div className="image-column col-lg-4 col-md-4 col-sm-12 order-1 order-md-2">
-              <figure className="image">
+              <figure className="image mt-lg-5 pt-lg-5">
                 <img src="images/team/Nick-Dhanani-2.png" alt="" />
               </figure>
             </div>
@@ -104,15 +118,15 @@ const About = () => {
                     <span className="sub-title">Who we are ?</span>
 
                     <div className="text">
-                      Dhanani Private Equity Group currently manages over
-                      $1,765,000,000 in transaction volume, consisting of
-                      45+ convenience stores, 50+ retail centers, and over 3,000
-                      units of Class A multifamily. Our database of investors
-                      has organically grown to surpass 3,000 unique partners
-                      across and over 23 different US states and 2 Canadian
-                      provinces. DPEG has successfully completed over and 250
-                      projects, and we have been blessed to have seen
-                      profitability in every single one.
+                      Our parent company, Dhanani Private Equity Group (DPEG),
+                      currently manages over $1,765,000,000 in transaction
+                      volume, consisting of 45+ convenience stores, 50+ retail
+                      centers, and over 3,000 units of Class A multifamily. Our
+                      database of investors has organically grown to surpass
+                      3,400 unique partners across and over 23 different US
+                      states and 2 Canadian provinces. DPEG has successfully
+                      completed over 250 projects. Through hard work and
+                      blessings, we have seen profitability in every single one.
                     </div>
                   </div>
                   <div className="row">
@@ -120,7 +134,7 @@ const About = () => {
                       <div className="inner">
                         <div className="count-box ">
                           <span className="count">
-                            <CounterUp end={14} />
+                            <CounterUp end={15} />
                           </span>
                         </div>
                         <div className="title">
@@ -154,12 +168,6 @@ const About = () => {
                         height={300}
                       />
                     </figure>
-                    <div className="info-box">
-                      <div className="icon-box">
-                        <i className="icon flaticon-take-off"></i>
-                      </div>
-                      <h5 className="title">We’re doing the right thing.</h5>
-                    </div>
                   </div>
                 </div>
               </div>

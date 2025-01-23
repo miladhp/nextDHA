@@ -5,7 +5,7 @@ const MarqueeSection = () => {
       <div className="marquee">
         <div className="marquee-group">
           <div className="text mx-5">
-            At DHANANI EB-5 International Regional Center we empower global
+            At Dhanani EB-5 International Regional Center we empower global
             investors to secure US Permanent Residency through carefully
             curated, strategic, and profitable EB-5 projects. We are committed
             to building a secure and prosperous future for our partners - one
@@ -14,7 +14,7 @@ const MarqueeSection = () => {
         </div>
         <div className="marquee-group">
           <div className="text mx-5">
-            At DHANANI EB-5 International Regional Center we empower global
+            At Dhanani EB-5 International Regional Center we empower global
             investors to secure US Permanent Residency through carefully
             curated, strategic, and profitable EB-5 projects. We are committed
             to building a secure and prosperous future for our partners - one

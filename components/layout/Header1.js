@@ -47,7 +47,7 @@ export default function Header1({
                         : "/images/logo-white.svg"
                     }
                     alt="Logo"
-                    title="DHANANI"
+                    title="Dhanani"
                   />
                 </Link>
               </div>
@@ -121,7 +121,7 @@ export default function Header1({
                 <i className="icon lnr-icon-phone-handset"></i>
                 <span className="title">Call Now</span>
                 <div className="text">
-                  <a href="tel:+18663426264">+1-866-DHANANI (342-6264)</a>
+                  <a href="tel:+18663426264">+1-866-Dhanani (342-6264)</a>
                 </div>
               </li>
               <li>
@@ -211,7 +211,7 @@ export default function Header1({
                         ? "/images/logo-black.svg"
                         : "/images/logo-black.svg"
                     }
-                    alt="DHANANI"
+                    alt="Dhanani"
                   />
                 </Link>
               </div>

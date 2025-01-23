@@ -76,7 +76,7 @@ const Featue = () => {
                 href="tel:+18663426264"
                 className="theme-btn btn-style-one hover-dark"
               >
-                <span className="btn-title">+1-866-DHANANI (342-6264)</span>
+                <span className="btn-title">+1-866-Dhanani (342-6264)</span>
               </Link>
             </div>
           </div>

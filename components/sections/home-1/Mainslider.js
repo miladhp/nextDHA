@@ -24,13 +24,15 @@ const Banner = () => {
                 data-wow-delay="200ms"
               >
                 <em>
-                  Solidifying your foundation , Securing your future.
+                  Solidifying your foundation
+                  <br />
+                  Securing your future
                   <br />
                   One investment at a time
                 </em>
               </span>
               <h1 className="title wow fadeInUp" data-wow-delay="300ms">
-                DHANANI <br />
+                Dhanani <br />
                 EB-5 International <br />
                 Regional Center
               </h1>

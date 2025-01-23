@@ -8,21 +8,12 @@ const Contact = () => {
           <div className="row">
             <div className="col-xl-7 col-lg-6">
               <div className="sec-title">
-                <span className="sub-title">Feel Free To Write</span>
+                <span className="sub-title">For More Information</span>
                 <h2>Request a Meeting</h2>
                 <p>
-                  Thank you for requesting a meeting with Dhanani EB-5. We advise clients
-                  evaluating investments that lead to a US Green Card by
-                  Investment through the EB-5 Investor Visa Program. Through our
-                  affiliates, International Investors Mortgage and Dhanani EB-5 Wealth we
-                  also offer US loan solutions and SEC-registered wealth
-                  management. Since most of these products are securities, you
-                  will need to confirm that you are an accredited investor if
-                  you reside in the United States or the equivalent in your
-                  country.
-                  <br />
-                  To have an individual consultation, please give us your name
-                  and we'll contact you directly.
+                  Through our affiliates, International Investors Mortgage, and
+                  Dhanani EB-5 Wealth, we also offer US loan solutions and
+                  SEC-registered wealth management.
                 </p>
               </div>
               <form
@@ -196,8 +187,8 @@ const Contact = () => {
                       <span className="lnr-icon-phone-plus"></span>
                     </div>
                     <div className="text">
-                      <h6>Have any question?</h6>
-                      <a href="tel:+18663426264">+1-866-DHANANI (342-6264)</a>
+                      <h5>Phone Us </h5>
+                      <a href="tel:+18663426264">+1-866-Dhanani (342-6264)</a>
                     </div>
                   </li>
                   <li>
@@ -205,7 +196,7 @@ const Contact = () => {
                       <span className="lnr-icon-envelope1"></span>
                     </div>
                     <div className="text">
-                      <h6>Write email</h6>
+                      <h5>Email Us </h5>
                       <a href="mailto:priya@dhananipeg.com">
                         <span>priya@dhananipeg.com</span>
                       </a>
@@ -216,7 +207,7 @@ const Contact = () => {
                       <span className="lnr-icon-location"></span>
                     </div>
                     <div className="text">
-                      <h6>Visit anytime</h6>
+                      <h5>Visit Us</h5>
                       <div>
                         11333 Fountain Lake, <br />
                         Dr Stafford, TX 77477

@@ -655,7 +655,7 @@ export default function EB5() {
       <Layout headerStyle={1} footerStyle={1}>
         <PageTitle
           bg={"/images/banner/4.png"}
-          pageName="DHANANI EB-5 Program"
+          pageName="Dhanani EB-5 Program"
         />
         <section className="about-section">
           <div className="icon-plane-2 bounce-y"></div>
@@ -669,19 +669,19 @@ export default function EB5() {
                   <div className="inner-column">
                     <div className="sec-title">
                       <h2 className="words-slide-up text-split">
-                        What is Immigrant Investor Program?
+                        What is the Immigrant Investor Program (EB-5)?
                       </h2>
                       <div className="text">
                         The Immigrant Investor Program (EB-5) is administered by
                         USCIS. Under this program, investors (and their spouses
                         and unmarried children under 21) are eligible to apply
-                        for lawful permanent residence (become a Green Card
+                        for lawful permanent residence (become a green card
                         holder) if they make the necessary investment in a
                         commercial enterprise in the United States ($800,000 for
                         investments in Targeted Employment Areas (TEAs) or
                         $1,050,000 for investments outside of TEA) and plan to
-                        create or preserve 10 direct or indirect permanent
-                        full-time jobs for qualified U.S. workers.
+                        create or preserve 10 direct, indirect, or induced
+                        permanent full-time jobs for qualified U.S. workers.
                       </div>
                       <div className="d-flex align-items-center flex-column flex-md-row">
                         <a

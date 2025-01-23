@@ -6,7 +6,7 @@ export const MenuTree = [
   },
   {
     id: 2,
-    label: "About DHANANI",
+    label: "About Dhanani",
     link: "/about",
     submenu: [
       { id: 21, label: "Our Story & Success", link: "/about#story" },
@@ -49,33 +49,32 @@ export const MenuTree = [
 export const MATTERS = [
   {
     id: 1,
-    title: "OUR EXPERIENCE",
-    description:
-      "We leverage over a decade of expertise in EB-5 projects, combining industry knowledge and a commitment to excellence, ensuring our investors benefit from well-informed and successful ventures",
+    title: "Our Experience",
+    description: "We have 15 years of real estate development experience",
   },
   {
     id: 2,
-    title: "OUR TRACK RECORD",
+    title: "Our Track Record:",
     description:
-      "Our history is built on successful EB-5 investments, with a focus on delivering strong financial results and successful immigration outcomes for our investors.",
+      "We have successfully completed over 250 projects with zero losses",
   },
   {
     id: 3,
-    title: "OUR PROJECTS",
+    title: "Our Projects",
     description:
-      "Carefully selected projects prioritize investor security, job creation, and long-term growth potential across diverse sectors.",
+      "We ensure that our projects meet all the compliance guidelines with USCIS",
   },
   {
     id: 4,
-    title: "OUR TRANSPARENCY",
+    title: "Our Transparency",
     description:
-      "We maintain open, honest communication throughout every stage of the investment process, ensuring clarity and trust.",
+      "We maintain open, honest communication throughout every stage of the process, ensuring clarity and trust",
   },
   {
     id: 5,
-    title: "OUR EQUITY AND DEBT",
+    title: "Our Equity and Debt",
     description:
-      "Structured to minimize risk, our equity and debt strategies aim to maximize investor returns while ensuring project viability.",
+      "Structured to minimize risk, our equity and debt strategies aim to ensure project viability and success",
   },
 ];
 export const PARTNERS = [
@@ -350,7 +349,7 @@ export const FACTS = [
     after: "+",
     icon: "flaticon-cooperation",
     start: "0",
-    target: "14",
+    target: "15",
   },
   {
     id: 2,
@@ -368,7 +367,7 @@ export const FACTS = [
     after: "+",
     icon: "flaticon-increase",
     start: "0",
-    target: "3000",
+    target: "3400",
   },
   {
     id: 4,

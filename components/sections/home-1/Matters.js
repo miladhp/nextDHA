@@ -17,37 +17,17 @@ export default function MattersSection() {
               What Matters Most To Our Investors
             </h2>
           </div>
-          <div className="carousel-outer">
-            <Swiper
-              spaceBetween={40}
-              slidesPerView={3.5}
-              loop={true}
-              autoplay={{
-                delay: 2000,
-                disableOnInteraction: false,
-              }}
-              modules={[Autoplay, Pagination]}
-              pagination={{ clickable: true }}
-              breakpoints={{
-                320: { slidesPerView: 1 },
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-              }}
-              className="service-carousel-one owl-carousel owl-theme default-dots"
-            >
-              {MATTERS.length > 0 &&
-                MATTERS.map((m) => {
-                  return (
-                    <SwiperSlide
-                      key={m.id}
-                      className="h-100 d-grid"
-                      style={{ minHeight: "270px" }}
-                    >
-                      <MatterBox matter={m} />
-                    </SwiperSlide>
-                  );
-                })}
-            </Swiper>
+          <div className="h-100 d-flex items-center row justify-content-around gap-3">
+            {MATTERS.length > 0 &&
+              MATTERS.map((m) => {
+                return (
+                  <MatterBox
+                    style={{ minHeight: "270px" }}
+                    key={m.id}
+                    matter={m}
+                  />
+                );
+              })}
           </div>
         </div>
       </section>

@@ -208,10 +208,10 @@ const Contact = () => {
                     </div>
                     <div className="text">
                       <h5>Visit Us</h5>
-                      <div>
-                        11333 Fountain Lake, <br />
-                        Dr Stafford, TX 77477
-                      </div>
+                      <a target="_blank" href="https://www.google.com/maps/place/Dhanani+Private+Equity+Group/@29.640491,-95.583119,15z/data=!4m6!3m5!1s0x8640e7fadff00001:0x8384285d0d6551bb!8m2!3d29.6396706!4d-95.5836772!16s%2Fg%2F11ggng7fcl?hl=en&entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D">
+                        <span>11333 Fountain Lake, <br />
+                        Dr Stafford, TX 77477</span>
+                      </a>
                     </div>
                   </li>
                 </ul>

@@ -53,14 +53,6 @@ const blogs = [
     date: "Mar. 19, 2024",
   },
   {
-    id: 8,
-    link: "https://www.bizjournals.com/houston/news/2023/06/28/2023-most-admired-ceos-honorees.html",
-    img: "https://dhananipeg.com/wp-content/uploads/2024/01/DPG_500X500_16.png",
-    title:
-      "Houston Business Journal names 2023 Women Who Mean Business honorees",
-    date: "Aug. 17, 2023",
-  },
-  {
     id: 9,
     link: "https://dhananipeg.com/wp-content/uploads/2023/05/Nick-Dhanani-6.pdf",
     img: "https://dhananipeg.com/wp-content/uploads/2024/01/DPG_500X500_5.png",
@@ -175,13 +167,6 @@ const blogs = [
     title:
       "Argentic Lends $59M Toward Buy of Massive Retail Center Near Houston",
     date: "Dec. 14, 2021",
-  },
-  {
-    id: 24,
-    link: "https://abc13.com/investing-dhanani-equity-private-group/11198880/",
-    img: "https://dhananipeg.com/wp-content/uploads/2024/01/DPG_500X500_8.png",
-    title: "Dhanani Private Equity Group wants to help you invest wisely!",
-    date: "Nov. 13, 2021",
   },
   {
     id: 25,

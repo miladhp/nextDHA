@@ -3,7 +3,7 @@ import React from "react";
 function MatterBox({ matter }) {
   return (
     <div
-      className="matter-block p-4 h-100 d-grid col-12 col-md-4"
+      className="matter-block p-4 h-100 d-grid col-12 col-md-4 mx-auto"
       style={{ zIndex: 9 }}
     >
       <div className=" d-flex align-items-center justify-content-start">

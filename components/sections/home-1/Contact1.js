@@ -28,7 +28,7 @@ const ContactSection = () => {
                   </div>
                   <div className="wow fadeInLeft">
                     <p>
-                      At Dhanani Private Equity Group, our expertise spans
+                      At Dhanani EB-5 International, our expertise spans
                       developing, managing, and investing in premier properties.
                       Our comprehensive approach ensures that we are
                       well-equipped to handle the complexities of the real

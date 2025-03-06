@@ -63,36 +63,8 @@ const About = () => {
                     Our Founder And CEO,
                     <br /> Nick Dhanani
                   </h2>
-                  <div className="text text-gray">
-                    Nick Dhanani, the Founder and CEO of DPEG, often describes
-                    the company’s creation as an accidental journey. His story
-                    is one of humble beginnings, tracing back to the early 1980s
-                    when he and his family immigrated to the United States. Upon
-                    settling in Houston, Texas, Nick began his career working
-                    the night shift as a cashier at a local gas station. Fueled
-                    by ambition and a determination to succeed, he diligently
-                    saved money and eventually purchased his first business—the
-                    very convenience store where he was employed. Using the
-                    profits from his early ventures, Nick began investing in
-                    prime real estate throughout the greater Houston area. He
-                    quickly recognized the advantages of owning real assets
-                    rather than operating retail businesses as a lessee. Over
-                    the past 15 years, DPEG has grown from a $20 million company
-                    to managing a portfolio exceeding $1.3 billion in assets.
-                    This portfolio includes over 45 convenience stores, 50
-                    retail centers, and nearly 3,000 proposed Class A
-                    multifamily units. The company’s success is driven by its
-                    adherence to three core principles, enabling it to
-                    organically build a robust database of more than 2,900
-                    unique investors across 23 U.S. states and two Canadian
-                    provinces. To date, DPEG has successfully completed over 250
-                    projects, with every endeavor yielding profitability. DPEG’s
-                    mission is clear: to transform hard-earned money into
-                    lasting wealth. As Nick often states, “Making money is the
-                    easy part; it’s a necessity for survival. The real skill
-                    lies in carefully investing that money to create something
-                    that can be enjoyed by both you and future generations. In
-                    my opinion, this is the only skill I truly possess.
+                  <div className="text text-body">
+                  Nick Dhanani, the Founder and CEO of DPEG, often describes the company’s creation as an accidental journey. His story is one of humble beginnings, tracing back to the early 1980s when he and his family immigrated to the United States. Upon settling in Houston, Texas, Nick began his career working the night shift as a cashier at a local gas station. Fueled by ambition and a determination to succeed, he diligently saved money and eventually purchased his first business—the very convenience store where he was employed. Using the profits from his early ventures, Nick began investing in prime real estate throughout the greater Houston area. He quickly recognized the advantages of owning real assets rather than operating retail businesses as a lessee. Over the past 14 years, DPEG has grown from a $20 million company to managing a portfolio exceeding $1.9 billion in assets. This portfolio includes over 45 convenience stores, 50 retail centers, and nearly 3,000 proposed Class A multifamily units. The company’s success is driven by its adherence to three core principles, enabling it to organically build a robust database of more than 3,400 unique investors across 23 U.S. states and two Canadian provinces. To date, DPEG has successfully completed over 250 projects, with every endeavor yielding profitability. DPEG’s mission is clear: to transform hard-earned money into lasting wealth. As Nick often states, “Making money is the easy part; it’s a necessity for survival. The real skill lies in carefully investing that money to create something that can be enjoyed by both you and future generations. In my opinion, this is the only skill I truly possess.
                   </div>
                 </div>
               </div>
@@ -115,18 +87,10 @@ const About = () => {
               <div className="content-column col-xl-5 col-lg-6 order-lg-2">
                 <div className="inner-column">
                   <div className="sec-title">
-                    <span className="sub-title">Who we are ?</span>
+                    <span className="sub-title">Who Are We ?</span>
 
                     <div className="text">
-                      Our parent company, Dhanani Private Equity Group (DPEG),
-                      currently manages over $1,765,000,000 in transaction
-                      volume, consisting of 45+ convenience stores, 50+ retail
-                      centers, and over 3,000 units of Class A multifamily. Our
-                      database of investors has organically grown to surpass
-                      3,400 unique partners across and over 23 different US
-                      states and 2 Canadian provinces. DPEG has successfully
-                      completed over 250 projects. Through hard work and
-                      blessings, we have seen profitability in every single one.
+                    Our parent company, Dhanani Private Equity Group (DPEG), currently manages over $1.9B+ in transaction volume, consisting of 45+ convenience stores, 50+ retail centers, and over 3,000 units of Class A multifamily. Our database of investors has organically grown to surpass 3,400 unique partners across and over 23 different US states and 2 Canadian provinces. DPEG has successfully completed over 250 projects. Through hard work and blessings, we have seen profitability in every single one. 
                     </div>
                   </div>
                   <div className="row">

@@ -54,8 +54,7 @@ export default function Footer1() {
                     </a>
                   </div>
                   <div className="text">
-                    Solidifying your foundation. Securing your future. One
-                    investment at a time
+                  Solidifying your foundation.<br /> Securing your future. <br />One investment at a time.
                   </div>
                   <a
                     href="/about"
@@ -77,7 +76,7 @@ export default function Footer1() {
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>
-                        <a href="/eb5#process">Process & Timeline</a>
+                        <a href="/eb5#process">Process</a>
                       </li>
                       <li>
                         <i className="icon fas fa-angle-double-right"></i>

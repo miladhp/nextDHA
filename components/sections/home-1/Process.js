@@ -5,15 +5,15 @@ const Process = () => {
     {
       icon: "flaticon-protect",
       step: "",
-      title: "Your Investment. Our Responsibility",
+      title: "Your Investment. <br /> Our Responsibility",
       text: "We believe that our success is directly tied to yours. That’s why we personally oversee each project to guarantee not only compliance with EB-5 requirements but also to maximize the potential returns on your investment. Our integrated approach allows us to control every detail, ensuring that every project meets our high standards of excellence and profitability.",
       delay: "", // No delay for the first step
     },
     {
       icon: "flaticon-accomodation",
       step: "",
-      title: "Leading Innovation in Real Estate Investment",
-      text: "With over 15 years of dedicated experience, we have crafted a robust platform in the realm of real estate that sets us apart.",
+      title: "Leading Innovation in Real Estate",
+      text: "With over 15 years of dedicated experience, we have crafted a robust platform in the realm of real estate that sets us apart. We have created an in-house ecosystem of real estate services to enhance efficiency, control costs, provide superior quality, and to generate a faster project exit for our investors.",
       delay: "300ms",
     },
     {
@@ -37,7 +37,7 @@ const Process = () => {
     <section className="principal-section pt-5 pb-0">
       <div className="container py-0">
         <div className="sec-title text-center">
-          <span className="sub-title">Our Approach</span>
+          <span className="sub-title">Our Commitment to Excellence</span>
           <h2 className="scrub-each-word text-split">
             Dhanani EB-5 International <br />
             Regional Center <br />
@@ -58,7 +58,7 @@ const Process = () => {
                   <i className={`icon ${step.icon}`}></i>
                   <div className="content h-75">
                     <span className="step">{step.step}</span>
-                    <h5 className="title">{step.title}</h5>
+                    <h5 className="title text-wrap" dangerouslySetInnerHTML={ {__html: step.title }}></h5>
                     <div className="text">{step.text}</div>
                   </div>
                 </div>

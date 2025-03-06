@@ -14,7 +14,7 @@ export default function MattersSection() {
         <div className="auto-container">
           <div className="sec-title light text-center">
             <h2 className="scrub-each-word text-split">
-              What Matters Most To Our Investors
+            Key Elements To Project Success
             </h2>
           </div>
           <div className="h-100 d-flex items-center row justify-content-around gap-3">

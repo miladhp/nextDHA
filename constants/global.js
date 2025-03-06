@@ -6,10 +6,10 @@ export const MenuTree = [
   },
   {
     id: 2,
-    label: "About Dhanani",
+    label: "Dhanani EB-5",
     link: "/about",
     submenu: [
-      { id: 21, label: "Our Story & Success", link: "/about#story" },
+      { id: 21, label: "Our Story", link: "/about#story" },
       { id: 24, label: "Our team", link: "/about#team" },
       { id: 23, label: "Our Services", link: "/about#services" },
       { id: 25, label: "Our Projects", link: "/about#projects" },
@@ -49,15 +49,16 @@ export const MenuTree = [
 export const MATTERS = [
   {
     id: 1,
-    title: "Our Experience",
-    description: "We have 15 years of real estate development experience",
-  },
-  {
-    id: 2,
     title: "Our Track Record:",
     description:
       "We have successfully completed over 250 projects with zero losses",
   },
+  {
+    id: 2,
+    title: "Our Experience",
+    description: "We have 15 years of real estate development experience",
+  },
+  
   {
     id: 3,
     title: "Our Projects",
@@ -68,11 +69,11 @@ export const MATTERS = [
     id: 4,
     title: "Our Transparency",
     description:
-      "We maintain open, honest communication throughout every stage of the process, ensuring clarity and trust",
+      "Our Transparency: We maintain open, honest communication throughout every stage of the process, ensuring clarity and trust",
   },
   {
     id: 5,
-    title: "Our Equity and Debt",
+    title: "Our Debt and Equity",
     description:
       "Structured to minimize risk, our equity and debt strategies aim to ensure project viability and success",
   },
@@ -270,20 +271,20 @@ export const PROJECTS = [
     return: "",
     current: false,
   },
-  {
-    id: 4,
-    images: ["/images/projects/6-1.jpeg"],
-    title: "Territory at Telfair (Senior Living Condos)",
-    description:
-      "Wealthy South Americans looking to move to the United States are finding the EB-5 immigrant investor visa a very appealing option. In 2023, the US government granted EB-5 visas and adjustment-of-statuses to nearly 400 South American investors, a number dominated by Brazilians and Venezuelans. Marcelo Gorenstein, Brazil director for Dhanani EB-5, said that investor visas to Portugal and Spain are also popular among South Americans. Investors in EB-5 visas tend toward planning a new life in the United States and gaining the career and educational advantages that green cards offer their families. The EB-5 also allows investors from South American countries with volatile currencies to safeguard their wealth. In contrast, South American investors in Portuguese and Spanish visas are often more interested in establishing a home in Europe just in case they need to relocate quickly due to social and economic instability in their home countries. The benefits differ between the two countries; Portugal allows holders of the Portugal Golden Visa to reside in Portugal for as few as seven days a year, whereas Spain offers special status to investors from former Spanish colonies, allowing them to apply for citizenship after only two years of residence in Spain, unlike immigrants from non-colony countries, who must reside there for 10 years before applying",
-    address: " State Highway 6 & ALT 90, Sugar Land, TX 77479",
-    status: "Development",
-    location: "Sugar Land, TX",
-    units: " 160 Ultra Luxury For Sale, 55+ Senior Living Condos",
-    link: "/projects/6",
-    return: "",
-    current: false,
-  },
+  // {
+  //   id: 4,
+  //   images: ["/images/projects/6-1.jpeg"],
+  //   title: "Territory at Telfair (Senior Living Condos)",
+  //   description:
+  //     "Wealthy South Americans looking to move to the United States are finding the EB-5 immigrant investor visa a very appealing option. In 2023, the US government granted EB-5 visas and adjustment-of-statuses to nearly 400 South American investors, a number dominated by Brazilians and Venezuelans. Marcelo Gorenstein, Brazil director for Dhanani EB-5, said that investor visas to Portugal and Spain are also popular among South Americans. Investors in EB-5 visas tend toward planning a new life in the United States and gaining the career and educational advantages that green cards offer their families. The EB-5 also allows investors from South American countries with volatile currencies to safeguard their wealth. In contrast, South American investors in Portuguese and Spanish visas are often more interested in establishing a home in Europe just in case they need to relocate quickly due to social and economic instability in their home countries. The benefits differ between the two countries; Portugal allows holders of the Portugal Golden Visa to reside in Portugal for as few as seven days a year, whereas Spain offers special status to investors from former Spanish colonies, allowing them to apply for citizenship after only two years of residence in Spain, unlike immigrants from non-colony countries, who must reside there for 10 years before applying",
+  //   address: " State Highway 6 & ALT 90, Sugar Land, TX 77479",
+  //   status: "Development",
+  //   location: "Sugar Land, TX",
+  //   units: " 160 Ultra Luxury For Sale, 55+ Senior Living Condos",
+  //   link: "/projects/6",
+  //   return: "",
+  //   current: false,
+  // },
   {
     id: 5,
     images: ["/images/projects/7-1.jpg"],
@@ -344,7 +345,7 @@ export const PROJECTS = [
 export const FACTS = [
   {
     id: 1,
-    title: "Years of experience",
+    title: "Years Of Experience",
     before: "",
     after: "+",
     icon: "flaticon-cooperation",
@@ -353,7 +354,7 @@ export const FACTS = [
   },
   {
     id: 2,
-    title: "Successful projects",
+    title: "Successful Projects",
     before: "",
     after: "+",
     icon: "flaticon-accomodation",
@@ -362,7 +363,7 @@ export const FACTS = [
   },
   {
     id: 3,
-    title: "Satisfied investors",
+    title: "Satisfied Investors",
     before: "",
     after: "+",
     icon: "flaticon-increase",
@@ -380,12 +381,12 @@ export const FACTS = [
   },
   {
     id: 5,
-    title: "Lifetime transactions",
+    title: "Lifetime Transactions",
     before: "$",
     after: "B+",
     icon: "flaticon-currency-1",
     start: "0",
-    target: "1.76",
+    target: "1.9",
   },
   {
     id: 6,
@@ -400,7 +401,7 @@ export const FACTS = [
 export const TEAM_MEMBERS = [
   {
     id: 1,
-    img: "/images/team/Nick-Dhanani.jpg",
+    img: "/images/team/Nick-Dhanani1.jpeg",
     name: "Nick Dhanani",
     designation: "Chief Executive Officer",
     socialLinks: {
@@ -444,9 +445,9 @@ export const TEAM_MEMBERS = [
   // },
   {
     id: 5,
-    img: "/images/team/Faiz-Hirani.jpg",
-    name: "Faiz Hirani",
-    designation: "Principal, Investor Relations & Marketing",
+    img: "/images/team/Priya-Binion.jpeg",
+    name: "Priya Binion",
+    designation: "Director of Investor Relations",
     socialLinks: {
       twitter: "#",
       instagram: "#",

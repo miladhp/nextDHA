@@ -6,7 +6,7 @@ export default function PageAbout() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1}>
-        <PageTitle bg="/images/banner/16.png" pageName="About Dhanani" />
+        <PageTitle bg="/images/banner/16.png" pageName="Our Regional Center" />
 
         <About />
       </Layout>
